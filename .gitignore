@@ -1,0 +1,11 @@
+# photo folder
+images/*
+picture/*
+docs/*
+temp/*
+enum/*
+# logs docs
+*.log
+*.xmind
+*.ini
+*.pdf
