@@ -1,1 +1,6 @@
-start,1,item, description,name
+start,Score,item, description,name
+Java,80,,,
+Golong,87,,,
+Python,70,,,
+Rust,60,,,
+Lisp,90,,,
