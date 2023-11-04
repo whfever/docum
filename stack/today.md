@@ -8,3 +8,5 @@ extension:
 * CHinese
 * 
 * git push errror
+
+TODO: picgo image server
