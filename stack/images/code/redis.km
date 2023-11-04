@@ -1,0 +1,30 @@
+{
+    "root": {
+        "data": {
+            "id": "cwpv5xyx1rc0",
+            "created": 1699084435279,
+            "text": "Redis"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cwpv61m6yg00",
+                    "created": 1699084443216,
+                    "text": "缓存读写策略"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cwpw70nl8n40",
+                    "created": 1699087340598,
+                    "text": "数据类型"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}

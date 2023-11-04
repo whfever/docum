@@ -10,7 +10,15 @@
    ┗ icons
      ┗ sample.svg
 ```
+*123* 
 
+```
+.vscode
+ ┗ extensions
+   ┗ icons
+     ┣ folder-sample.svg
+```
+- 
 ```
 .vscode
  ┗ extensions
