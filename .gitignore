@@ -4,6 +4,7 @@ picture/*
 docs/*
 temp/*
 enum/*
+.idea/*
 # logs docs
 *.log
 *.xmind
