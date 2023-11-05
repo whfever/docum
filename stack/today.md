@@ -9,4 +9,6 @@ extension:
 * 
 * git push errror
 
-TODO: picgo image server
+TODO: 
+1. picgo image server
+2. open tencent to local md

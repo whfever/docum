@@ -1,0 +1,72 @@
+{
+    "root": {
+        "data": {
+            "id": "cwqb1mdca7s0",
+            "created": 1699129234331,
+            "text": "Mysql"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cwqb54vhm800",
+                    "created": 1699129509703,
+                    "text": "数据类型"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cwqb5d0t0ug0",
+                    "created": 1699129527439,
+                    "text": "索引"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cwqb5s97oew0",
+                    "created": 1699129560599,
+                    "text": "存储引擎"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cwqb99ezu000",
+                    "created": 1699129833046,
+                    "text": "性能优化"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cwqbbgufj5c0",
+                    "created": 1699130005945,
+                    "text": "事务",
+                    "priority": 1
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cwqbbp27ia80",
+                            "created": 1699130023830,
+                            "text": "MVCC"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cwqbkqrydm80",
+                            "created": 1699130732841,
+                            "text": "锁"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

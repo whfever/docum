@@ -6016,7 +6016,7 @@ ps:这个例子只是简单地进行了数据推送，实际上还可以结合�
 ```java
 threadsPool.execute(new Runnable() { 
     @Override public void run() { 
-        // TODO Auto-generated method stub } 
+        //  Auto-generated method stub } 
     });
 ```
 
