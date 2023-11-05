@@ -8,19 +8,20 @@
         "children": [
             {
                 "data": {
-                    "id": "cwqb54vhm800",
-                    "created": 1699129509703,
-                    "text": "数据类型"
-                },
-                "children": []
-            },
-            {
-                "data": {
                     "id": "cwqb5d0t0ug0",
                     "created": 1699129527439,
                     "text": "索引"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "cwqb54vhm800",
+                            "created": 1699129509703,
+                            "text": "数据类型"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
