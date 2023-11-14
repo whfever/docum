@@ -93,3 +93,17 @@ Using join buffer (Block Nested Loop)：连
 17. 别除长期未使用的索引
 ```
 ！[sql](https://oss.javaguide.cn/javamianshizhibei/javamianshizhibei-sql-optimization.png)
+
+## SQl Like优化
+索引与优化like查询 
+1. like %keyword 索引失效，使用全表扫描。但可以通过翻转函数+like前模糊查询+建立翻转函数索引=走翻转函数索引，不走全表扫描。 
+2.  like keyword% 索引有效。 
+
+3. like %keyword% 索引失效，也无法使用反向索引。
+
+ 使用下面的函数来进行模糊查询，如果出现的位置〉0，表示包含该字符串。 查询效率比like要高。 如果： table.field like ‘%AAA%’ 可以改为 **locate** (‘AAA’ , table.field) > 0 LOCATE(substr,str) POSITION(substr IN str) 返回子串substr在字符串str第一个出现的位置，如果substr不是在str里面，返回0。 使用instr select count(*) from table t where instr(t.column,’xx’)> 0 这种查询效果很好，速度很快。 
+ 
+ 2. 查询%xx的记录 select count(c.c_ply_no) as COUNT from Policy_Data_All c, Item_Data_All i where c.c_ply_no = i.c_ply_no and i.C_LCN_NO like ’%245′ 在执行的时候，执行计划显示，消耗值，io值，cpu值均非常大，原因是like后模糊查询导致索引失效，进行全表扫描 
+
+在执行的时候，执行计划显示，消耗值，io值，cpu值均非常大，原因是like后模糊查询导致索引失效，进行全表扫描 解决方法：这种只有前模糊的sql可以改造如下写法 select count(c.c_ply_no) as COUNT from Policy_Data_All c, Item_Data_All i where c.c_ply_no = i.c_ply_no and reverse(i.C_LCN_NO) like reverse(‘%245′) 使用翻转函数+like前模糊查询+建立翻转函数索引=走**翻转函数索引**，不走全扫描。有效降低消耗值，io值，cpu值这三个指标，尤其是io值的降低。
+
