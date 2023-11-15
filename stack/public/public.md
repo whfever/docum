@@ -14,3 +14,18 @@ Chrome 提交代码： https://github.com/netpi/wechat-layout
 (D) {due:2020-02-31|e2y}
 
  svg+css
+
+# 23/11.3
+
+extension:
+
+ Markdown
+
+* ICON
+* CHinese
+* 
+* git push errror
+
+TODO: 
+1. picgo image server
+2. open tencent to local md
