@@ -1,3 +1,4 @@
+# vscode
 ## file icon
 ![](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/images/fileIcons.png)
 ## Folder cicon
@@ -25,4 +26,13 @@
    ┗ icons
      ┣ folder-sample.svg
      ┗ folder-sample-open.svg
+```
+## background
+1. extension
+2. settings.json
+```
+ "background.customImages": [
+    "file:///D:\\storage\\picture\\wallpaper\\man.png"
+    
+  ],
 ```
