@@ -11,14 +11,15 @@
                     "id": "cx1wchf7g1s0",
                     "created": 1700306488397,
                     "text": "docs",
-                    "expandState": "collapse"
+                    "expandState": "expand"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "cx1wclorkdc0",
                             "created": 1700306497682,
-                            "text": "book'"
+                            "text": "book'",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -118,6 +119,14 @@
                                     "text": "views"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cx213fczeb40",
+                                    "created": 1700319884181,
+                                    "text": "images"
+                                },
+                                "children": []
                             }
                         ]
                     },
@@ -128,23 +137,6 @@
                             "text": "images"
                         },
                         "children": [
-                            {
-                                "data": {
-                                    "id": "cwz0kfkoo9k0",
-                                    "created": 1700013715858,
-                                    "text": "code"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "cx1wkhgo3680",
-                                            "created": 1700307115399,
-                                            "text": "去学习"
-                                        },
-                                        "children": []
-                                    }
-                                ]
-                            },
                             {
                                 "data": {
                                     "id": "cwz0kgjm9pc0",
@@ -224,7 +216,7 @@
                                         "data": {
                                             "id": "cx1wjbe44400",
                                             "created": 1700307023820,
-                                            "text": "从博客获取"
+                                            "text": "从互联网获取"
                                         },
                                         "children": []
                                     }
@@ -242,6 +234,23 @@
                                             "id": "cx1wjhl6jmg0",
                                             "created": 1700307037308,
                                             "text": "从书籍获取"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cx215r4ombs0",
+                                    "created": 1700320066529,
+                                    "text": "images"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cx215ufif0o0",
+                                            "created": 1700320073714,
+                                            "text": "readme"
                                         },
                                         "children": []
                                     }
