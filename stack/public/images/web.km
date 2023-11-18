@@ -1,0 +1,127 @@
+{
+    "root": {
+        "data": {
+            "id": "cx24mnzyy2o0",
+            "created": 1700329855234,
+            "text": "web"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cx24mvmvw080",
+                    "created": 1700329871857,
+                    "text": "exper",
+                    "priority": null,
+                    "note": "经验值"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cx24mz9zv1c0",
+                            "created": 1700329879785,
+                            "text": "face/twi/insgram/dis"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cx2526txs5k0",
+                                    "created": 1700331071691,
+                                    "text": "xiao/zhi/okjk"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cx250oq7z200",
+                            "created": 1700330953920,
+                            "text": "ai"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cx252phkmmg0",
+                                    "created": 1700331112302,
+                                    "text": "yiy，tiny，chat"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cx24nvk56kw0",
+                            "created": 1700329950056,
+                            "text": "red/med/"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cx25sd29ao80",
+                                    "created": 1700333122723,
+                                    "text": "you/yu/bl"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cx250ty8axs0",
+                    "created": 1700330965288,
+                    "text": "code",
+                    "note": "video pm blog"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cx254kb7ivs0",
+                            "created": 1700331257762,
+                            "text": "gk:geek"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cx254v7w6eg0",
+                            "created": 1700331281506,
+                            "text": "leet/now/ghub"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cx262trj2jk0",
+                            "created": 1700333942721,
+                            "text": "solo:cool"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cx259zmk6740",
+                    "created": 1700331682921,
+                    "text": "enter"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cx25a0ytafc0",
+                            "created": 1700331685838,
+                            "text": "tadu/rotten,/pod/app"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
