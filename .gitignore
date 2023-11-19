@@ -3,6 +3,7 @@ images/*
 picture/*
 docs/*
 .vscode/*
+.docs/*
 enum/*
 .idea/*
 # logs docs
