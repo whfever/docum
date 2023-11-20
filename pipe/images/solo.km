@@ -1,0 +1,13 @@
+{
+    "root": {
+        "data": {
+            "id": "cx3ed0q3eiw0",
+            "created": 1700458870349,
+            "text": "MainTopic"
+        },
+        "children": []
+    },
+    "template": "default",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}

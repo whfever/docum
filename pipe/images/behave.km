@@ -4,7 +4,7 @@
             "id": "cx25tta4o2w0",
             "created": 1700333236392,
             "text": "behave",
-            "note": "欲望"
+            "note": "行为模型：欲望\n1. 物质\n2. 精神"
         },
         "children": [
             {
@@ -78,6 +78,49 @@
                             "id": "cx25zlzwkh40",
                             "created": 1700333690721,
                             "text": "实质：思维的改变，坚持的意义"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cx3e87xfo340",
+                    "created": 1700458494210,
+                    "text": "action",
+                    "note": "人生思考操作系统：\n1. TOOL（chat): windwos android\n2. EDGE（经验-技术-商业逻辑）\n3. OUTPUT"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cx3b1utzlq80",
+                            "created": 1700449532189,
+                            "text": "search"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cx3b1x8el280",
+                                    "created": 1700449537414,
+                                    "text": "top"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cx3batxu9qo0",
+                                    "created": 1700450235522,
+                                    "text": "extension, app,browser"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cx3e979lhvk0",
+                            "created": 1700458571133,
+                            "text": "web"
                         },
                         "children": []
                     }

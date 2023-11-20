@@ -1,0 +1,72 @@
+{
+    "root": {
+        "data": {
+            "id": "cx3eql14ruo0",
+            "created": 1700459933287,
+            "text": "efficinet"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cx3eqtkuolk0",
+                    "created": 1700459951893,
+                    "text": "时间规划"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cx3ew9khaz40",
+                            "created": 1700460378520,
+                            "text": "deadline"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cx3ewb4t2hs0",
+                            "created": 1700460381926,
+                            "text": "要事第一"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cx3er41zeq00",
+                    "created": 1700459974697,
+                    "text": "事件"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cx3ewujuc8o0",
+                            "created": 1700460424194,
+                            "text": "目标为导向"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cx3ewvd7i0o0",
+                            "created": 1700460425970,
+                            "text": "反思"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cx3exhv0q8w0",
+                            "created": 1700460474936,
+                            "text": "分治"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}
