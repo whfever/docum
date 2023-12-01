@@ -1,0 +1,114 @@
+{
+    "root": {
+        "data": {
+            "id": "cx3lrj266go0",
+            "created": 1700479755129,
+            "text": "interview"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cx3lrsh2q8g0",
+                    "created": 1700479775622,
+                    "text": "java"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cx3lrufy83c0",
+                            "created": 1700479779907,
+                            "text": "stringbuilder"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cx3ls02j71c0",
+                                    "created": 1700479792157,
+                                    "text": "值传递，引用传递"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cx3ls4tpiyg0",
+                                    "created": 1700479802507,
+                                    "text": "常量池"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cx3lt9bvm1s0",
+                            "created": 1700479890677,
+                            "text": "object"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cx3ltblrs0w0",
+                                    "created": 1700479895629,
+                                    "text": "equal"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cx3ltf2nyaw0",
+                                    "created": 1700479903181,
+                                    "text": "hashcode"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cx3ltkejdsg0",
+                                    "created": 1700479914783,
+                                    "text": "tostring"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cx3ltmb22200",
+                                    "created": 1700479918925,
+                                    "text": "clone"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cx3lyifgasw0",
+                            "created": 1700480302305,
+                            "text": "特性"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cx3lyk7r7fk0",
+                                    "created": 1700480306193,
+                                    "text": "反射"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cx3lylcnrsw0",
+                                    "created": 1700480308666,
+                                    "text": "泛型"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic-compact",
+    "version": "1.4.43"
+}
