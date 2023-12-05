@@ -30,3 +30,7 @@ extension:
 TODO: 
 1. picgo image server
 2. open tencent to local md
+stash+shelve
+
+TODO:
+酷安 阅读PRO snapseed
