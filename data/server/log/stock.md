@@ -33,7 +33,6 @@
 选择被市场忽略的股票
 
 ![image-20230203110303755](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230203110303755.png)
-
 ## 选股
 
 自上而下：经济-行业-公司
