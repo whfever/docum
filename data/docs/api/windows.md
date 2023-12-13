@@ -1,4 +1,5 @@
-# Kail
+#windows
+## Kail
 
 1. sudo apt install `<deb name>`
 2. sudo dpkg -i .deb
@@ -8,22 +9,23 @@ xhsell connect vm
 1. ifconfig **inet：addresss**
 2. sudo /etc/init.d/ssh status/start
 
-# EveryThing
+## EveryThing
 
 1. local http
 
-# Power keys
+## Power keys
 
 1. ctrl space preview
 
-# Edge
+## Edge
 
 1. mode ctrl shift , .
 2. alt e+x
 3.
 
-#Vscode
-## 插件
+
+### plugin
+1. edge://flags/#use-angle  **webgl**
 1. icon ：material
 
 Octotree
@@ -98,9 +100,6 @@ Proxy SwitchyOmega 是一个浏览器代理设置和管理插件，前身是 Swi
 web 开发相关
 
 React Developer Tools   Redux DevTools   Vue.js devtools
-
-
-
 ## 问题
 1. 鼠标消失 ：修改windows 文本选择 鼠标样式
 

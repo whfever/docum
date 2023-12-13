@@ -1,10 +1,10 @@
 # vscode
 ## file icon
 ![](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/images/fileIcons.png)
-## Folder cicon
+Folder cicon
 ![](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/images/folderIcons.png)
 
-## Markdown
+ Markdown
 ```
 .vscode
  ┗ extensions
@@ -36,3 +36,6 @@
     
   ],
 ```
+
+
+

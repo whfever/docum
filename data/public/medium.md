@@ -4,31 +4,31 @@
 
 | NAME                                                                                                     | CONTENT             |
 | -------------------------------------------------------------------------------------------------------- | ------------------- |
-| [微信read](https://weread.qq.com/web/category/newrating_publish)                                            | 可分类  神作榜      |
-| [豆瓣](https://read.douban.com/ebooks/?dcs=book-nav&dcm=douban)                                             | 可分类 排行  热度榜 |
-| [书栈](https://www.bookstack.cn/)                                                                           | 分类 榜单           |
-| [知网](https://kns.cnki.net/kns8)                                                                           | scholar             |
-| [sspai](https://sspai.com/)                                                                                 | 效率技巧            |
-| [Omaha](https://www.britannica.com/)                                                                        | 英语                |
-| [popsci](https://www.popsci.com/)                                                                           | 英语                |
-| [cnn](https://edition.cnn.com/world)                                                                        | 英语                |
-| [rong-chang](https://www.rong-chang.com/eflfast/reading.htm)                                                | 英语                |
-| [chongbuluo](https://scholar.chongbuluo.com/)                                                               | scholar   bing      |
-| [yuque](https://www.yuque.com/whwife/ftz5oe/tt#s4YI)                                                        | start               |
-| [xyzrank](https://xyzrank.com/#/)                                                                           | podcast             |
+| [微信read](https://weread.qq.com/web/category/newrating_publish)                    | 可分类  神作榜      |
+| [豆瓣](https://read.douban.com/ebooks/?dcs=book-nav&dcm=douban)                | 可分类 排行  热度榜 |
+| [书栈](https://www.bookstack.cn/)                                     | 分类 榜单           |
+| [知网](https://kns.cnki.net/kns8)                                    | scholar             |
+| [sspai](https://sspai.com/)                            | 效率技巧            |
+| [Omaha](https://www.britannica.com/)                          | 英语                |
+| [popsci](https://www.popsci.com/)                                          | 英语                |
+| [cnn](https://edition.cnn.com/world)                                                      | 英语                |
+| [rong-chang](https://www.rong-chang.com/eflfast/reading.htm)          | 英语                |
+| [chongbuluo](https://scholar.chongbuluo.com/)                 | scholar   bing      |
+| [yuque](https://www.yuque.com/whwife/ftz5oe/tt#s4YI)                | start               |
+| [xyzrank](https://xyzrank.com/#/)                                          | podcast             |
 | [hellogithub](https://hellogithub.com/)                                                                     | github code         |
-| [githubs](https://www.githubs.cn/top)                                                                       | github  top code    |
+| [githubs](https://www.githubs.cn/top)                                           | github  top code    |
 | [tophub](https://tophub.today/apple/podcasts?store=cn&type=all&cate=1321)                                   | 今日热榜  podcast   |
-| [digitaling](https://www.digitaling.com/)                                                                   | 数英  pm            |
-| [pmdaohang](http://hao.pmdaohang.com/index.html)                                                            | pm                  |
-| [huxiu](https://www.huxiu.com/)                                                                             | 资讯                |
-| [chinadaily](http://www.chinadaily.com.cn/)                                                                 | 中国日报            |
-| [forbes](https://www.forbeschina.com/lists)                                                                 | 福布斯   富豪       |
-| [readthistwice](https://www.readthistwice.com/)                                                             | 推荐 书籍           |
-| [华尔街日报](https://cn.wsj.com/)                                                                           | 新闻                |
-| [economist](https://www.economist.com/)                                                                     | 经济学人            |
-| [awesome](https://github.com/sindresorhus/awesome)                                                          | awesome             |
-| [田间小站 - 高级英语学习 (tjxz.cc)](https://www.tjxz.cc/)                                                   | 英语                |
+| [digitaling](https://www.digitaling.com/)                                          | 数英  pm            |
+| [pmdaohang](http://hao.pmdaohang.com/index.html)                          | pm                  |
+| [huxiu](https://www.huxiu.com/)| 资讯                |
+| [chinadaily](http://www.chinadaily.com.cn/)| 中国日报            |
+| [forbes](https://www.forbeschina.com/lists)| 福布斯   富豪       |
+| [readthistwice](https://www.readthistwice.com/)| 推荐 书籍           |
+| [华尔街日报](https://cn.wsj.com/)| 新闻                |
+| [economist](https://www.economist.com/)| 经济学人            |
+| [awesome](https://github.com/sindresorhus/awesome)| awesome             |
+| [田间小站 - 高级英语学习 (tjxz.cc)](https://www.tjxz.cc/)| 英语                |
 | [书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！](https://www.bookstack.cn/cate) | dev                 |
 
 ### Nav
@@ -37,22 +37,25 @@
 System.out.println(Wall);
 ```
 
+1. [shadowsocks](https://portal.shadowsocks.au/store/cloud)  加速
+2. 
+
 > luckysec:   安全   西红柿
 
-| [Luckysec](http://nav.luckysec.cn/#)                                                              | nav                                                                                                              |
+| [Luckysec](http://nav.luckysec.cn/#)| nav|
 | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Jichang](https://aijichang.com/jichang-daquan/)                                                  | nav                                                                                                              |
-| [miyun](https://www.miyun.la/user)                                                                | nav                                                                                                              |
-| [5  nav](https://www.52nav.icu/recommend/jichangtuijian/)                                         | nav                                                                                                              |
-| [xihs](https://xihs.cloud/#/plan)                                                                 | wall                                                                                                             |
-| [Free Web Proxy - Proxysite](https://proxysite.page/en)                                           | wall                                                                                                             |
-| [lsdhss](http://www.lsdhss.com/)                                                                  | nav                                                                                                              |
-| [greatfire](https://zh.greatfire.org/)                                                            | nav                                                                                                              |
-| [pmfans](https://www.pmfans.cn/#category-21)                                                      | nav  pm  information<br />  求职  原型  服务商     政府公报   数据洞察                                           |
+| [Jichang](https://aijichang.com/jichang-daquan/)| nav|
+| [miyun](https://www.miyun.la/user)| nav|
+| [5  nav](https://www.52nav.icu/recommend/jichangtuijian/)| nav|
+| [xihs](https://xihs.cloud/#/plan)| wall|
+| [Free Web Proxy - Proxysite](https://proxysite.page/en)| wall|
+| [lsdhss](http://www.lsdhss.com/)| nav|
+| [greatfire](https://zh.greatfire.org/)| nav|
+| [pmfans](https://www.pmfans.cn/#category-21)| nav  pm  information<br />  求职  原型  服务商     政府公报   数据洞察|
 | [i3zh](https://www.i3zh.com/category/phone/tv)   app                                              | ![image-20230702234946020](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230702234946020.png) |
-| [yucheng](https://www.yechuang.net/)                                                              | nav   apply   笔记 导图                                                                                          |
-| [thosefree](https://www.thosefree.com/kingcloud-design)                                           | 前端  设计 应用  音视频                                                                                          |
-| [Skype](https://web.skype.com/)                                                                   | bing  ai                                                                                                         |
+| [yucheng](https://www.yechuang.net/)| nav   apply   笔记 导图|
+| [thosefree](https://www.thosefree.com/kingcloud-design)| 前端  设计 应用  音视频                                                                                          |
+| [Skype](https://web.skype.com/)| bing  ai|
 | [hello-ai](https://hello-ai.anzz.top/home/navigation.html#ai%E8%90%A5%E9%94%80%E5%B7%A5%E5%85%B7) | ai                                                                                                               |
 
 ### Vdo
@@ -121,8 +124,8 @@ System.out.println(Wall);
 | [驿站](https://maiyang.me/podcast_notes/)                 | . 播客    . golang channel；Talkgo                                           |
 | [刘末鹏](http://mindhacks.cn/)                     | 博客     编程  思考                                                          |
 | [liebing](https://liebing.org.cn/2021/11/09/2021-interview/)          | 大数据                                                                       |
-| [ying](https://izualzhy.cn/archive.html)                              | 北航   flink                                                                 |
-| [go](https://pegasuswang.github.io/LetsGo/basics/05_func/func/)                   | go python\| diff                                                             |
+| [ying](https://izualzhy.cn/archive.html)| 北航   flink|
+| [go](https://pegasuswang.github.io/LetsGo/basics/05_func/func/)| go python\| diff|
 | [kuangstudy](https://www.kuangstudy.com/zhuanlan)                   | java ssm springboot  股票 vue                                                |
 | [catcode](https://catcoding.me/)                    | rust               |
 | [刘家财](https://liujiacai.net/podcast/)                | podcast   emacs                         |
@@ -132,11 +135,11 @@ System.out.println(Wall);
 | [Matt](https://matt33.com/2014/09/01/resume/)                                  | 北邮      大数据                                                             |
 | [xyzrank](https://xyzrank.com/#/)                 | 中文   podcast                                                               |
 | [Talk](https://talk.swift.gg/)                                      | .程序员闲聊                                                                  |
-| [大邓](https://hidadeng.github.io/)                                 | .哈工大  管理学转python                                                      |
-| [shuixn](https://shuixn.gitbook.io/notebook/)                                    | notebook                                                                     |
-| [阳明的博客](https://www.qikqiak.com/)                    | k8s python                                                                   |
-| [geektutu](https://geektutu.com/)                                 | go python  tensorflow                                                        |
-| [paxinla](https://paxinla.github.io/)                       | 深圳  数据开发   架构电子书                                                  |
+| [大邓](https://hidadeng.github.io/)                                 | .哈工大  管理学转python|
+| [shuixn](https://shuixn.gitbook.io/notebook/)                                    | notebook|
+| [阳明的博客](https://www.qikqiak.com/)                    | k8s python|
+| [geektutu](https://geektutu.com/)                                 | go python  tensorflow|
+| [paxinla](https://paxinla.github.io/)                       | 深圳  数据开发   架构电子书|
 | [liugangjian](https://www.liugangjian.com/)                    | 北京   数据开发                                                              |
 | [Caymanhk](https://caymanhk.gitee.io/posts/)                        | . 面经  Flink研发                                                            |
 | [彷徨](https://guanqr.com/archives/)           | . 浙大  激光雷达研发                                                         |
@@ -155,8 +158,8 @@ System.out.println(Wall);
 | [Wincer](https://blog.itswincer.com/)                       | 网安    Python  wall                                                         |
 | [王垠](http://www.yinwang.org/#)                | 笔记                                                                         |
 | [王勇](https://manateelazycat.github.io/index.html)                                                                                                                                                                                  | 随笔 Emacs                                                                   |
-| [imssy](https://www.imsyy.top/)                     | 个人主页 网站                                                                |
-| [黄俊伟](https://huangjj27.github.io/resume.html)                                  | 大数据开发工程师   中山                                                      |
+| [imssy](https://www.imsyy.top/)                     | 个人主页 网站|
+| [黄俊伟](https://huangjj27.github.io/resume.html)                                  | 大数据开发工程师   中山|
 | [五分钟大数据](https://www.fivedata.cn/pages/f55ebb/#_1-%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D)    | 数仓  面经 Scala Hive    |
 | [jackiexiao](https://jackiexiao.github.io/blog/%E9%AB%98%E6%95%88%E5%B7%A5%E5%85%B7/foam%E5%85%A5%E9%97%A8%E4%B8%8E%E6%95%99%E7%A8%8B/)                                                                                              | 高效工具  vscode 快键键  spacevim                                            |
 | [fpliu](http://blog.fpliu.com/life/investment)     | 工作 生活 理财                                                               |
@@ -165,48 +168,45 @@ System.out.println(Wall);
 | [阿里 MaxCompute E-Mapreduce](https://developer.aliyun.com/bigdata/?spm=a2c6h.12873639.article-detail.1.29fb5cf2fE90MO)                                                                                                              | 阿里云                                                                       |
 | [一个数据人的自留地 - 技术文章日志 (sjrzld.com)](http://sjrzld.com/)                  | 数据产品  数据仓库                                                           |
 | [叶王说](https://kingye.me/)    | 百度 k8s ai  book:[软件开发的201个原则](https://kingye.me/publication/201posd/) |
-| [c++体系](https://stibel.icu/md/grow/team/team-cross-life-valley.html)       | c++  体系                                                                    |
-| [阿里开源 - Alibaba Open Source - 我们开放源码，更相信社区的力量](https://opensource.alibaba.com/)                                                                                                                                   | 阿里开源                                                                     |
+| [c++体系](https://stibel.icu/md/grow/team/team-cross-life-valley.html)       | c++  体系|
+| [阿里开源 - Alibaba Open Source - 我们开放源码，更相信社区的力量](https://opensource.alibaba.com/)| 阿里开源|
 | [ruanyifeng](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)                                                                                                                                                 | 科技爱好者 前端                                                              |
 | [网道](https://wangdoc.com/)     | doc typescript                                                               |
 | [[ 老骥的博客 \]千里马常有 而老骥不常有 (novenn.com)](https://www.novenn.com/)            | 前端        |
-| [大前端技术体系 - 思路大前端团队 (ths.js.org)](https://ths.js.org/fe/index.html#设计思想-amp-模式)            | 前端　　gis                                                                  |
-| [沉默王二](https://tobebetterjavaer.com/home.html)                     | Java体系 路线 pdf                                                            |
+| [大前端技术体系 - 思路大前端团队 (ths.js.org)](https://ths.js.org/fe/index.html#设计思想-amp-模式)     | 前端　　gis|
+| [沉默王二](https://tobebetterjavaer.com/home.html)                     | Java体系 路线 pdf|
 | [javadoop](https://www.javadoop.com/)                      | Java   blog                 |
-| [labuladeng](https://labuladong.github.io/algo/home/)         | algo                                                                         |
-| [algo](https://java.jverson.com/algorithm/algorithm-summary.html)             | java  algo                                                                   |
-| [codeKarle](https://www.youtube.com/@codeKarle)                           | system  desgin                                                               |
-| [王钰坤](https://mynamelancelot.github.io/)                 | java   spring  docker                                                        |
-| [阿秀](https://interviewguide.cn/notes/03-hunting_job/03-algorithm/01-basic-algorithm/01-introduce.html)                                                                                                                             | algo                  |
-| [java](https://lexburner.github.io/talk-about-algorithm/)            | java  algo  徐靖峰 阿里巴巴                                                  |
-| [小明](https://xiaoming.net.cn/2023/02/18/%E7%AE%80%E6%B4%81%E6%9E%B6%E6%9E%84/#more)           | 笔记                                                                         |
+| [labuladeng](https://labuladong.github.io/algo/home/)         | algo|
+| [algo](https://java.jverson.com/algorithm/algorithm-summary.html)             | java  algo|
+| [codeKarle](https://www.youtube.com/@codeKarle)                           | system  desgin|
+| [王钰坤](https://mynamelancelot.github.io/)                 | java   spring  docker|
+| [阿秀](https://interviewguide.cn/notes/03-hunting_job/03-algorithm/01-basic-algorithm/01-introduce.html)| algo|
+| [java](https://lexburner.github.io/talk-about-algorithm/)            | java  algo  徐靖峰 阿里巴巴|
+| [小明](https://xiaoming.net.cn/2023/02/18/%E7%AE%80%E6%B4%81%E6%9E%B6%E6%9E%84/#more)           | 笔记|
 | [老胡聊java](https://mp.weixin.qq.com/s?__biz=MzIxODcxMzE1Nw==&mid=2247485665&idx=1&sn=8692ad07d8b50ba5ed9eebc2a74b0037&chksm=97e715cba0909cdd31e41447c2feed9f0ece063d6579f3d0e558f44db5e87ce5d71a3c343369&scene=21#wechat_redirect) | 项目  包装  调优                                                             |
-| [程序员](https://www.cnblogs.com/fulongyuanjushi/p/15866055.html)                                                                                                                                                                    | 事故  医疗软件 老师转行                                                      |
-| [learnku](https://learnku.com/docs/chaishugao/three-secrets-of-reading-read-the-book/11569)                                                                                                                                          | 拆书稿                                                                       |
+| [程序员](https://www.cnblogs.com/fulongyuanjushi/p/15866055.html)| 事故  医疗软件 老师转行|
+| [learnku](https://learnku.com/docs/chaishugao/three-secrets-of-reading-read-the-book/11569)| 拆书稿|
 | [链表专题 - 力扣加加 - 努力做西湖区最好的算法题解 (gitbook.io)](https://leetcode-solution-leetcode-pp.gitbook.io/leetcode-solution/thinkings/linked-list)                                                                            | algo                                                                         |
 
 ### Soc
 
-| Name                                                                                                                                                                                                                    | TAG       | CONTENT                                                                  |
+| Name| TAG       | CONTENT                                                                  |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------ |
-| [Mr.Li](https://www.yuque.com/kaikai.li/bigdata/wgc5q4#0623da4d)                                                                                                                                                           | YQUE      | 体系 数仓  管理   建模   晋升  面试   数据治理                           |
-| [zhijing](https://www.yuque.com/zhijing-higmb/dylgdt/oai088wqq5yteyqu)                                                                                                                                                     | YQUE      | 面试                                                                     |
-| [laoj](https://ljplaydata.yuque.com/pt20xk/zwkf3h/ogo6fr#q4Zch)                                                                                                                                                            | YQUE      | 开发经验   面试  项目架构                                                |
-| limu                                                                                                                                                                                                                    | BLBL  You | 人工智能                                                                 |
-| liziran              | BLBL  You | 创业                                                                     |
-| 群响刘老板               | Pubic     | 创业                                                                     |
+| [Mr.Li](https://www.yuque.com/kaikai.li/bigdata/wgc5q4#0623da4d)| YQUE | 体系 数仓  管理   建模   晋升  面试   数据治理|
+| [zhijing](https://www.yuque.com/zhijing-higmb/dylgdt/oai088wqq5yteyqu)| YQUE      | 面试|
+| [laoj](https://ljplaydata.yuque.com/pt20xk/zwkf3h/ogo6fr#q4Zch)| YQUE      | 开发经验   面试  项目架构|
+| limu| BLBL  You | 人工智能                                                                 |
+| liziran| BLBL  You | 创业                                                                     |
+| 群响刘老板| Pubic     | 创业                                                                     |
 | [悟空爱编程](https://www.douyin.com/user/MS4wLjABAAAAHUL5pKMPfLOrip2Xo-d15yzHK2AV4_F4z1-Mo544xHA?showTab=post)                                                                                                             | Public    | 编程                                                                     |
 | [TItanDataOperationSystem](https://github.com/233zzh/TitanDataOperationSystem)    | GHUB      | 项目：架构Kafka+Flume+Spark+Azkaban+Atlas   维度：用户，终端，地域，留存 |
-| [大数据成之路](https://github.com/wangzhiwubigdata/God-Of-BigData/blob/master/%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/Spark%E5%AE%9E%E6%88%98.md)                                                           | GHUB      | 理论   面试                                                              |
+| [大数据成之路](https://github.com/wangzhiwubigdata/God-Of-BigData/blob/master/%E5%AE%9E%E6%88%98%E7%B3%BB%E5%88%97%E6%96%87%E7%AB%A0/Spark%E5%AE%9E%E6%88%98.md)| GHUB      | 理论   面试|
 | [akullpp/awesome-java：Java编程语言的优秀框架，库和软件的精选列表。 (github.com)](https://github.com/akullpp/awesome-java)                                                                                                 | GHUB      | Java                     |
-| [programthink](https://github.com/programthink/books#user-content-__)                                                                                                                                                      | GHUB      | 编程随想                                                                 |
+| [programthink](https://github.com/programthink/books#user-content-__)| GHUB      | 编程随想                                                                 |
 | [CS-Notes/notes/3. 数组中重复的数字.md at master · CyC2018/CS-Notes (github.com)](https://github.com/CyC2018/CS-Notes/blob/master/notes/3. 数组中重复的数字.md)                                                        | GHUB      | java                                                                     |
 | [JavaHome/后端思维篇/后端思维篇二：手把手教你实现一个并行调用模板.md at master · whx123/JavaHome (github.com)](https://github.com/whx123/JavaHome/blob/master/后端思维篇/后端思维篇二：手把手教你实现一个并行调用模板.md) | GHUB      | java   捡田螺的小男孩                                                    |
-|                                                                                                                                                                                                                         |           |                                                                          |
-|                                                                                                                                                                                                                         |           |                                                                          |
-|                                                                                                                                                                                                                         |           |                                                                          |
-|                                                                                                                                                                                                                         |           |                                                                          |
-|                                                                                                                                                                                                                         |           |                                                                          |
+||           |                                                                          |
+
 
 ### Des
 
@@ -310,7 +310,7 @@ System.out.println(Wall);
 | [algo](https://algo.itcharge.cn/00.Introduction/03.LeetCode-Guide/)    | algo                                       |
 | [Javaᶜⁿ 面试突击 (javacn.site)](https://javacn.site/interview/thread/)     | java                                       |
 
-> ### pmBbs
+### pmBbs
 
 | NAME                                             | CONTENT |
 | ------------------------------------------------ | ------- |

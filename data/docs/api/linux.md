@@ -1,5 +1,8 @@
-# Emacs
+# Linux
+## Emacs
 
+# app
+1.  monsterWm 平铺窗口管理器
 ## start
 
 核心理念：
@@ -17,7 +20,7 @@
   [ace-jump-mode](https://github.com/winterTTr/ace-jump-mode)
   [treemacs](https://github.com/Alexander-Miller/treemacs)
 
-# 21 [emacs](https://book.emacs-china.org/)
+## 21 [emacs](https://book.emacs-china.org/)
 
 
 ## blog
@@ -102,6 +105,61 @@ purcell/emacs.d 对流行编程语言都有基本的支持，更高级的功能�
 redguardtoo/emacs.d 国人的 Emacs 配置，fork 自上面的库，内置了中文支持等众多自定义设置。
 bbatsov/prelude 相对全功能，但在试用了一段时间后发现自定义设置和我的个人习惯有较大冲突，遂弃。
 Spacemacs 结合了 Emacs 和 Vim 的优点，漂亮的 UI 即使不想要任何 Vim 特性也值得你一试。
+
+## keyboard
+编辑命令
+Ctrl + a ：移到命令行首
+Ctrl + e ：移到命令行尾
+Ctrl + f ：按字符前移（右向）
+Ctrl + b ：按字符后移（左向）
+Alt + f ：按单词前移（右向）
+Alt + b ：按单词后移（左向）
+Ctrl + xx：在命令行首和光标之间移动
+Ctrl + u ：从光标处删除至命令行首
+Ctrl + k ：从光标处删除至命令行尾
+Ctrl + w ：从光标处删除至字首
+Alt + d ：从光标处删除至字尾
+Ctrl + d ：删除光标处的字符
+Ctrl + h ：删除光标前的字符
+Ctrl + y ：粘贴至光标后
+Alt + c ：从光标处更改为首字母大写的单词
+Alt + u ：从光标处更改为全部大写的单词
+Alt + l ：从光标处更改为全部小写的单词
+Ctrl + t ：交换光标处和之前的字符
+Alt + t ：交换光标处和之前的单词
+Alt + Backspace：与 Ctrl + w ~~相同~~类似，分隔符有些差别 [感谢 rezilla 指正]
+重新执行命令
+Ctrl + r：逆向搜索命令历史
+Ctrl + g：从历史搜索模式退出
+Ctrl + p：历史中的上一条命令      
+Ctrl + n：历史中的下一条命令
+Alt + .：使用上一条命令的最后一个参数
+控制命令
+Ctrl + l：清屏
+Ctrl + o：执行当前命令，并选择上一条命令
+Ctrl + s：阻止屏幕输出
+Ctrl + q：允许屏幕输出
+Ctrl + c：终止命令
+Ctrl + z：挂起命令
+Bang (!) 命令
+!!：执行上一条命令
+!blah：执行最近的以 blah 开头的命令，如 !ls
+!blah:p：仅打印输出，而不执行
+!$：上一条命令的最后一个参数，与 Alt + . 相同
+!$:p：打印输出 !$ 的内容
+!*：上一条命令的所有参数
+!*:p：打印输出 !* 的内容
+^blah：删除上一条命令中的 blah
+^blah^foo：将上一条命令中的 blah 替换为 foo
+^blah^foo^：将上一条命令中所有的 blah 都替换为 foo
+_友情提示_：
+
+以上介绍的大多数 Bash 快捷键仅当在 emacs 编辑模式时有效，若你将 Bash 配置为 vi 编辑模式，那将遵循 vi 的按键绑定。Bash 默认为 emacs 编辑模式。如果你的 Bash 不在 emacs 编辑模式，可通过 set -o emacs 设置。
+
+^S、^Q、^C、^Z 是由终端设备处理的，可用 stty 命令设置。
+
+{ via }
+
 
 
 # tmux
@@ -354,6 +412,9 @@ A Tmux crash course: tips and tweaks
 
 ## pattern
 1. Ctrl+n 或者 Ctrl+p 会有代码提示功能
+
+## vimrc
+[vim](https://razeen.me/posts/my-macvim-vimrc/) vim配制
 
 
 
