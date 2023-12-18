@@ -417,5 +417,24 @@ A Tmux crash course: tips and tweaks
 [vim](https://razeen.me/posts/my-macvim-vimrc/) vim配制
 
 
+## shell
+### 自启动
+
+1. 如果你想让脚本在每次开机后都能后台运行，你可以将它添加到系统的启动项中。下面是一些通用的方法来实现这个目标：
+
+        Windows系统：
+
+        将你的脚本存储在一个特定的文件夹中，比如C:\Scripts。按下Win + R，输入"shell:startup"，然后按回车键。
+        在打开的文件夹中创建一个快捷方式，指向你的脚本文件。这样，每次Windows启动时，该脚本将自动在后台运行。
+        macOS系统：
+
+        将你的脚本存储在一个特定的文件夹中，比如~/Documents/Scripts。打开系统设置，点击"用户与群组"，然后选择启动项。
+        点击"+"按钮，选择你的脚本文件。这样，每次macOS启动时，该脚本将自动在后台运行。
+
+        Linux系统：
+        将你的脚本存储在一个特定的文件夹中，比如~/Scripts。打开终端，输入以下命令：
+        bash  crontab -e   在打开的编辑器中添加一行，指定在系统启动时运行你的脚本：
+        bash   @reboot /path/to/your/script.sh   保存并关闭编辑器。
+        这样，每次Linux系统启动时，该脚本将自动在后台运行。
 
 
