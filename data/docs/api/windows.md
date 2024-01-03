@@ -2,7 +2,10 @@
 ## TOOL
 1. honeycam bandzip honeyview screenToGif
 2. bitcomet
-
+## winger
+windows package
+1. grep awk curl  sed
+[](https://winstall.app/generate)
 ## PowerShell
 > ctrl shift control panel
 ### install extend

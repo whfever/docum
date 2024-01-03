@@ -47,8 +47,11 @@
 20. [腾讯](http://kaito-kidd.com/about/) 有 Redis、中间件、异地多活、K8s、云原生。
 21. [小林coding](https://xiaolincoding.com/redis/base/redis_interview.html#如何避免缓存雪崩、缓存击穿、缓存穿透)   面经 ：mysql redis
 22. [freegeektime](https://freegeektime.com/posts/)  极客时间已完结课程限时免费阅读
-
-
+23. [野生程序猿江辰](https://segmentfault.com/u/thomas_5b0e5d1b64584/articles) 专科22 进B站 矩阵创始人
+24. 微软安德斯·海尔斯伯格，borland传奇去
+25. 阮一峰的经济学博士背景、池建强的“技术与人文”理念，廖雪峰的详细 Git 教程以及 Phodal 的全栈之旅和花式秀恩爱等等“程序员英雄”事迹
+26. [毒奶搜索导航 ](https://limbopro.com/allpages.html)
+27. [学科大全](https://leaaiv.cn/project-1/doc-22/)
 
 
 
@@ -78,6 +81,18 @@
 20. [装扮](https://github.com/HumanAIGC/OutfitAnyone)  阿里巴巴集团智能计算研究院
 21. [爬虫](https://github.com/wistbean/learn_python3_spider?tab=readme-ov-file) 
 22. [ip代理池](https://github.com/Python3WebSpider/ProxyPool)
+23. [python login](https://github.com/Kr1s77/awesome-python-login-model)
+24. [awesome -vue](https://github.com/vuejs/awesome-vue)
+    1.  [vue源码](https://github.com/ygs-code/vue)
+    2.  [awesome node.js](https://github.com/parro-it/awesome-micro-npm-packages) npm库
+25. [program-book](https://github.com/justjavac/free-programming-books-zh_CN?tab=readme-ov-file)
+26. [react](https://github.com/xuya227939/tristana) 
+    react 18 + react-router 5 + mobx 6 + antd 5 + typescript back-stage management scaffold framework
+27. [全栈 前端 book devops](https://www.phodal.com/)
+28. [book](https://github.com/MichealWayne/books) html css js Vue 移动端 算法 编码 python 项目管理
+29. [开源阅读 apk](https://github.com/gedoor/legado/tree/master)  Kotlin 76.8%   Java  14.8%
+30. [book free](https://github.com/ruanyf/free-books?tab=readme-ov-file)
+
 
 ## video
 1. [udacity](https://www.udacity.com/)  deeplearning 
@@ -87,7 +102,8 @@
 5. [腾旭课堂](https://ke.qq.com/ )
 6. [A姐](https://www.ahhhhfs.com/welfare/recourse/ )   资源
 7. [阿里云盘](https://www.aliyundrive.com/drive/file/resource )
-
+8. book [书栈](https://www.bookstack.cn/)
+9. [学课大全 语雀](https://leaaiv.cn/project-1/doc-22/)
 
 ## ai
 1. [ai short](https://www.aishort.top/community-prompts)  extend website 
@@ -156,6 +172,11 @@
    6.  utool develop
    7.  dj small app
    8. book:演员的自我修养; 富兰克林自传; 峡谷; 北野武的的孤独时刻 外国文学散文名人传记
+      1. 每周工作四小时
+      2. JavaScript设计模式
+      3. 深入浅出Node.js   Node in action 宗民（老雷）和赵坤（nswbmw）写的书
+      4. 《黑客与画家》 javascript高级程序设计  《javascript精粹》你不知道的javascript》
+      5. 卓有成效程序员 企业应⽤架构模式  程序员必读之软件架构
 
 
 4. gap :
@@ -218,7 +239,7 @@ develop：
 5. 综合类接单平台：猪八戒网、甜薪工场、一品威客
 
 
-### media
+### media  solo
 1. photo [pinterest](https://www.pinterest.com/)       
 2. video  [pictory](https://pictory.ai/) Generate
 3. seo  [markgadala](https://twitter.com/markgadala)  [machine](https://machineearning.beehiiv.com/)        
@@ -235,6 +256,8 @@ develop：
    4. 
 9.  [semrush](https://www.semrush.com/website/top/)
 10. [少数派](https://openwrite.cn/guide/readmore/install-hexo.html) 应用推荐
+11. [english](https://www.youtube.com/watch?v=HzvsfOE2Vx8)
+12. [tdx](https://www.youtube.com/watch?v=5MgBikgcWnY)
 
 ### operate
 1. [文章群发，博客导流](https://openwrite.cn/guide/readmore/install-hexo.html)
