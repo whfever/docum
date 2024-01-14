@@ -10,4 +10,5 @@ pd: 83503830
 1. twitter/discord、disqus trackpgm@ ss..
 2. telegram 183
 3. [qikan](https://qikan.cqvip.com/)
-4. [ai](https://huggingface.co/welcome)
+4. [ai](https://huggingface.co/welcome)  trackpgm@gmail.com
+5. [樱花论坛](https://www.sakuraaaa.com/forum-40-1.html) snail whf ss..SS 

@@ -52,7 +52,7 @@
 25. 阮一峰的经济学博士背景、池建强的“技术与人文”理念，廖雪峰的详细 Git 教程以及 Phodal 的全栈之旅和花式秀恩爱等等“程序员英雄”事迹
 26. [毒奶搜索导航 ](https://limbopro.com/allpages.html)
 27. [学科大全](https://leaaiv.cn/project-1/doc-22/)
-
+28. [樱花论坛](https://www.sakuraaaa.com/)
 
 
 
@@ -92,7 +92,12 @@
 28. [book](https://github.com/MichealWayne/books) html css js Vue 移动端 算法 编码 python 项目管理
 29. [开源阅读 apk](https://github.com/gedoor/legado/tree/master)  Kotlin 76.8%   Java  14.8%
 30. [book free](https://github.com/ruanyf/free-books?tab=readme-ov-file)
-
+31. [玩转vscode](https://github.com/dell-j/vscode/blob/master/01%20!%20学编辑器，到底应该学什么？.md)
+32. [telegram](https://github.com/jackhawks/rectg?tab=readme-ov-file)
+33. [github top chiness](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts)
+34. [wxjava 支付](https://github.com/Wechat-Group/WxJava)
+35. [javascript algorithms](https://github.com/sisterAn/JavaScript-Algorithms)
+36. [前端面试](https://github.com/Advanced-Frontend/Daily-Interview-Question?tab=readme-ov-file)
 
 ## video
 1. [udacity](https://www.udacity.com/)  deeplearning 
@@ -227,7 +232,7 @@ develop：
 
  1. enter
    1. ppp mifeitu
-### bt
+> bt
 1. [book video](https://www.docspedia.world/index.php)  Trackp s.
 2.  [medium bt](https://medium.com/@frank9587/%E5%9B%BD%E5%86%85%E5%A4%96pt%E7%AB%99%E6%B1%87%E6%80%BB%E5%88%97%E8%A1%A8-%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%B0%B1%E5%A4%9F%E4%BA%86-b53340650d32)
 
@@ -264,19 +269,7 @@ develop：
 
 
 分类： **收藏所有GOODIDEA，学会主要工具API，记录笔记{code,server,video,pod,log}**
-公众号动画
 
-1. GIf
-2. SVG
-
-Chrome 提交代码： https://github.com/netpi/wechat-layout
-
-**{due:mon,sun}
- comment
-
-(A) SVG 
-(B) tags#public
-(D) {due:2020-02-31|e2y}
- svg+css
-extension:
- Markdown
+### demo
+1. [上网的蜗牛 ](https://www.zxmvps.com/archives/4306#hidden-box-comment )  分享资源
+2. [666资源]

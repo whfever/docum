@@ -524,3 +524,5 @@ timer =settimeout(f(){},t)
 ## 代码规范  eslint prettier
 
 > 校验   代码格式化
+
+## es2015

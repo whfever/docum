@@ -65,6 +65,8 @@ Folder cicon
 
 ### table
 ```js
+
+    
 Ctrl + k + s	查看与更改键盘快捷方式
 Ctrl + b	加粗 加粗
 Ctrl + m	放大 放 大 放大放大
@@ -180,4 +182,6 @@ Ctrl + Shift + Alt + E 计算当前选中表达式, 用等号连接并输出
 Ctrl + Shift + Alt + R 计算当前选中表达式, 并替换当前选中表达式
 Ctrl + Shift + Alt + D 定义当前选中表达式, 无输出
 
+
 ```
+## VIM
