@@ -19,8 +19,7 @@
 
 
 
-
-## blog solo
+## Solo
 
 1. [路由四](http://louiszhai.github.io/2017/09/30/tmux/#Tmux%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4)   tmux
 2. [刘家财](https://liujiacai.net/blog/2020/11/25/why-emacs/ "emacs") 
@@ -54,7 +53,40 @@
 27. [学科大全](https://leaaiv.cn/project-1/doc-22/)
 28. [樱花论坛](https://www.sakuraaaa.com/)
 
+## media  solo
+1. photo [pinterest](https://www.pinterest.com/)       
+2. video  [pictory](https://pictory.ai/) Generate
+3. seo  [markgadala](https://twitter.com/markgadala)  [machine](https://machineearning.beehiiv.com/)        
+4. music [boomy](https://boomy.com/)     
+5. all    [Arnill Hasan](https://twitter.com/arnill_dev)  
+6. top  [newrank](https://www.newrank.cn/ranklist/weixin) 
+7. pod  [podtail](https://podtail.com/en/top-podcasts/) 
+   1. pod search [listennnotes<](https://www.listennotes.com/zh-hant/hot-podcasts/)
+8. tel  [tg search](https://cn.tgstat.com/)
+   1. [github](https://github.com/itgoyo/TelegramGroup)
+   2. [](https://telegramchannels.me/zh/top)
+   3. [分类](https://telegramchannels.me/zh/bots/so1234bot)
+   3. [net](https://tgnav.github.io/#270ed6479b4125b396e026e0e5159132)
+   4. 
+9.  [semrush](https://www.semrush.com/website/top/)
+10. [少数派](https://openwrite.cn/guide/readmore/install-hexo.html) 应用推荐
+11. [english](https://www.youtube.com/watch?v=HzvsfOE2Vx8)
+12. [tdx](https://www.youtube.com/watch?v=5MgBikgcWnY)
 
+
+## public solo
+1. 旅行 [fengge](https://space.bilibili.com/35847683/video)  视角 菲佣
+2. 王立群 曾仕强[百家讲坛]() 余华 
+3. 记忆宫殿宁莘亦 刻意练习让你过目不忘
+4. [李永浩](https://web.okjike.com/u/BED6DBF5-63AE-491F-B790-384AF43E2919) 炒股奶爸
+5. [$赏味不足$](https://www.bilibili.com/video/BV1pc411272Z/?spm_id_from=333.1007.tianma.1-2-2.click&vd_source=96038657f90a12771c134ac34b4c3249) MBA 讲师
+6. [纪实说](https://www.youtube.com/watch?v=TfAmgf6Op10) #窦文涛 #梁文道 #马未都 #姜文
+7. [程前 friend](https://www.youtube.com/watch?v=9yFOThovMcU)  邱燕青
+8. 强势文化王叔 public dj
+9. shengcys，money live
+10. mantousxy mentor public
+11. [it桔子](https://www.itjuzi.com/) 创投 赛道
+12.  36kr v2ex 1point
 
 ## project 
 1. [vestacp](https://vestacp.com/)  Linux panel
@@ -110,6 +142,8 @@
 7. [阿里云盘](https://www.aliyundrive.com/drive/file/resource )
 8. book [书栈](https://www.bookstack.cn/)
 9. [学课大全 语雀](https://leaaiv.cn/project-1/doc-22/)
+10. [book video](https://www.docspedia.world/index.php)  Trackp s.
+
 
 ## ai
 1. [ai short](https://www.aishort.top/community-prompts)  extend website 
@@ -122,25 +156,13 @@
 8. [ai 总结](https://hello-ai.anzz.top/home/navigation.html#ai营销工具)  ai汇总 prompt
 9. [gpt works](https://gpts.works/)
 10. [free chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt)
+11. AI  | [drippi](https://www.app.drippi.ai/) 
 
 
 
-## public solo
-1. 旅行 [fengge](https://space.bilibili.com/35847683/video)  视角 菲佣
-2. 王立群 曾仕强[百家讲坛]() 余华 
-3. 记忆宫殿宁莘亦 刻意练习让你过目不忘
-4. [李永浩](https://web.okjike.com/u/BED6DBF5-63AE-491F-B790-384AF43E2919) 炒股奶爸
-5. [$赏味不足$](https://www.bilibili.com/video/BV1pc411272Z/?spm_id_from=333.1007.tianma.1-2-2.click&vd_source=96038657f90a12771c134ac34b4c3249) MBA 讲师
-6. [纪实说](https://www.youtube.com/watch?v=TfAmgf6Op10) #窦文涛 #梁文道 #马未都 #姜文
-7. [程前 friend](https://www.youtube.com/watch?v=9yFOThovMcU)  邱燕青
-8. 强势文化王叔 public dj
-9. shengcys，money live
-10. mantousxy mentor public
-11. [it桔子](https://www.itjuzi.com/) 创投 赛道
-12.  36kr v2ex 1point
 
 
-## to
+# to
 ```json
 {
    code:,
@@ -201,21 +223,15 @@
 10. https://pan.baidu.com/s/18ObFKfSTVCDHyhPFj-qjlQ#list/path=%2F&parentPath=%2Fsharelink1103513087498-598972091891652  awsl
 
 
-## web
-[code,pm,test,media,value]
-1.  {txt,video,radio} 
-2.   {social,medium,blog}
-*starttool*
-1. **VSCODE** edge yq   
-2. github blbl youtube
+## record
+   - vscode edge yq   
+   - github blbl youtube
    - ai: yiy,tiny,chat
    - red,med,face,twitter，geek，jk
    - ins,dis,1p,wechat
    - wiki,wsj,wred,cnn
    - pod,smallworld
    - you,yu,bl
-
- code 
    - gk,v2
    - leetcode,nowcoder,ghub
    - solo cool
@@ -230,47 +246,14 @@ develop：
    - edge google
    - java mysql redis git
    - feishu mail
+   - ppp mifeit
 
- 1. enter
-   1. ppp mifeitu
-> bt
-1. [book video](https://www.docspedia.world/index.php)  Trackp s.
-2.  [medium bt](https://medium.com/@frank9587/%E5%9B%BD%E5%86%85%E5%A4%96pt%E7%AB%99%E6%B1%87%E6%80%BB%E5%88%97%E8%A1%A8-%E7%9C%8B%E8%BF%99%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%E5%B0%B1%E5%A4%9F%E4%BA%86-b53340650d32)
-
-### remote  
+## remote  
 1. [joinit](https://justjoin.it/)  job 
 2. [目标罐头](https://www.douban.com/group/topic/294968907/?_i=2437566XNseQOp) todolsit
 3. [墨刀](https://modao.cc/app/KvIJqgRCr9tnu5Ckx9yDme#screen=sl1kvy5do9ahg0d)  设计 书信APP
 4. [云工](https://www.yungong.com/yuancheng) 剪辑
 5. 综合类接单平台：猪八戒网、甜薪工场、一品威客
-
-
-### media  solo
-1. photo [pinterest](https://www.pinterest.com/)       
-2. video  [pictory](https://pictory.ai/) Generate
-3. seo  [markgadala](https://twitter.com/markgadala)  [machine](https://machineearning.beehiiv.com/)        
-4. music [boomy](https://boomy.com/)     
-5. all    [Arnill Hasan](https://twitter.com/arnill_dev)  
-6. top  [newrank](https://www.newrank.cn/ranklist/weixin) 
-7. pod  [podtail](https://podtail.com/en/top-podcasts/) 
-   1. pod search [listennnotes<](https://www.listennotes.com/zh-hant/hot-podcasts/)
-8. tel  [tg search](https://cn.tgstat.com/)
-   1. [github](https://github.com/itgoyo/TelegramGroup)
-   2. [](https://telegramchannels.me/zh/top)
-   3. [分类](https://telegramchannels.me/zh/bots/so1234bot)
-   3. [net](https://tgnav.github.io/#270ed6479b4125b396e026e0e5159132)
-   4. 
-9.  [semrush](https://www.semrush.com/website/top/)
-10. [少数派](https://openwrite.cn/guide/readmore/install-hexo.html) 应用推荐
-11. [english](https://www.youtube.com/watch?v=HzvsfOE2Vx8)
-12. [tdx](https://www.youtube.com/watch?v=5MgBikgcWnY)
-
-### operate
-1. [文章群发，博客导流](https://openwrite.cn/guide/readmore/install-hexo.html)
-
-
-分类： **收藏所有GOODIDEA，学会主要工具API，记录笔记{code,server,video,pod,log}**
-
-### demo
-1. [上网的蜗牛 ](https://www.zxmvps.com/archives/4306#hidden-box-comment )  分享资源
-2. [666资源]
+6. [文章群发，博客导流](https://openwrite.cn/guide/readmore/install-hexo.html)
+7. [上网的蜗牛 ](https://www.zxmvps.com/archives/4306#hidden-box-comment )  分享资源
+8. [666资源]
