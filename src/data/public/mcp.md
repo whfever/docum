@@ -98,6 +98,7 @@
 34. [wxjava 支付](https://github.com/Wechat-Group/WxJava)
 35. [javascript algorithms](https://github.com/sisterAn/JavaScript-Algorithms)
 36. [前端面试](https://github.com/Advanced-Frontend/Daily-Interview-Question?tab=readme-ov-file)
+37. [文章同步](https://github.com/wechatsync/Wechatsync)
 
 ## video
 1. [udacity](https://www.udacity.com/)  deeplearning 
