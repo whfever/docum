@@ -50,7 +50,7 @@ Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward  ## 设�
 oh-my-posh init pwsh --config "C:\Users\whfever\AppData\Local\oh-my-posh\themes\xtoys.omp.json" | Invoke-Expression
 ```
 
-# 路径C:\Users\whfever\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+ 路径C:\Users\whfever\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
     
 ### profile
 1. oh my posh
@@ -186,10 +186,9 @@ Proxy SwitchyOmega 是一个浏览器代理设置和管理插件，前身是 Swi
 web 开发相关
 
 React Developer Tools   Redux DevTools   Vue.js devtools
+
+1. localsend 局域网传输软件  [](https://localsend.org/#/download)  
 ## 问题
 1. 鼠标消失 : 修改windows 文本选择 鼠标样式
 
-# Idea
-## extend
-1. icon : material
-2. 
+
