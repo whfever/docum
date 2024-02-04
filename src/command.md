@@ -1,5 +1,6 @@
 # Command
-
+## windows
+shutdown /r /fw   重启进入bios
 ## Git
 git config --global user.name zl
 git config --global user.email whfever@163.com

@@ -5,6 +5,7 @@
 map go createTab url="http://www.google.com"
 map gls createTab url="http://www.lsdhss.com/"
 map gc createTab url="http://www.chinadaily.com.cn/"
+map jc createTab url="https://chat.openai.com/"
 map gt createTab url="https://www.tadu.com/"
 map gr createTab url="https://www.reddit.com/"
 map gl createTab url="https://leetcode.cn/problemset/all/"

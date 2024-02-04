@@ -171,7 +171,7 @@
 36. [前端面试](https://github.com/Advanced-Frontend/Daily-Interview-Question?tab=readme-ov-file)
 37. [文章同步](https://github.com/wechatsync/Wechatsync)
 38. [js](https://risingstars.js.org/2023/en?mode=dark)
-
+39. [工具类软件](https://www.v2ex.com/t/896808?p=1)
 ## video
 1. [udacity](https://www.udacity.com/)  deeplearning 
 2. [linkedin](https://www.linkedin.com/learning?trk=homepage-learning_nav-header-logo)  职场学习
