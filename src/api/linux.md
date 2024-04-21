@@ -561,3 +561,89 @@ A Tmux crash course: tips and tweaks
         这样，每次Linux系统启动时，该脚本将自动在后台运行。
 
 
+
+# Manjaro
+## Short keys
+1.  alt F2  :terminal 0
+
+## pcman
+
+1. 切换系统软件源 
+sudo pacman-mirrors -i -c China -m rank
+2. 添加archlinuxcn源，获得更多的软件包
+# 修改/etc/pacman.conf
+echo -e "\n[archlinuxcn]\nServer = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/\$arch\n\n" | sudo tee -a /etc/pacman.conf
+
+# 导入GPG key
+sudo pacman -Sy archlinuxcn-keyring
+3. update system
+sudo pacman -Syyu
+
+
+　　尽管manjaro下的软件已经够多了，安装方式已经够灵活，官方的首推pacman，再推yay，实在不行还有aur，为了安装Xmind-for-Linux-amd64bit-22.11.3656.deb，先去官方下载包
+
+1、安装debtap　
+
+　　yay -S debtap
+
+2、更新debtap
+
+　　sudo debtap -u
+
+3、安装deb包，产生一个压缩包
+
+　　sudo debtap [name].deb
+
+　　例如：sudo debtap Xmind-for-Linux-amd64bit-22.11.3656.deb就会产生一个压缩包，xmind-vana-22.11.3656-1-x86_64.pkg.tar.zst
+
+4、pacman安装软件包
+
+　　sudo pacman -U [package_name]
+
+　　例如：sudo pacman -U xmind-vana-22.11.3656-1-x86_64.pkg.tar.zst
+
+
+2. Q
+1. input chinese  ： fcitx5  software
+2. glamereader ocr
+3. flameshot  ：pacman -S flameshot
+4. yay ""  yay -S
+5. deb 转。tar.zst   
+6. 文档？
+7.	
+yay -S clash-for-windows-chinese
+
+
+```
+pacman:
+Manjaro包管理常用命令
+
+    对整个系统进行更新
+
+sudo pacman -Syu   
+
+    升级软件包
+
+sudo pacman -Syu
+
+    安装或者升级单个软件包，或者一列软件包（包含依赖包），使用如下命令：
+
+sudo pacman -S package_name1 package_name2 ...
+
+    与上面命令不同的是，该命令将在同步包数据库后再执行安装
+
+sudo pacman -Sy package_name
+
+    安装本地包
+
+sudo pacman -U local_package_name#其扩展名为pkg.tar.gz或pkg.tar.xz
+
+    安装一个远程包
+
+sudo pacman -U url#不在 pacman 配置的源里面，例：pacman -U http://www.example.com/repo/example.pkg.tar.xz
+
+    在仓库中搜索含关键字的包sudo
+
+sudo pacman -Ss keyword
+```
+
