@@ -216,3 +216,4 @@ app.provide(/* 注入名 */ 'message', /* 值 */ 'hello!')
      action mutation patter 复杂性 
 **Vuex**：
      通过定义和隔离状态管理中的各种概念并通过强制规则维持视图和状态间的独立性，我们的代码将会变得更结构化且易维护。
+
