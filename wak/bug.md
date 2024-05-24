@@ -5,4 +5,4 @@
 3. k8s pod status containercreating
 kubectl describe pod <pod-name>  
 4. pod crashloopbackoff   
-RDS  设置白名单 
+RDS  设置白名单 mi
