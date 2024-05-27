@@ -1,6 +1,9 @@
-# Edge
-## vim
-### gh
+# 1. Edge
+
+## 1.1. vim
+
+### 1.1.1. gh
+
 ```
 map go createTab url="http://www.google.com"
 map gls createTab url="http://www.lsdhss.com/"
@@ -26,7 +29,8 @@ map gf createTab url="https://cupfox.app/"
 map gtm createTab url="https://mp.weixin.qq.com/cgi-bin/appmsg?begin=0&count=10&type=77&action=list_card&token=1236187514&lang=zh_CN"
 ```
 
-### h number
+### 1.1.2. h number
+
 ```javascript
 map h1 createTab url="https://m.weibo.cn/"
 map h2 createTab url="https://www.toutiao.com/"
@@ -40,7 +44,9 @@ map h9 createTab url=""
 map h0 createTab url="https://www.ximalaya.com/"
 
 ```
-### g number
+
+### 1.1.3. g number
+
 ```js
 
 map g1 createTab url="https://instant.1point3acres.cn/feed"
@@ -57,7 +63,8 @@ map g0 createTab url=""
 
 
 ```
-## clash
+
+## 1.2. clashnote
 
 ```yml
 mixed-port: 7890
@@ -116,9 +123,9 @@ proxies:
     - 'MATCH,西红柿🍅'
 ```
 
-# Edge Console
+# 2. Edge Console
 
-## 遍历 LI 
+## 2.1. 遍历 LI
 
 ```js
 function me() {
@@ -130,3 +137,12 @@ function me() {
 }
 }
 ```
+
+## 2.2. Edge  Extend
+
+- copy as markdown
+- eagle
+- 壹伴
+
+
+[vscode](https://www.thisfaner.com/p/edit-markdown-efficiently-in-vscode/#markdown-all-in-one-插件)

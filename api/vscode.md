@@ -1,17 +1,21 @@
 # vscode
+
 ## file icon
+
 ![](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/images/fileIcons.png)
 Folder cicon
 ![](https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/images/folderIcons.png)
 
  Markdown
+
 ```
 .vscode
  ┗ extensions
    ┗ icons
      ┗ sample.svg
 ```
-*123* 
+
+*123*
 
 ```
 .vscode
@@ -19,7 +23,7 @@ Folder cicon
    ┗ icons
      ┣ folder-sample.svg
 ```
-- 
+
 ```
 .vscode
  ┗ extensions
@@ -27,17 +31,21 @@ Folder cicon
      ┣ folder-sample.svg
      ┗ folder-sample-open.svg
 ```
+
 ## background
+
 1. extension
 2. settings.json
+
 ```
  "background.customImages": [
     "file:///D:\\storage\\picture\\wallpaper\\man.png"
-    
+  
   ],
 ```
 
 ## batch replace
+
 所有行后添加逗号
 ^\s*(?=\r?$)\n
 第一步：调起替换窗口，快捷键：CTRL + H
@@ -48,25 +56,25 @@ Folder cicon
 
 ## keyboard short
 
-
-
 1. ctrl + t 打开搜索框，
-    直接打字符串是搜索文件名。    
-    @ + 字符串是搜索本文件内的符号    
+   直接打字符串是搜索文件名。@ + 字符串是搜索本文件内的符号
 
-     + 字符串是搜索工程内的所有符号  
-2.  markdown all in one   Markdown PreviewInhance
-    1.  ctrl + shift +V  view；
-        1.  ctrl p ctrl t/s
-    2.  ctrl +shift+p  content 创建目录
+   + 字符串是搜索工程内的所有符号
+2. markdown all in one   Markdown PreviewInhance
+
+   1. ctrl + shift +V  view；
+      1. ctrl p ctrl t/s
+   2. ctrl +shift+p  content 创建目录
 3. Ctrl + k + Ctrl + p	当前打开的文档
-   1. Ctrl + k + Ctrl + l	折叠  
+
+   1. Ctrl + k + Ctrl + l	折叠
 4. 
 
 ### table
+
 ```js
 
-    
+  
 Ctrl + k + s	查看与更改键盘快捷方式
 Ctrl + b	加粗 加粗
 Ctrl + m	放大 放 大 放大放大
@@ -170,8 +178,8 @@ Ctrl + Alt + U 将多选光标变为单选
 
 选中操作
 Shift + Alt + ← 向左复制当前选中文本 (重要)
-Shift + Alt + → 向右复制当前选中文本 (重要)
-Alt + ← 向左移动当前选中文本一个字符(重要)
+Shift + Alt + → 向右复制当前选中文本 (重要)  
+lt + ← 向左移动当前选中文本一个字符(重要)
 Alt + → 向右移动当前选中文本一个字符(重要)
 Ctrl + Alt + ← 向左移动当前选中文本一个单词(重要)
 Ctrl + Alt + → 向右移动当前选中文本一个单词(重要)
@@ -184,13 +192,40 @@ Ctrl + Shift + Alt + D 定义当前选中表达式, 无输出
 
 
 ```
+
 ## VIM
 
+## extend
 
-## extend 
 ### INIT
+
 1. markdown  all  in one
 2. Rainbow Csv  彩色
 
 ### JS
+
 1. vue-official
+
+### Mysql shell  database
+- Office viewer(Markdown Editor)
+
+
+### Markdown All in one
+-  list  bolt 
+-  link  ctrl + v
+-  
+
+ *Markdown preview  Enhanced*
+- outline  ctrl  shift o
+- @import "node.md"
+
+### mindmap
+- km
+- 
+
+### remote ssh
+
+### Gitlens
+-  gitlens
+-  gitgraph
+-  git pull requests
