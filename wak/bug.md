@@ -20,3 +20,10 @@ kubectl patch volumesnapshot `kubectl get volumesnapshot  | awk '{print $1}'`   
 ```bash
  git config --global http.sslVerify "false"
 ```
+
+## Docker
+- docker engine stopped
+
+```bash
+wsl --update
+```
