@@ -16,6 +16,7 @@
   - icon theme material
   - markmap  *alt shift v*
   - shell   *git shell ctrl `*
+  - google translate *alt shift t*
 - idea
 - docker desktop
 - git
