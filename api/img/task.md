@@ -3,6 +3,7 @@
 - 修改shortkeys  *ctrl shift*  
 - 修改默认shell  *settings.json*  *shell:windwos*  -> git bash
 - autosave  delay
+- 
 # Tool
 
 ## program

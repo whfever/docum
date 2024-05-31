@@ -9,6 +9,7 @@
 - outline  xmind   markmap
 - efficient  shortkey  
   - ai
+  - regex
 - beauty   ps pr
 
 # Theme

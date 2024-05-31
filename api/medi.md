@@ -1,22 +1,11 @@
 # solo
 ## code 
-
-1. [emacs，eat](http://blog.binchen.org/index.html) 
-2. [21Emacs](https://book.emacs-china.org/)         
-3. remote [upwork](https://www.upwork.com/nx/create-profile/resume-import) 
-4. indepedent develop [极海channel](https://space.bilibili.com/1525355/video)  面试
+      
+1. [remote upwork](https://www.upwork.com/nx/create-profile/resume-import) 
+2. [极海channel](https://space.bilibili.com/1525355/video) 
    1. [jihai](https://jihaichannel.github.io/)
-
-5. 前端 [渡一](https://duyi.ke.qq.com/#tab=1&category=-1)  腾讯课堂
-6. [学科大全](https://leaaiv.cn/project-1/doc-12/) yuque
-7. 陆总监 
-8. 语兴
-9. 王二
-10. 金角大王python
-11. java 口罩学姐
-12. 架构驿站
-13. itnanls
-14. [linux](https://linuxtoy.org/pages/links.html)   Linux 爱好 debian 
+3. [渡一](https://duyi.ke.qq.com/#tab=1&category=-1)  腾讯课堂
+4. [学科大全](https://leaaiv.cn/project-1/doc-12/) yuque  陆总监 语兴  王二 金角大王python java 口罩学姐 架构驿站 itnanls
 
 
 
@@ -53,6 +42,8 @@
 26. [毒奶搜索导航 ](https://limbopro.com/allpages.html)
 27. [学科大全](https://leaaiv.cn/project-1/doc-22/)
 28. [樱花论坛](https://www.sakuraaaa.com/)
+29. [linux](https://linuxtoy.org/pages/links.html)   Linux 爱好 debian 
+
 
 ## media  
 1. photo [pinterest](https://www.pinterest.com/)       
@@ -77,18 +68,16 @@
 
 ## public 
 1. 旅行 [fengge](https://space.bilibili.com/35847683/video)  视角 菲佣
-2. 王立群 曾仕强[百家讲坛]() 余华 
-3. 记忆宫殿宁莘亦 刻意练习让你过目不忘
-4. [李永浩](https://web.okjike.com/u/BED6DBF5-63AE-491F-B790-384AF43E2919) 炒股奶爸
-5. [$赏味不足$](https://www.bilibili.com/video/BV1pc411272Z/?spm_id_from=333.1007.tianma.1-2-2.click&vd_source=96038657f90a12771c134ac34b4c3249) MBA 讲师
-6. [纪实说](https://www.youtube.com/watch?v=TfAmgf6Op10) #窦文涛 #梁文道 #马未都 #姜文
-7. [程前 friend](https://www.youtube.com/watch?v=9yFOThovMcU)  邱燕青
-8. 强势文化王叔 public dj
-9. shengcys，money live
-10. mantousxy mentor public
-11. [it桔子](https://www.itjuzi.com/) 创投 赛道
-12.  36kr v2ex 1point
-13.  [Mark](https://twitter.com/markgadala)
+2. 王立群 曾仕强 百家讲坛 余华  记忆宫殿宁莘亦 刻意练习让你过目不忘
+3. [李永浩](https://web.okjike.com/u/BED6DBF5-63AE-491F-B790-384AF43E2919) 炒股奶爸
+4. [$赏味不足$](https://www.bilibili.com/video/BV1pc411272Z/?spm_id_from=333.1007.tianma.1-2-2.click&vd_source=96038657f90a12771c134ac34b4c3249) MBA 讲师
+5. [纪实说](https://www.youtube.com/watch?v=TfAmgf6Op10) #窦文涛 #梁文道 #马未都 #姜文
+6. [程前 friend](https://www.youtube.com/watch?v=9yFOThovMcU)  邱燕青
+7. 强势文化王叔 public dj
+8. shengcys，money live
+9.  mantousxy mentor public
+10. [it桔子](https://www.itjuzi.com/) 创投 赛道 36kr v2ex 1point
+11.  [Mark](https://twitter.com/markgadala)
 
 
 
