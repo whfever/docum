@@ -8,6 +8,5 @@ enum/*
 .idea/*
 # logs docs
 *.log
-*.xmind
 *.ini
 *.pdf

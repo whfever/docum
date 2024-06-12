@@ -8,10 +8,6 @@
 
 ![image-20230805214537825](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805214537825.png)
 
-
-
-
-
 ## Env
 
 > premetieer  
@@ -21,29 +17,19 @@
   React  Vue
 ```
 
-
-
 ### Project  Structure
 
 ## Base
 
 ### React Component|  Jsx
 
- 
-
 ![image-20230805222508591](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805222508591.png)
-
-
-
-
 
 ![image-20230805224533353](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805224533353.png)
 
 #### Fragment
 
 ![image-20230805234758327](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805234758327.png)
-
-
 
 #### Rending  Lists
 
@@ -70,10 +56,7 @@ function List() {
 }
 
 export default List;
-
 ```
-
-
 
 > 条件渲染   
 
@@ -81,10 +64,8 @@ export default List;
 
 ### Create
 
-> 1.  cra
-> 2.  vite
-
-
+> 1. cra
+> 2. vite
 
 ### React  Ecosystem
 
@@ -92,30 +73,19 @@ export default List;
 
 > 用Routing  转到另一个页面
 
-
-
-
-
 ```
 npm i bootstrap@4.1.0
 ```
 
-###  hot  module
+### hot  module
 
 > hmr
 
-
-
 ```
           <li key={item} onClick={console.log(item)}>{item}</li>
-
 ```
 
-
-
 ### handing  events
-
-
 
 ### managing  state
 
@@ -141,10 +111,7 @@ const MyComponent = () => {
 };
 
 export default MyComponent;
-
 ```
-
-
 
 ### passing  data
 
@@ -153,10 +120,6 @@ export default MyComponent;
 > 传递时可以直接解构
 
 ![image-20230806005615336](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230806005615336.png)
-
-
-
-
 
 ##### context
 
@@ -182,25 +145,12 @@ function Parent() {
 
 export default Parent;
 export { DataContext };
-
 ```
-
-
-
-
 
 interface
 
 > 通过使用接口，您可以明确指定组件的属性和状态类型，使代码更加健壮和易于维护。TypeScript 在进行类型检查时会基于接口提供更准确的错误提示，帮助您在开发过程中尽早发现潜在的类型错误，提高代码质量。
 
-
-
-
-
 ## react-router
-
-
-
-
 
 ## Redux

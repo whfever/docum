@@ -1,4 +1,5 @@
 # shell
+
 ## listen port
 
 ```shell
@@ -23,6 +24,4 @@ if [ $? -ne 0 ]; then
 else
     echo "Java application is running on port $PORT."
 fi
-
-
 ```

@@ -62,7 +62,7 @@ function getter(scope) {
 ```
 
 ### 实现watcher
-
+ 
 ```js
 // Observer.js
 // ...省略
