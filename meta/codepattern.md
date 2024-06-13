@@ -1,4 +1,5 @@
 # code pattern
+
 [codePattern](https://medium.com/gitconnected/dont-just-leetcode-follow-the-coding-patterns-instead-4beb6a197fdb)
 Don’t Just LeetCode; Follow the Coding Patterns Instead
 不要只是 LeetCode;改为遵循编码模式
@@ -15,7 +16,6 @@ No one really likes spending that much time preparing for the coding interviews.
 First, let’s look at the problem.
 首先，让我们看看问题。
 
-
 Problems with LeetCode LeetCode 的问题
 There are around 3k problems in LeetCode. The biggest challenge with LeetCode is its lack of organization; it has a huge set of coding problems, and one isn’t sure where to start or what to focus on.
 LeetCode 中大约有 3k 个问题。LeetCode 的最大挑战是缺乏组织;它有大量的编码问题，人们不确定从哪里开始或关注什么。
@@ -31,22 +31,21 @@ One technique that people often follow is to solve questions related to **the sa
 
 I would love to see question sets that follow not only the same data structure but also similar algorithmic techniques.
 
-
 The best thing I came across was **the problem-solving patterns** like Sliding Window, Fast and Slow Pointers, Two Pointers, Two Heaps, Topological Sort, etc. Following these patterns helped me nurture my ability to ‘map a new problem to an already known problem’. This not only made this whole coding-interview-preparation process fun but also a lot more organized.
 
 Coding patterns enhance our “ability to map a new problem to an already known problem.”
 
-
 ## Coding Patterns 编码模式
+
 I have gathered around 20 of these coding problem patterns that I believe can help anyone learn these beautiful algorithmic techniques and make a real difference in the coding interviews.
 
 The idea behind these patterns is that once you’re familiar with a pattern, you’ll be able to solve dozens of problems with it. For a detailed discussion of these patterns and related problems with solutions, take a look at Grokking the Coding Interview.
-
 
 So, without further ado, let me list all these patterns:
 
 TODO: code pattern list
 [codePattern](https://medium.com/gitconnected/dont-just-leetcode-follow-the-coding-patterns-instead-4beb6a197fdb)
+
 1. Sliding Window 推拉窗
 2. Islands (Matrix Traversal)岛屿（矩阵遍历）
 3. Two Pointers 两个指针
@@ -69,9 +68,7 @@ TODO: code pattern list
 20. Fibonacci Numbers 斐波那契数列
 21. Palindromic Subsequence 回文亚序列
 22. Longest Common Substring 最长的公共子字符串
- Following is a small intro of each of these patterns with sample problems:
-
-
+    Following is a small intro of each of these patterns with sample problems:
 
 ![img](https://miro.medium.com/v2/resize:fit:1620/1*KjGfvdhs8sG6h4d72M1ScA.png)
 
@@ -118,4 +115,3 @@ Coding Patterns 编码模式
 # Conclusion 结论
 
 Like it or not, LeetCode-type questions are part of almost every
-

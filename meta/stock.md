@@ -1,7 +1,5 @@
 0基础_jiusuan
 
-
-
 ## 历史
 
 股票起源：筹集资金
@@ -16,8 +14,8 @@
 
 1. 股模式：![image-20230203101228788](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230203101228788.png)
 
-2.  票模式
-
+2. 票模式
+   
    ![image-20230203101523302](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230203101523302.png)
 
 *牛顿：我能计算天体的轨迹，却无法预测人性的疯狂*
@@ -26,13 +24,12 @@
 
 市盈率:越低越好，收回成本需要的时间![image-20230203102407031](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230203102407031.png)
 
-
-
 ![image-20230203103139426](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230203103139426.png)
 
 选择被市场忽略的股票
 
 ![image-20230203110303755](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230203110303755.png)
+
 ## 选股
 
 自上而下：经济-行业-公司

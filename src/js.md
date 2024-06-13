@@ -14,10 +14,6 @@ console.log('hello');
 
 > Node  Vscode
 
-
-
-
-
 ## Basic
 
 ### In  Browswer
@@ -28,18 +24,12 @@ console.log('hello');
 node index.js
 ```
 
-
-
 ### Seperation
-
-
-
-
 
 ## Variables
 
 > 声明：let  ， 
->
+> 
 > 使用： 
 
 ### Constants
@@ -47,10 +37,6 @@ node index.js
 ```
 const interRate=1；
 ```
-
-
-
-
 
 ### Primitive Types
 
@@ -60,19 +46,14 @@ const interRate=1；
 typeof name
 ```
 
-
-
-
 ### Functions
-
-
 
 ```
 function greet(){
-	console.log('hello');
+    console.log('hello');
 }
 function greet(name,lastName){
-	console.log('hello'+namea);
+    console.log('hello'+namea);
 }
 ```
 
@@ -88,15 +69,9 @@ function greet(name,lastName){
 
 #### nested function
 
-
-
-
-
 type  of functions
 
 ![image-20230802113356447](https://article.biliimg.com/bfs/article/6e608467faaabfa2efac5044e71fa793797266ab.png)
-
-
 
 #### settimeout
 
@@ -106,17 +81,9 @@ type  of functions
 cleartimeout（）；
 ```
 
-
-
-
-
 #### setInterval
 
 ![image-20230802142224153](https://article.biliimg.com/bfs/article/476e21cb486b7144656a218e0b991fd59bf69060.png)
-
-
-
-
 
 #### asynchrnous
 
@@ -139,14 +106,12 @@ cleartimeout（）；
 
 ![image-20230802133449200](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230802133449200.png)
 
-
-
 ![image-20230802111903172](https://article.biliimg.com/bfs/article/2c6e47f54c33e8dabed0bfa95f6ddb9950ac1516.png)
 
 ```
 let person={
-	name:'<'
-	age:1;
+    name:'<'
+    age:1;
 }
 ```
 
@@ -159,7 +124,6 @@ colors[2]= 2;
 console.log(colors[0])
 //原型
 console.log(colors.length)
-
 ```
 
 #### Object  argments
@@ -168,7 +132,7 @@ console.log(colors.length)
 
 #### Array  of objects
 
-#### anoymous objects 
+#### anoymous objects
 
 ![image-20230802141307406](https://article.biliimg.com/bfs/article/b22afbe3178ce6266ec8a502a6f25ed573ae57c5.png)
 
@@ -192,29 +156,17 @@ while  for
 
 if switch 
 
-
-
-
-
 ## Spread operator
 
 ![image-20230802125214363](https://article.biliimg.com/bfs/article/5df4d46bb346d4627dc85ce2b5011c7150f78ad6.png)
 
-
-
 ![image-20230802125245669](https://article.biliimg.com/bfs/article/ea48d63d6846f4a807f57d637fd6f48eee23c350.png)
 
-
-
 ![image-20230802125346407](https://article.biliimg.com/bfs/article/f5f9ca02afd143bd6c52eda76a24dbdc02e16e1e.png)
-
-
 
 ![image-20230802125452664](https://article.biliimg.com/bfs/article/9a2ac303b01a76441f5e28ac8f81bc1f4099a58b.png)
 
 ## format currency
-
-
 
 ## template literals
 
@@ -224,15 +176,13 @@ ${}
 
 ![image-20230802124634429](https://article.biliimg.com/bfs/article/e07b82105099986ce3c7fc9b287f006bfa0c01f5.png)
 
-
-
 ## Promise
 
-|                              |                                                              |      |
-| ---------------------------- | ------------------------------------------------------------ | ---- |
-| then  catch                  | ![image-20230802145031869](https://article.biliimg.com/bfs/article/63834db19a0ad4ec1d022f7bf5e9047030dd968a.png) |      |
-| sertTimeout（resolve，time） | ![image-20230802145323002](https://article.biliimg.com/bfs/article/a824449aa9264cda4637cb34c4a1ca63a2269751.png) |      |
-| sertTimeout（resolve，time） | ![image-20230802145446374](https://article.biliimg.com/bfs/article/3b559fa29b54033cecd926e077a87b00e8976c17.png) |      |
+|                           |                                                                                                                  |     |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------- | --- |
+| then  catch               | ![image-20230802145031869](https://article.biliimg.com/bfs/article/63834db19a0ad4ec1d022f7bf5e9047030dd968a.png) |     |
+| sertTimeout（resolve，time） | ![image-20230802145323002](https://article.biliimg.com/bfs/article/a824449aa9264cda4637cb34c4a1ca63a2269751.png) |     |
+| sertTimeout（resolve，time） | ![image-20230802145446374](https://article.biliimg.com/bfs/article/3b559fa29b54033cecd926e077a87b00e8976c17.png) |     |
 
 ### await
 
@@ -242,27 +192,17 @@ ${}
 
 ### Array
 
-|         |                                                              |      |
-| ------- | ------------------------------------------------------------ | ---- |
-| foreach | ![image-20230802131130369](https://article.biliimg.com/bfs/article/7fb9f42d7e07fe247f22ecac69d0c05f2ceee0d7.png) |      |
-| map     | ![image-20230802131500213](https://article.biliimg.com/bfs/article/01a3219abdcdadf4a3c8daa6ad4d5163e567c2a2.png) |      |
-| filter  | ![image-20230802131600590](https://article.biliimg.com/bfs/article/5e91ac1115b6f449874687cfde1261b06fa5dce1.png) |      |
-| reduce  | ![image-20230802131730914](https://article.biliimg.com/bfs/article/4413c2277a5cc65b5fc2ca52c150ab60102137fc.png) |      |
-| sort    | ![image-20230802131854226](https://article.biliimg.com/bfs/article/06faf6cba4f1cfd1fea81e94a205a8f5c6223946.png) |      |
-| shuffle |                                                              |      |
-|         |                                                              |      |
-
-
-
-
+|         |                                                                                                                  |     |
+| ------- | ---------------------------------------------------------------------------------------------------------------- | --- |
+| foreach | ![image-20230802131130369](https://article.biliimg.com/bfs/article/7fb9f42d7e07fe247f22ecac69d0c05f2ceee0d7.png) |     |
+| map     | ![image-20230802131500213](https://article.biliimg.com/bfs/article/01a3219abdcdadf4a3c8daa6ad4d5163e567c2a2.png) |     |
+| filter  | ![image-20230802131600590](https://article.biliimg.com/bfs/article/5e91ac1115b6f449874687cfde1261b06fa5dce1.png) |     |
+| reduce  | ![image-20230802131730914](https://article.biliimg.com/bfs/article/4413c2277a5cc65b5fc2ca52c150ab60102137fc.png) |     |
+| sort    | ![image-20230802131854226](https://article.biliimg.com/bfs/article/06faf6cba4f1cfd1fea81e94a205a8f5c6223946.png) |     |
+| shuffle |                                                                                                                  |     |
+|         |                                                                                                                  |     |
 
 ### Math
-
-
-
-
-
-
 
 ### Map
 
@@ -270,12 +210,9 @@ ${}
 
 ```
 
-
 ```
 
 ## Modules
-
-
 
 ![image-20230802150442615](https://article.biliimg.com/bfs/article/7fd50f90bd8f0d86e1b6ad89262850c5d67c7715.png)
 
@@ -283,27 +220,17 @@ ${}
 
 ![image-20230802150702221](https://article.biliimg.com/bfs/article/9e0fc3712c473f96b5bee48874505eeb524c70b9.png)
 
-
-
-
-
 ## element selectors
 
 ![image-20230802150956882](https://article.biliimg.com/bfs/article/fdc956c85da6d6517601596d7b229df52d703b0a.png)
-
-
 
 ## Dom traversal
 
 ![image-20230802151203790](https://article.biliimg.com/bfs/article/413f762a90ac96ab8f086835c19ae1126937239a.png)
 
-
-
 ### window
 
 ![image-20230802153325979](https://article.biliimg.com/bfs/article/ffbbfb902890d23b8f8951543b5251f0739b7d98.png)
-
-
 
 ## cookie
 
@@ -311,11 +238,7 @@ ${}
 
 ## add change html
 
-
-
 ![image-20230802151334494](https://article.biliimg.com/bfs/article/9dcda4c5b8b30e40c603dc7286c81d882666ccee.png)
-
-
 
 ### show hide html
 
@@ -324,8 +247,6 @@ ${}
 ## add change css
 
 ![image-20230802151454952](https://article.biliimg.com/bfs/article/c6b6d0bb1806cd0d48b8e9c75a48f4cf99b24b2c.png)
-
-
 
 ### animation
 
@@ -343,13 +264,9 @@ ${}
 
 ![image-20230802152038327](https://article.biliimg.com/bfs/article/8069fca3808b97961c949aaa0ce2ff9f4e36db73.png)
 
-
-
 ### detect key presses
 
 ![image-20230802152451822](https://article.biliimg.com/bfs/article/3c8b90ad94602e0ae0043352c4a9f73545a6fef9.png)
-
-
 
 # JsObject
 
@@ -359,63 +276,35 @@ ${}
 
 ![image-20230802130556471](https://article.biliimg.com/bfs/article/f2e1a34549c7c6088538dca37ff36e522c7bcc19.png)
 
-
-
 ## this
 
 ![image-20230802133713750](https://article.biliimg.com/bfs/article/09d2158c00296e3a6861597d0c6916f0421a3ecc.png)
-
-
-
-
 
 ## class
 
 ![image-20230802134521984](https://article.biliimg.com/bfs/article/17e9346982d6cec36ae273f3912a4387e84d8eb7.png)
 
-
-
-
-
 ### constructor
 
 ![image-20230802134615823](https://article.biliimg.com/bfs/article/8b8c062b47f6b1301623b2d75f0df15cfcc7897f.png)
-
-
-
-
 
 ### static
 
 ![image-20230802134939234](https://article.biliimg.com/bfs/article/4f8f4b1b2c912d60812d0c887b16a8ca0719ba04.png)
 
-
-
 ![image-20230802135653729](https://article.biliimg.com/bfs/article/b597982219d4fe6993dee742cf21be9f30756405.png)
-
-
-
-
 
 ### inheritance
 
 ![image-20230802135849377](https://article.biliimg.com/bfs/article/53c7fc97fcf3860068bf9faf0b83b19f733cb27d.png)
 
-
-
 #### super
 
 ![image-20230802140058413](https://article.biliimg.com/bfs/article/b66ba15414b6c15085800800c16b624189d55f9f.png)
 
-
-
 #### get set
 
 ![image-20230802140432074](https://article.biliimg.com/bfs/article/601f98dae5d69dba85ad5423a93c426f60f9ec11.png)
-
-
-
-
 
 # Jsquery
 
@@ -425,36 +314,23 @@ ${}
 
 ![image-20230805153746567](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805153746567.png)
 
-
-
 > 原型作用： 共享内存
 
 ![image-20230805154157668](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805154157668.png)
 
-
-
 ### prototype
-
-
 
 > not  constructor
 
 ```
-    
     constructor： star
-    
-    
 ```
 
 ![image-20230805154449884](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805154449884.png)
 
-
-
 ![image-20230805154843948](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805154843948.png)
 
-
-
-###   _ proto_
+### _ proto_
 
 > 示例对象可是指向原型对象的原因：  有一个对象原型属性指向原型对象
 
@@ -468,8 +344,6 @@ ${}
 —
 
 **![image-20230805155545174](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805155545174.png)**
-
-
 
 ## 闭包
 
@@ -488,21 +362,15 @@ ${}
 - 引用计数法
 - 标记清除法
 
-
-
 > 标记清除法：解决了内部循环引用，全局没有引用  根部寻找
 
 ![image-20230805163155118](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805163155118.png)
 
 # Apply
 
-
-
 ## debounce
 
 ![image-20230805161852022](C:\Users\whfever\AppData\Roaming\Typora\typora-user-images\image-20230805161852022.png)
-
-  
 
 ```
 if (timer) cleartimeout(){
@@ -510,8 +378,6 @@ if (timer) cleartimeout(){
 }
 timer =settimeout(f(){},t)
 ```
-
-
 
 ## throttle
 
@@ -525,4 +391,4 @@ timer =settimeout(f(){},t)
 
 > 校验   代码格式化
 
-## es2015
+## es2015[]()

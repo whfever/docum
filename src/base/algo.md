@@ -1,7 +1,3 @@
-
-
-
-
 # Algo  ideology
 
 ## 算法思想 - 分治算法
@@ -57,10 +53,6 @@ public List<Integer> diffWaysToCompute(String input) {
 ------
 
 著作权归@pdai所有 原文链接：https://pdai.tech/md/algorithm/alg-core-divide-and-conquer.html
-
-
-
-
 
 ## 算法思想 - 动态规划算法
 
@@ -691,11 +683,11 @@ public int knapsack(int W, int N, int[] weights, int[] values) {
 
 0-1 背包问题无法使用贪心算法来求解，也就是说不能按照先添加性价比最高的物品来达到最优，这是因为这种方式可能造成背包空间的浪费，从而无法达到最优。考虑下面的物品和一个容量为 5 的背包，如果先添加物品 0 再添加物品 1，那么只能存放的价值为 16，浪费了大小为 2 的空间。最优的方式是存放物品 1 和物品 2，价值为 22.
 
-| id   | w    | v    | v/w  |
-| ---- | ---- | ---- | ---- |
-| 0    | 1    | 6    | 6    |
-| 1    | 2    | 10   | 5    |
-| 2    | 3    | 12   | 4    |
+| id  | w   | v   | v/w |
+| --- | --- | --- | --- |
+| 0   | 1   | 6   | 6   |
+| 1   | 2   | 10  | 5   |
+| 2   | 3   | 12  | 4   |
 
 变种
 
@@ -1239,8 +1231,6 @@ public int minSteps(int n) {
 
 著作权归@pdai所有 原文链接：https://pdai.tech/md/algorithm/alg-core-dynamic.html
 
-
-
 ## 算法思想 - 贪心算法
 
 > 本文主要介绍算法中贪心算法的思想: 保证每次操作都是局部最优的，并且最后得到的结果是全局最优的。@pdai
@@ -1546,8 +1536,6 @@ public int maxProfit(int[] prices) {
 
 著作权归@pdai所有 原文链接：https://pdai.tech/md/algorithm/alg-core-greedy.html
 
-
-
 ## 算法思想 - 二分法
 
 > 本文主要介绍算法思想中分治算法重要的二分法，比如二分查找；二分查找也称折半查找（Binary Search），它是一种效率较高的查找方法。但是，折半查找要求线性表必须采用顺序存储结构，而且表中元素按关键字有序排列。@pdai
@@ -1827,8 +1815,6 @@ private int binarySearch(int[] nums, int target) {
 
 著作权归@pdai所有 原文链接：https://pdai.tech/md/algorithm/alg-core-devide-two.html
 
-
-
 # Algo  Sort
 
 ## Quicksort
@@ -1838,8 +1824,6 @@ private int binarySearch(int[] nums, int target) {
 1. 定基准             ![](https://img-blog.csdnimg.cn/20201121183621106.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpb25nQmVuMTk5Mw==,size_16,color_FFFFFF,t_70#pic_center)
 
 2. 分治            ![](https://img-blog.csdnimg.cn/20201121192051815.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3hpb25nQmVuMTk5Mw==,size_16,color_FFFFFF,t_70#pic_center)
-
-
 
 ### 快速排序时间复杂度和稳定性
 
@@ -1865,8 +1849,6 @@ private int binarySearch(int[] nums, int target) {
 著作权归@pdai所有 原文链接：https://pdai.tech/md/algorithm/alg-sort-x-fast.html
 
 ## Bubble Sort
-
-
 
 ### 复杂度和稳定性
 
@@ -1963,10 +1945,7 @@ public class BubbleSort {
         System.out.printf("\n");
     }
 }
-
 ```
-
-
 
 # Algo     Array
 
@@ -1977,9 +1956,6 @@ public class BubbleSort {
 **描述**：给定一个数组 `nums`，再给定一个数字 `k`。
 
 **要求**：将数组中的元素向右移动 `k` 个位置。
-
-
-
 
 ### 加1
 
@@ -1997,16 +1973,12 @@ def plusOne(self, digits: List[int]) -> List[int]:
         else:
             digits[i] = 0
             digits[i - 1] += 1
-        
+
     if digits[0] == 0:
         return digits[1:] 
     else:
         return digits
 ```
-
-
-
-
 
 ### 中心下标
 
@@ -2052,8 +2024,6 @@ class Solution:
         return ans
 ```
 
-
-
 ### nums[i] 之外的其他所有元素乘积。
 
 要求不能使用除法，且在 O(n) 时间复杂度、常数空间复杂度内解决问题
@@ -2061,7 +2031,6 @@ class Solution:
 > 构造一个答案数组 res，长度和数组 nums 长度一致。先从左到右遍历一遍 nums 数组，将 nums[i] 左侧的元素乘积累积起来，存储到 res 数组中。再从右到左遍历一遍，将 nums[i] 右侧的元素乘积累积起来，再乘以原本 res[i] 的值，即为 nums 中除了 nums[i] 之外的其他所有元素乘积。
 
 ```
-
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         size = len(nums)
@@ -2136,8 +2105,6 @@ class Solution:
         return ans
 ```
 
-
-
 ### 旋转 90°
 
 不能使用额外的数组空间
@@ -2145,28 +2112,26 @@ class Solution:
 ![img](https://article.biliimg.com/bfs/article/909611016f48da823bed5ebfffb3a1862acf7093.jpg)
 
 > 「水平翻转」+「主对角线翻转」
->
+> 
 > ![image-20230422124832629](https://article.biliimg.com/bfs/article/9674be8b748d1c62978eef89567ecc655368b4a4.png)
 
 ```python
 def rotate(self, matrix: List[List[int]]) -> None:
     n = len(matrix)
-    
+
     for i in range(n // 2): //i=0
         for j in range(n): //n=3
             matrix[i][j], matrix[n - i - 1][j] = matrix[n - i - 1][j], matrix[i][j]
-    
+
     for i in range(n): //n=3
         for j in range(i):
             matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 ```
 
-
-
 > 对于矩阵中第 `i` 行的第 `j` 个元素，在旋转后，它出现在倒数第 `i` 列的第 `j` 个位置。即 `matrixnew[j][n − i − 1] = matrix[i][j]`。
->
+> 
 > 而 `matrixnew[j][n - i - 1]` 的点经过旋转移动到了 `matrix[n − i − 1][n − j − 1]` 的位置。
->
+> 
 > ![img](https://article.biliimg.com/bfs/article/b45be892e52b9adf082e3c31903b9fca06a38e8b.jpg)
 
 ```
@@ -2180,11 +2145,9 @@ class Solution:
                 matrix[n - j - 1][i], 
                 matrix[n - i - 1][n - j - 1],
                 matrix[j][n - i - 1] = 
-                
+
                 matrix[n - j - 1][i], matrix[n - i - 1][n - j - 1], matrix[j][n - i - 1], matrix[i][j]
 ```
-
-
 
 ### 矩阵置0
 
@@ -2204,15 +2167,12 @@ class Solution:
             for j in range(n):
                 if matrix[i][j] == 0:
                     row[i] = col[j] = True
-        
+
         for i in range(m):
             for j in range(n):
                 if row[i] or col[j]:
                     matrix[i][j] = 0
-
 ```
-
-
 
 > 我们可以用矩阵的第一行和第一列代替方法一中的两个标记数组，以达到 O(1) 的额外空间。但这样会导致原数组的第一行和第一列被修改，无法记录它们是否原本包含 
 > 0。因此我们需要额外使用两个标记变量分别记录第一行和第一列是否原本包含 0
@@ -2223,25 +2183,24 @@ class Solution:
         m, n = len(matrix), len(matrix[0])
         flag_col0 = any(matrix[i][0] == 0 for i in range(m))
         flag_row0 = any(matrix[0][j] == 0 for j in range(n))
-        
+
         for i in range(1, m):
             for j in range(1, n):
                 if matrix[i][j] == 0:
                     matrix[i][0] = matrix[0][j] = 0
-        
+
         for i in range(1, m):
             for j in range(1, n):
                 if matrix[i][0] == 0 or matrix[0][j] == 0:
                     matrix[i][j] = 0
-        
+
         if flag_col0:
             for i in range(m):
                 matrix[i][0] = 0
-        
+
         if flag_row0:
             for j in range(n):
                 matrix[0][j] = 0
-
 ```
 
 ### 螺旋矩阵
@@ -2280,8 +2239,6 @@ class Solution:
                 break
         return ans
 ```
-
-
 
 ## Array___排序
 
@@ -2340,8 +2297,6 @@ class Solution:
         return self.selectionSort(nums)
 ```
 
-
-
 ### 插入排序（逐渐有序 1 ...）
 
 > 将整个序列分为两部分：前面 `i` 个元素为有序序列，后面 `n - i` 个元素为无序序列。每一次排序，将无序序列的第 `1` 个元素，在有序序列中找到相应的位置并插入
@@ -2386,10 +2341,6 @@ class Solution:
   - 从算法中也可以看到，最外层的 `while` 循环为 log2⁡� 数量级，中间层 `do-while` 循环为 `n` 数量级。当子序列分得越多时，子序列内的元素就越少，最内层的 `for` 循环的次数也就越少；反之，当所分的子序列个数减少时，子序列内的元素也随之增多，但整个序列也逐步接近有序，而循环次数却不会随之增加。因此，希尔排序算法的时间复杂度在 �(�×log2⁡�) 与 �(�2) 之间。
 - **排序稳定性**：希尔排序方法是一种 **不稳定排序算法**。
 
-
-
-
-
 ### 归并排序（分治 递归）
 
 > 采用经典的分治策略，先递归地将当前序列平均分成两半。然后将有序序列两两合并，最终合并成一个有序序列。
@@ -2401,16 +2352,14 @@ class Solution:
 - **空间复杂度**：�(�)。归并排序方法需要用到与参加排序的序列同样大小的辅助空间。因此算法的空间复杂度为 �(�)。
 
 - 排序稳定性
-
+  
   ：归并排序算法是一种
-
-   
 
   稳定排序算法
 
   。
 
-  - 因为在两个有序子序列的归并过程中，如果两个有序序列中出现相同元素，`merge(left_arr, right_arr):` 算法能够使前一个序列中那个相同元素先被复制，从而确保这两个元素的相对次序不发生改变。
+- 因为在两个有序子序列的归并过程中，如果两个有序序列中出现相同元素，`merge(left_arr, right_arr):` 算法能够使前一个序列中那个相同元素先被复制，从而确保这两个元素的相对次序不发生改变。
 
 ```python
 class Solution:
@@ -2425,23 +2374,23 @@ class Solution:
             else:
                 arr.append(right_arr[right_i])
                 right_i += 1
-        
+
         while left_i < len(left_arr):
             # 如果左子序列有剩余元素，则将其插入到结果数组中
             arr.append(left_arr[left_i])
             left_i += 1
-            
+
         while right_i < len(right_arr):
             # 如果右子序列有剩余元素，则将其插入到结果数组中
             arr.append(right_arr[right_i])
             right_i += 1
-        
+
         return arr                                  # 返回排好序的结果数组
 
     def mergeSort(self, arr):                       # 分割过程
         if len(arr) <= 1:                           # 数组元素个数小于等于 1 时，直接返回原数组
             return arr
-        
+
         mid = len(arr) // 2                         # 将数组从中间位置分为左右两个数组。
         left_arr = self.mergeSort(arr[0: mid])      # 递归将左子序列进行分割和排序
         right_arr =  self.mergeSort(arr[mid:])      # 递归将右子序列进行分割和排序
@@ -2469,12 +2418,12 @@ class Solution:
         arr[i], arr[low] = arr[low], arr[i]
         # 以最低位为基准数，然后将序列中比基准数大的元素移动到基准数右侧，比他小的元素移动到基准数左侧。最后将基准数放到正确位置上
         return self.partition(arr, low, high)
-    
+
     # 以最低位为基准数，然后将序列中比基准数大的元素移动到基准数右侧，比他小的元素移动到基准数左侧。最后将基准数放到正确位置上
     def partition(self, arr: [int], low: int, high: int):
         pivot = arr[low]            # 以第 1 为为基准数
         i = low + 1                 # 从基准数后 1 位开始遍历，保证位置 i 之前的元素都小于基准数
-        
+
         for j in range(i, high + 1):
             # 发现一个小于基准数的元素
             if arr[j] < pivot:
@@ -2501,34 +2450,30 @@ class Solution:
         return self.quickSort(nums, 0, len(nums) - 1)
 ```
 
-
-
 ### 堆排序
 
 > 借用「堆结构」所设计的排序算法。将数组转化为大顶堆，重复从大顶堆中取出数值最大的节点，并让剩余的堆结构继续维持大顶堆性质。
 
 - 时间复杂度
-
+  
   ：
-
+  
   �(�×log2⁡�)
-
+  
   。
-
+  
   - 堆积排序的时间主要花费在两个方面：「建立初始堆」和「调整堆」。
-
+  
   - 设原始序列所对应的完全二叉树深度为
 
-     
-
     �
-
+    
     ，算法由两个独立的循环组成：
-
+    
     1. 在第 1 个循环构造初始堆积时，从 �=�−1 层开始，到 �=1 层为止，对每个分支节点都要调用一次调整堆算法，而一次调整堆算法，对于第 � 层一个节点到第 � 层上建立的子堆积，所有节点可能移动的最大距离为该子堆积根节点移动到最后一层（第 � 层） 的距离，即 �−�。而第 � 层上节点最多有 2�−1 个，所以每一次调用调整堆算法的最大移动距离为 2�−1∗(�−�)。因此，堆积排序算法的第 1 个循环所需时间应该是各层上的节点数与该层上节点可移动的最大距离之积的总和，即：∑�=�−112�−1(�−�)=∑�=1�−12�−�−1×�=∑�=1�−12�−1×�2�≤�∑�=1�−1�2�<2�。这一部分的时间花费为 �(�)。
     2. 在第 2 个循环中，每次调用调整堆算法一次，节点移动的最大距离为这棵完全二叉树的深度 �=⌊log2⁡(�)⌋+1，一共调用了 �−1 次调整堆算法，所以，第 2 个循环的时间花费为 (�−1)(⌊log2⁡(�)⌋+1)=�(�×log2⁡�)。
 
-  - 因此，堆积排序的时间复杂度为 �(�×log2⁡�)。
+- 因此，堆积排序的时间复杂度为 �(�×log2⁡�)。
 
 - **空间复杂度**：�(1)。由于在堆积排序中只需要一个记录大小的辅助空间，因此，堆积排序的空间复杂度为：�(1)。
 
@@ -2613,20 +2558,16 @@ class Solution {
 }
 ```
 
-
-
-
-
 ## 分治  转换小问题 递归
 
 ### 定义表达式
 
 >   第一条特征是绝大多数问题都可以满足的，因为问题的计算复杂性一般随着问题规模的增加而增加。
->
+> 
 >    第二条特征是应用分治法的前提，此特征反映了递归思想的应用。
->
+> 
 >    第三条是关键，能否利用分治法完全取决于问题是否具有第三条特症，如果具备了第一条和第二条特征，而不具备第三条特征，可以考虑使用贪心法或者动态规划。
->
+> 
 >    第四条特征涉及到分支法的效率。
 
 ```java
@@ -2663,8 +2604,6 @@ public List<Integer> diffWaysToCompute(String input) {
 著作权归@pdai所有
 原文链接：https://pdai.tech/md/algorithm/alg-core-divide-and-conquer.html
 ```
-
-
 
 ## 动态规划  转换小问题  保存
 
@@ -2921,12 +2860,6 @@ public int robRange(int start,int end ,int[] nums){
 }
 ```
 
-
-
-
-
-
-
 # algoLagou
 
 ## 数组：实现整数的数字反转 7
@@ -2938,9 +2871,10 @@ public int robRange(int start,int end ,int[] nums){
 解法一：暴力解法 
 
 1. 整数转字符串，再转字符数组 
-2. 反向遍历字符数组，并将元素存储到新数 组中
 
- 3. 将新数组转成字符串，再转成整数输出
+2. 反向遍历字符数组，并将元素存储到新数 组中
+   
+   3. 将新数组转成字符串，再转成整数输出
 
 ```java
 public int reverse(int x) {
@@ -2972,9 +2906,4 @@ return result * sign;
 }
 ```
 
-
-
-
-
 # Algo  2
-

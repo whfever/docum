@@ -1,15 +1,18 @@
 # MDN
+
 ## HTML
+
 1. 创建元素 ： 标签，属性，内容
-```js
-1. meta utf-8 description
-<p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
-结构化文档： h p 强调span strong  em b,i,u
-链接  ：
-a <a href="https://www.mozilla.org/zh-CN/">Mozilla 主页</a>的链接。
-<a href="https://developer.mozilla.org/zh-CN/">
-  <img src="mdn_logo.svg" alt="MDN Web 文档主页" />
-</a>
+   ```js
+2. meta utf-8 description
+   
+   <p>Japanese example: <span lang="ja">ご飯が熱い。</span>.</p>
+   结构化文档： h p 强调span strong  em b,i,u
+   链接  ：
+   a <a href="https://www.mozilla.org/zh-CN/">Mozilla 主页</a>的链接。
+   <a href="https://developer.mozilla.org/zh-CN/">
+   <img src="mdn_logo.svg" alt="MDN Web 文档主页" />
+   </a>
 
 引用： <link rel="stylesheet" href="my-css-file.css" />
         <script src="my-js-file.js" defer></script>
@@ -37,8 +40,8 @@ article > p {
 li[class^="a"]匹配了任何值开头为a的属性，于是匹配了前两项。
 li[class$="a"]匹配了任何值结尾为a的属性，于是匹配了第一和第三项。
 li[class*="a"]匹配了任何值的字符串中出现了a的属性，于是匹配了所有项。
-
 ```
+
 1. 样式
 
 ```js
@@ -49,15 +52,18 @@ li[class*="a"]匹配了任何值的字符串中出现了a的属性，于是匹�
   background-color: rebeccapurple;
   transform: rotate(0.8turn);
 }
-
 ```
+
 ## Vue
+
 1. 创建组件 导入导出   数据传递
-```js
-{{}}  props
-:checked="isDone"  //function
-:done="item.done"  //data
-v-for="item in items"  :key="item.id"      //data
+   
+   ```js
+   {{}}  props
+   :checked="isDone"  //function
+   :done="item.done"  //data
+   v-for="item in items"  :key="item.id"      //data
+   ```
 
 ```
 2.  渲染组件
@@ -71,6 +77,7 @@ v-if  v-else
 3. 事件
 
 子组件  @change="$emit('checkbox-changed') "->父组件@checkbox-changed="updateDoneStatus(item.id)"
+
 ```js
 v-on methods:{}  @submit="obsubmit"    v-model="label"
   this.$emit('todo-added', this.label)
@@ -82,5 +89,4 @@ v-on methods:{}  @submit="obsubmit"    v-model="label"
     return `${numberFinishedItems} out of ${this.ToDoItems.length} items completed`
   }
 },
-
 ```

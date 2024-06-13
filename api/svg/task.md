@@ -1,10 +1,11 @@
 # Task
+
 ## Vscode
+
 - 修改shortkeys  *ctrl shift*  
 - 修改默认shell  *settings.json*  *shell:windwos*  -> git bash
 - autosave  delay
-- 
-# Tool
+- # Tool
 
 ## program
 
@@ -22,11 +23,13 @@
 - git
 
 ## instrument
+
 - snipaste,everything, powerkeys, windowstop
 - youdaoclash, xunlei ,- diskgenkis, ventory
 - bookx 
 
 ## disk
+
 - picture
   - wall
 - doc

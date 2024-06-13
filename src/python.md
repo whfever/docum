@@ -1,12 +1,14 @@
 # python
+
 ## 爬虫
+
 1. selenium  测试自动库
 2. beautifulsoup html解析库
 3. request 下载  urlib
 4. you-get  下载视频
 5. multiprocessing  多线程  ThreadPool
-6.  Python-tesseract  ocr
-7.  pymysql  mysqlclient 
+6. Python-tesseract  ocr
+7. pymysql  mysqlclient 
 
 ```python
 # -*- coding: utf-8 -*-
@@ -28,9 +30,10 @@ for i,url in enumerate(urls):
     print("This is file"+str(i+1)+" downloading! You still have "+str(142-i-1)+" files waiting for downloading!!")
     file_name = "./ncfile/"+url.split('/')[-1] # 文件保存位置+文件名
     urllib.request.urlretrieve(url, file_name)
-
 ```
+
 ### 分块下载
+
 ```python
 import requests
 url = 'https://buildmedia.readthedocs.org/media/pdf/python-guide/latest/python-guide.pdf'
@@ -39,11 +42,11 @@ with open("PythonBook.pdf", "wb") as Pypdf:
     for chunk in r.iter_content(chunk_size = 1024): # 1024 bytes
         if chunk:
             Pypdf.write(chunk)
-
 ```
+
 ### 并行下载
 
-```python   
+```python
 import os
 import requests
 from time import time
@@ -87,17 +90,19 @@ if __name__ == '__main__':
     pool.map(main, urls)
     pool.close()
     pool.join()
-
 ```
 
 ### ip代理库
+
 [python](https://github.com/Python3WebSpider/ProxyPool )
 
 ### 免登录
 
 1. Cookie
-```python
-import requests
+   
+   ```python
+   import requests
+   ```
 
 headers = {
     # 假装自己是浏览器    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.75 Chrome/73.0.3683.75 Safari/537.36',
@@ -109,8 +114,8 @@ session = requests.Session()
 response = session.get('https://biihu.cc/people/wistbean%E7%9C%9F%E7%89%B9%E4%B9%88%E5%B8%85', headers=headers)
 
 print(response.text)
-```  
 
+```
 2. selenum
 
 ```python
@@ -125,7 +130,8 @@ cookies = webdriver.get_cookies()
 ```
 
 #### 验证码
-1.  Python-tesseract ocr
+
+1. Python-tesseract ocr
 
 ```python
 captcha = Image.open("captcha1.png")
@@ -149,6 +155,7 @@ def convert_img(img,threshold):
 #### Appium 爬取你的微信朋友圈
 
 ### matplotlib
+
 数据分析 pyecharts
 
 ```python
@@ -188,23 +195,26 @@ def wordcloud_base() -> WordCloud:
 
 # 需要安装 snapshot_selenium
 make_snapshot(driver, wordcloud_base().render(), "WordCloud.png")
-
 ```
 
 ### 爬虫框架
+
 scrapy
+
 ```python
  scrapy startproject qiushibaike
 ```
+
 ## 反爬
 
 ### css 加密
+
 1. 存储字典编码
 
 ### js 加密
+
 生成sign
+
 ```python
-
 n.md5("fanyideskweb" + e + i + "@6f#X3=cCuncYssPsuRUE")
-
 ```

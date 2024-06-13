@@ -4,10 +4,6 @@
 
 ![taro](https://cdn.epoos.com/img/blog/xcxkj.png)
 
-
-
-
-
 - Vant
 
 - View
@@ -15,24 +11,26 @@
 - #### AntDesign  AntDesign Mobile
 
 - FlatUI是基于Bootstrap做的Metro化改造
+
 - Nutui  JD
+
 - Kbone  ui
 
-| 前端框架                                                     |                      |                                                              |
-| ------------------------------------------------------------ | -------------------- | ------------------------------------------------------------ |
-| [无界](https://wujie-micro.github.io/doc/)                   | Tencent  Vue   React | 文档  实战   无极低代码                                      |
-| [nutui](https://github.com/jdf2e/nutui)                      | JD Vue   React  Taro | 小程序   组件库                                              |
-| [Kbone](https://github.com/Tencent/kbone)                    | Tencent  Vue  React  | 小程序 项目模版  组件库                                      |
-| [TalkingData\|Iview we-app](https://github.com/TalkingData)  | Talkingdata          | 小程序  组件库                                               |
-| [Taro](https://github.com/NervJS/taro#%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8B) | React/Vue/Nerv       | 小程序/Web/APP                                               |
-| [Mpvue](https://github.com/Meituan-Dianping)                 | meituan  Vue         | 小程序                                                       |
-| [Vant](https://github.com/youzan/vant-weapp)                 | youzan               | 小程序 组件库                                                |
-| [stackblitz](https://stackblitz.com/)                        | 在线ide              |                                                              |
-| [Layui](http://www.layui-vue.com/zh-CN/index)                | Vue                  | 组件库  模板                                                 |
-| [ElementUI](https://element.eleme.io/#/zh-CN/resource)       | Vue                  | 组件库  [Element-admin](https://github.com/PanJiaChen/vue-element-admin) |
-| [Semi-design](https://github.com/DouyinFE/semi-design)       | DouyinFE  React      | 组件库                                                       |
-| [vuetify](https://github.com/vuetifyjs/vuetify)              | VUe                  | 组件库                                                       |
-| [foxpage](https://www.foxpage.io/#/)                         |                      | 低代码                                                       |
+| 前端框架                                                                        |                      |                                                                       |
+| --------------------------------------------------------------------------- | -------------------- | --------------------------------------------------------------------- |
+| [无界](https://wujie-micro.github.io/doc/)                                    | Tencent  Vue   React | 文档  实战   无极低代码                                                        |
+| [nutui](https://github.com/jdf2e/nutui)                                     | JD Vue   React  Taro | 小程序   组件库                                                             |
+| [Kbone](https://github.com/Tencent/kbone)                                   | Tencent  Vue  React  | 小程序 项目模版  组件库                                                         |
+| [TalkingData\|Iview we-app](https://github.com/TalkingData)                 | Talkingdata          | 小程序  组件库                                                              |
+| [Taro](https://github.com/NervJS/taro#%E4%BD%BF%E7%94%A8%E6%A1%88%E4%BE%8B) | React/Vue/Nerv       | 小程序/Web/APP                                                           |
+| [Mpvue](https://github.com/Meituan-Dianping)                                | meituan  Vue         | 小程序                                                                   |
+| [Vant](https://github.com/youzan/vant-weapp)                                | youzan               | 小程序 组件库                                                               |
+| [stackblitz](https://stackblitz.com/)                                       | 在线ide                |                                                                       |
+| [Layui](http://www.layui-vue.com/zh-CN/index)                               | Vue                  | 组件库  模板                                                               |
+| [ElementUI](https://element.eleme.io/#/zh-CN/resource)                      | Vue                  | 组件库  [Element-admin](https://github.com/PanJiaChen/vue-element-admin) |
+| [Semi-design](https://github.com/DouyinFE/semi-design)                      | DouyinFE  React      | 组件库                                                                   |
+| [vuetify](https://github.com/vuetifyjs/vuetify)                             | VUe                  | 组件库                                                                   |
+| [foxpage](https://www.foxpage.io/#/)                                        |                      | 低代码                                                                   |
 
 ## 前端工程化
 
@@ -190,4 +188,4 @@ src/index.ts:2:1 - error TS2322: Type 'number' is not assignable to type 'boolea
 > 有良好的代码风格，结构设计与程序架构者优先
 > 了解或熟悉后端开发者优先（如 Java / Go / Node.js ）
 
-组件化开发、模块化开发、 Webpack / Vite 构建工具、 Node.js 开发… 这些技能都属于前端工程化开发的知识范畴，不仅在面试的时候会提问，入职后新人接触的项目通常也是直接指派前端工程化项目，如果能够提前掌握相关的知识点，对求职也是非常有帮助的！
+组件化开发、模块化开发、 Webpack / Vite 构建工具、 Node.js 开发… 这些技能都属于前端工程化开发的知识范畴，不仅在面试的时候会提问，入职后新人接触的项目通常也是直接指派前端工程化项目，如果能够提前掌握相关的知识点，对求职也是非常有帮助的！****

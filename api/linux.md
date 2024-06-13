@@ -1,5 +1,7 @@
 # Linux
+
 ## Emacs
+
 HOME | Links | About | Read
 Emacs笔记
 不是教程，非常不完整 文末我贴了几个不错的链接
@@ -116,12 +118,11 @@ Emacs框架操作命令
 链接
 Emacs的org-mode org-mode是最好的编辑利器，没有之一
 
-
-
-
 ## app
-1.  monsterWm 平铺窗口管理器
-## start
+
+1. monsterWm 平铺窗口管理器
+   
+   ## start
 
 核心理念：
 
@@ -140,8 +141,8 @@ Emacs的org-mode org-mode是最好的编辑利器，没有之一
 
 ## 21 [emacs](https://book.emacs-china.org/)
 
-
 ## blog
+
 Emacs *布道*
 这里主要是一些布道内容，用于展示 Emacs 的强大：
 
@@ -153,8 +154,6 @@ Emacs *布道*
 git 可视化Magit：GUI 的简单 + CLI 的强大！
 内置 Terminal
 （看完官网不理解这些插件的强大之处的话，建议上 YouTube 观看大师的使用方式。）
-
-
 
 基本快捷键
 Emacs 快捷键基本中的基本是这几个：
@@ -168,7 +167,6 @@ S（uper，PC 对应 Win 键，Mac 对应 command）
 2. 相对于快捷键功能，Emacs 更多的功能并没有绑定快捷键，这些功能都对应了 Elisp 的函数，你可以按下 M-x 来运行这些函数。
 
 3. 对于需要在 Shell 中完成的任务，你可以按下 M-! 通常也就是 Meta-Shift-1，这样就能在 Emacs 中打开一个终端而不用单独开启 Shell 会话。
-
 
 4. 你可以直接输入 emcas somefile 直接打开文件，也可以启动 Emacs 后输入 C-x C-j 输入文件地址来打开指定文件。
 
@@ -225,6 +223,7 @@ bbatsov/prelude 相对全功能，但在试用了一段时间后发现自定义�
 Spacemacs 结合了 Emacs 和 Vim 的优点，漂亮的 UI 即使不想要任何 Vim 特性也值得你一试。
 
 ## keyboard
+
 编辑命令
 Ctrl + a ：移到命令行首
 Ctrl + e ：移到命令行尾
@@ -280,9 +279,10 @@ _友情提示_：
 
 ## deepin
 
-
 # MAC
+
 ## Shell
+
 1. iTerm2 Warp
 
 ## tmux
@@ -293,26 +293,26 @@ window 是 Tmux 的第二层级，一个 window 可以包含多个 pane；
 Tmux 中 buffer 概念和 Vim 类似，用于保存复制或剪切的文本或命令输出，使用 Prefix+[ 进入复制模式时就会遇到选择缓冲区和剪贴板缓冲区。
 Pane（面板）如果你用过 Vim 之类的编辑器肯定不会对 Pane 概念感到陌生，Tmux 也支持类似的概念，支持横向和纵向切割面板功能。
 
-功能	命令
-水平切割（上下两半）	Prefix + "
-竖直切割（左右）	Prefix + %
-调整面板宽度／高度	Prefix - 方向键
+功能    命令
+水平切割（上下两半）    Prefix + "
+竖直切割（左右）    Prefix + %
+调整面板宽度／高度    Prefix - 方向键
 窗口（window）
 窗口的层级要高于面板，作用类似于标签页，默认会在终端的底部显示窗口列表。
 
-功能	命令
-创建新窗口	Prefix + c
-重命名窗口	Prefix + $
-切换到某个窗口	Prefix + 窗口 ID
+功能    命令
+创建新窗口    Prefix + c
+重命名窗口    Prefix + $
+切换到某个窗口    Prefix + 窗口 ID
 会话（session）
 会话的层级更高于窗口，在终端输入 tmux 会创建并进入一个新的会话，你可以使用会话来区分 使用者或者任务。
 
-功能	命令
-创建并进入新会话	tmux
-进入未关闭的会话	tmux attach 会话名
-退出但保留当前会话	Prefix + d
-列出所有会话	Prefix + s
-重命名当前会话	Prefix + $
+功能    命令
+创建并进入新会话    tmux
+进入未关闭的会话    tmux attach 会话名
+退出但保留当前会话    Prefix + d
+列出所有会话    Prefix + s
+重命名当前会话    Prefix + $
 Tmux Prefix（prefix）
 Tmux 使用 Prefix 以将自身的快捷键与其它应用区分，运行 Tmux 快捷键时首先按下这个 Prefix（默认是 Ctrl-b 组合键），松手后紧接着按下对应操作的快捷键。
 
@@ -442,7 +442,6 @@ set-window-option -g pane-base-index 1
 bind '"' split-window -v -c "#{pane_current_path}"
 bind % split-window -h -c "#{pane_current_path}"
 
-
  Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
 Oh My Tmux
@@ -454,15 +453,16 @@ Tmux 快捷键 & 便条
 A Tmux crash course: tips and tweaks
 持久保存 Tmux 会话
 
-
 # vim
+
 > 1. 移动we 命令:! 重复.  替换
 > 2. 块v 分屏w 提示p 宏录制
-100idesu [ESC]
+>    100idesu [ESC]
+
 ## windwow
+
 1. :sp file 上面的这个命令将会上下分割当前文件和新打开的 file 。
-2. 
-   Ctrl + w l 将当前的光标定位到右边的屏幕
+2. Ctrl + w l 将当前的光标定位到右边的屏幕
    Ctrl + w c 上面这个命令是关闭当前的分屏
    Ctrl + w q 上面的这个命令也是关闭当前的分屏，如果是最后一个分屏将会退出 VIM 。
 
@@ -479,39 +479,44 @@ A Tmux crash course: tips and tweaks
 6、:wall此命令表示 "write all" (全部保存)。但实际上，它只会保存修改过的文件。
 
 7、vim -o one.txt two.txt three.txt这个命令就是在终端下使用的,就是一次性打开3个文件并使用分割形式显示。
-## repeat
-1. . 100idesu [ESC] 
-## block
-1. ctrl v d
-2. ctrl v I [ESC] [ESC]
-3. ctrl v J join to one line
 
-##  f
+## repeat
+
+1. . 100idesu [ESC] 
+   
+   ## block
+2. ctrl v d
+3. ctrl v I [ESC] [ESC]
+4. ctrl v J join to one line
+
+## f
 
 1. ctrl f /ctrl b h j k l w e   i,I,a,A,o,O,s,S
-2.  
-      0 移动到行头
-      ^ 移动到本行的第一个不是 blank 字符
-      $ 移动到行尾
-      g_ 移动到本行最后一个不是 blank 字符的位置
-      w 光标移动到下一个单词的开头
-      e 光标移动到下一个单词的结尾
-      fa 移动到本行下一个为 a 的字符处，fb 移动到下一个为 b 的字符处
-      nfa 移动到本行光标处开始的第 n 个 字符为 a 的地方（n 是 1，2，3，4 ... 数字）
-      Fa 同 fa 一样，光标移动方向同 fa 相反
-      nFa 同 nfa 类似，光标移动方向同 nfa相反
-      nG 光标定位到第 n 行的行首
 
-      gg 光标定位到第一行的行首
-      G 光标定位到最后一行的行首
-      H 光标定位到当前屏幕的第一行行首
-      M 光标移动到当前屏幕的中间
-      L 光标移动到当前屏幕的尾部
-      zt 把当前行移动到当前屏幕的最上方，也就是第一行
-      zz 把当前行移动到当前屏幕的中间
-      zb 把当前行移动到当前屏幕的尾部
-      % 匹配括号移动，包括 ( , { , [ 需要把光标先移动到括号上
+2.   0 移动到行头
+     ^ 移动到本行的第一个不是 blank 字符
+     $ 移动到行尾
+     g_ 移动到本行最后一个不是 blank 字符的位置
+     w 光标移动到下一个单词的开头
+     e 光标移动到下一个单词的结尾
+     fa 移动到本行下一个为 a 的字符处，fb 移动到下一个为 b 的字符处
+     nfa 移动到本行光标处开始的第 n 个 字符为 a 的地方（n 是 1，2，3，4 ... 数字）
+     Fa 同 fa 一样，光标移动方向同 fa 相反
+     nFa 同 nfa 类似，光标移动方向同 nfa相反
+     nG 光标定位到第 n 行的行首
+   
+     gg 光标定位到第一行的行首
+     G 光标定位到最后一行的行首
+     H 光标定位到当前屏幕的第一行行首
+     M 光标移动到当前屏幕的中间
+     L 光标移动到当前屏幕的尾部
+     zt 把当前行移动到当前屏幕的最上方，也就是第一行
+     zz 把当前行移动到当前屏幕的中间
+     zb 把当前行移动到当前屏幕的尾部
+     % 匹配括号移动，包括 ( , { , [ 需要把光标先移动到括号上
+
 3. dd yy x p
+   
         d 是删除的意思，通常搭配一个字符 ( 删除范围 ) 实现删除功能，常用的如下：
         dw 删除一个单词
         dnw 删除 n 个单词，
@@ -520,65 +525,72 @@ A Tmux crash course: tips and tweaks
         dd 删除一整行
         ndd 删除光标处开始的 n 行
         重复命令 10dd 删除十次
+
 4. u ctrl r
-5. 
-    % : 匹配括号移动，包括 (, {, [. （陈皓注：你需要把光标先移到括号上）
-    * 和 #:  匹配光标当前所在的单词，移动光标到下一个（或上一个）匹配单词（*是下一个，#是上一个）
+
+5.  % : 匹配括号移动，包括 (, {, [. （陈皓注：你需要把光标先移到括号上）
+   
+   * 和 #:  匹配光标当前所在的单词，移动光标到下一个（或上一个）匹配单词（*是下一个，#是上一个）
 
 ## :
+
 1. %s/1/2  i 表示大小写不敏感查找，I 表示大小写敏感：c 表示需要确认，
 2. ! linux命令
-  :r !date  执行 date 命令显示时间，并且添加命令结果到文本中。
+   :r !date  执行 date 命令显示时间，并且添加命令结果到文本中。
 3. map:map ^M I#<ESC>上面的例子也就是通过快捷键 Ctrl + m 在文件光标处所在行的行首插入 # （ # 代表注释）。
 4. :ab email xxxx@gmail.com
 5. :set nu  该命令会显示行号。
 
 ## pattern
+
 1. Ctrl+n 或者 Ctrl+p 会有代码提示功能
 
 ## vimrc
+
 [vim](https://razeen.me/posts/my-macvim-vimrc/) vim配制
 
-
 # shell
+
 ### 自启动
 
 1. 如果你想让脚本在每次开机后都能后台运行，你可以将它添加到系统的启动项中。下面是一些通用的方法来实现这个目标：
-
+   
         Windows系统：
-
+       
         将你的脚本存储在一个特定的文件夹中，比如C:\Scripts。按下Win + R，输入"shell:startup"，然后按回车键。
         在打开的文件夹中创建一个快捷方式，指向你的脚本文件。这样，每次Windows启动时，该脚本将自动在后台运行。
         macOS系统：
-
+       
         将你的脚本存储在一个特定的文件夹中，比如~/Documents/Scripts。打开系统设置，点击"用户与群组"，然后选择启动项。
         点击"+"按钮，选择你的脚本文件。这样，每次macOS启动时，该脚本将自动在后台运行。
-
+       
         Linux系统：
         将你的脚本存储在一个特定的文件夹中，比如~/Scripts。打开终端，输入以下命令：
         bash  crontab -e   在打开的编辑器中添加一行，指定在系统启动时运行你的脚本：
         bash   @reboot /path/to/your/script.sh   保存并关闭编辑器。
         这样，每次Linux系统启动时，该脚本将自动在后台运行。
 
-
-
 # Manjaro
+
 ## Short keys
-1.  alt F2  :terminal 0
+
+1. alt F2  :terminal 0
 
 ## pcman
 
 1. 切换系统软件源 
-sudo pacman-mirrors -i -c China -m rank
+   sudo pacman-mirrors -i -c China -m rank
 2. 添加archlinuxcn源，获得更多的软件包
-# 修改/etc/pacman.conf
-echo -e "\n[archlinuxcn]\nServer = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/\$arch\n\n" | sudo tee -a /etc/pacman.conf
+   
+   # 修改/etc/pacman.conf
+   
+   echo -e "\n[archlinuxcn]\nServer = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/\$arch\n\n" | sudo tee -a /etc/pacman.conf
 
 # 导入GPG key
+
 sudo pacman -Sy archlinuxcn-keyring
 3. update system
 sudo pacman -Syyu
-
 
 　　尽管manjaro下的软件已经够多了，安装方式已经够灵活，官方的首推pacman，再推yay，实在不行还有aur，为了安装Xmind-for-Linux-amd64bit-22.11.3656.deb，先去官方下载包
 
@@ -602,17 +614,14 @@ sudo pacman -Syyu
 
 　　例如：sudo pacman -U xmind-vana-22.11.3656-1-x86_64.pkg.tar.zst
 
-
 2. Q
-1. input chinese  ： fcitx5  software
-2. glamereader ocr
-3. flameshot  ：pacman -S flameshot
-4. yay ""  yay -S
-5. deb 转。tar.zst   
-6. 文档？
-7.	
-yay -S clash-for-windows-chinese
-
+3. input chinese  ： fcitx5  software
+4. glamereader ocr
+5. flameshot  ：pacman -S flameshot
+6. yay ""  yay -S
+7. deb 转。tar.zst   
+8. 文档？
+9. yay -S clash-for-windows-chinese
 
 ```
 pacman:
@@ -646,4 +655,3 @@ sudo pacman -U url#不在 pacman 配置的源里面，例：pacman -U http://www
 
 sudo pacman -Ss keyword
 ```
-
