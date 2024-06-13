@@ -6,7 +6,7 @@
 
 - bandzip bandview everything  snipaste  powerkeys
   
-  - q-dir clash  bookxnote   windwosTop
+  - q-dir clash  bookxnote   windwosTop  unigetUI
 
 - vscode marktext  xmind
   
