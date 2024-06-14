@@ -6,13 +6,13 @@
 
 - bandzip bandview everything  snipaste  powerkeys
   
-  - q-dir clash  bookxnote   windwosTop  unigetUI
+  - q-dir clash  bookxnote   windwosTop
 
 - vscode marktext  xmind
   
   - dbever tabby xshell git-cmd  debian
 
-F3：boo，wangyi，xm ，qdir，kimi
+F3：boo，wangyi，xm ，qdir
 
 F4：xshell，pycharm，dbever，idea
 
