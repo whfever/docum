@@ -27,6 +27,7 @@ kubectl delete deployment <deployment-name>
 kubectl scale deployment <deployment-name> --replicas=0
 kubectl delete pod <pod-name>
 # 停止容器
+
 kubectl exec <pod-name> -- /bin/bash -c "kill -STOP <container-id>"
 # 暂停容器
 kubectl patch pod <pod-name> -p '{"spec":{"terminationGracePeriodSeconds":0}}'
