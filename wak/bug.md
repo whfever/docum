@@ -27,3 +27,9 @@ kubectl patch volumesnapshot `kubectl get volumesnapshot  | awk '{print $1}'`   
 ```bash
 wsl --update
 ```
+
+
+## 联调
+1. nginx代理
+   
+   https访问cors  -》http并且带#

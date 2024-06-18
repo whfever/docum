@@ -14,6 +14,51 @@ printenv VARIABLE_NAME
 export MY_VAR="some_value"
 unset MY_VAR
 ```
+
+- 出错即退出
+``` shell
+#!/bin/bash
+set -e  # 设置脚本在遇到错误时立即退出
+
+command1 || { echo "command1 failed"; exit 1; }
+command2 || { echo "command2 failed"; exit 1; }
+command3 || { echo "command3 failed"; exit 1; }
+
+```
+
+- 同步执行代码
+
+```shell
+
+#!/bin/bash
+
+# 启动Java程序，使用&将其放入后台执行
+java -jar your-java-program.jar &
+
+# 获取Java程序的进程ID
+java_pid=$!
+
+# 这里可以执行一些其他命令
+echo "Java程序已在后台启动，正在执行其他任务..."
+
+# ... 这里是其他命令 ...
+
+# 等待Java程序完成
+wait $java_pid
+
+# Java程序执行完成后，执行后续命令
+echo "Java程序执行完毕，所有任务已完成。"
+```
+
+- 列出命令
+```shell
+find /bin /usr/bin -type f -executable
+env | grep -o '^[^=]*'
+alias 
+
+```
+
+
 ## vim
 - 删除当前行到最后
 ```sh
@@ -49,7 +94,8 @@ kubectl logs -f <pod-name> -n <namespace>
 ## Docker
 - 构建java镜像
 
-```dockerfile
+``` shell
+
 # 使用官方Java镜像作为基础镜像
 FROM maven:3.6.3-jdk-11 AS build
 
