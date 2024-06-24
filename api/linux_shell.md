@@ -25,3 +25,17 @@ else
     echo "Java application is running on port $PORT."
 fi
 ```
+
+##   if
+
+```shell
+echo "001 name" | awk -F'[ :]+' '{print $1}'
+echo "id:001 name" | awk -F'id:| ' '{print $2}'
+line="id:001 gid:xp0"
+id=$(echo $line | sed 's/.*id:\(.*\)/\1/')   #001 gid:xp0
+sed 's/id:\([^ ]*\)/id:/'  #001
+
+# Perl表达式
+echo "hello id：001 name：888" | grep -oP 'id:\K\d+' #001
+echo "hello id:001 name:888" | tr -s ' ' '\t' | cut -d':' -f2 |tr -s ' ' | cut -d$'\t' -f2 # name
+```
