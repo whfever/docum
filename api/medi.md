@@ -109,60 +109,110 @@
 ## project
 
 1. [vestacp](https://vestacp.com/)  Linux panel
+
 2. [zstack](https://www.zstack.io/)  加速信息化建设进程。
+
 3. [wordcloud](https://github.com/fuqiuai/wordCloud) 词云
+
 4. [trojan](https://github.com/p4gefau1t/trojan-go?tab=readme-ov-file) TLS 代理
+
 5. [android轮子](https://github.com/getActivity/AndroidProject) Android技术框架
+
 6. [alita](https://github.com/areslabs/alita)  react native to small app
+
 7. [深度学习 论文精读](https://github.com/mli/paper-reading) Mu Li
+
 8. [prompt gpt](https://github.com/linexjlin/GPTs)
+
 9. [awesome](https://github.com/sindresorhus/awesome?tab=readme-ov-file)
+
 10. [awesome-python](https://awesome-python.com/#recommender-systems)
+
 11. [trending](https://github.com/trending/developers)  trending project developer 趋势 排行 推荐
+
 12. [ai](https://github.com/StanGirard/quivr) assistent gpt 离线
+    
     1. [chat](https://www.quivr.app/chat/0f2af3ea-283f-4e41-a804-018284967b7a)  
+
 13. [zsh](https://github.com/ohmyzsh/ohmyzsh)  插件 主题 shell
+
 14. [vim,plugin](https://github.com/spf13/spf13-vim)
+
 15. [Pake](https://github.com/tw93/Pake?tab=readme-ov-file) 
     🤱🏻 Turn any webpage into a desktop app with Rust. 🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
+
 16. [github,book](https://github.com/JiashuWu/Books)   悉尼大学
+
 17. [shell 脚本]()
+
 18. [javaOffer](https://github.com/zlhcsm/javaOffer/tree/master/公司面经)
+
 19. [读音](https://github.com/shimohq/chinese-programmer-wrong-pronunciation)
+
 20. [装扮](https://github.com/HumanAIGC/OutfitAnyone)  阿里巴巴集团智能计算研究院
+
 21. [爬虫](https://github.com/wistbean/learn_python3_spider?tab=readme-ov-file) 
+
 22. [ip代理池](https://github.com/Python3WebSpider/ProxyPool)
+
 23. [python login](https://github.com/Kr1s77/awesome-python-login-model)
+
 24. [awesome -vue](https://github.com/vuejs/awesome-vue)
+    
     1. [vue源码](https://github.com/ygs-code/vue)
     2. [awesome node.js](https://github.com/parro-it/awesome-micro-npm-packages) npm库
+
 25. [program-book](https://github.com/justjavac/free-programming-books-zh_CN?tab=readme-ov-file)
+
 26. [react](https://github.com/xuya227939/tristana) 
     react 18 + react-router 5 + mobx 6 + antd 5 + typescript back-stage management scaffold framework
+
 27. [全栈 前端 book devops](https://www.phodal.com/)
+
 28. [book](https://github.com/MichealWayne/books) html css js Vue 移动端 算法 编码 python 项目管理
+
 29. [开源阅读 apk](https://github.com/gedoor/legado/tree/master)  Kotlin 76.8%   Java  14.8%
+
 30. [book free](https://github.com/ruanyf/free-books?tab=readme-ov-file)
+
 31. [玩转vscode](https://github.com/dell-j/vscode/blob/master/01%20!%20学编辑器，到底应该学什么？.md)
+
 32. [telegram](https://github.com/jackhawks/rectg?tab=readme-ov-file)
+
 33. [github top chiness](https://github.com/GrowingGit/GitHub-Chinese-Top-Charts)
+
 34. [wxjava 支付](https://github.com/Wechat-Group/WxJava)
+
 35. [javascript algorithms](https://github.com/sisterAn/JavaScript-Algorithms)
+
 36. [前端面试](https://github.com/Advanced-Frontend/Daily-Interview-Question?tab=readme-ov-file)
+
 37. [文章同步](https://github.com/wechatsync/Wechatsync)
+
 38. [js](https://risingstars.js.org/2023/en?mode=dark)
+
 39. [工具类软件](https://www.v2ex.com/t/896808?p=1)
     
     ## video
+
 40. [udacity](https://www.udacity.com/)  deeplearning 
+
 41. [linkedin](https://www.linkedin.com/learning?trk=homepage-learning_nav-header-logo)  职场学习
+
 42. [educative](https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers ) 系统设计面试
+
 43. [class central](https://www.classcentral.com/) course [coursera](https://www.coursera.org/)
+
 44. [腾旭课堂](https://ke.qq.com/ )
+
 45. [A姐](https://www.ahhhhfs.com/welfare/recourse/ )   资源
+
 46. [阿里云盘](https://www.aliyundrive.com/drive/file/resource )
+
 47. book [书栈](https://www.bookstack.cn/)
+
 48. [学课大全 语雀](https://leaaiv.cn/project-1/doc-22/)
+
 49. [book video](https://www.docspedia.world/index.php)  Trackp s.
 
 ## remote
@@ -249,6 +299,7 @@
       5. 卓有成效程序员 企业应⽤架构模式  程序员必读之软件架构
 
 4. gap :
+   
    1. 酷安 阅读PRO snapseed
    2. picgo image server
    3. giffgaff card

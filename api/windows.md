@@ -76,3 +76,11 @@ npm config set registry https://registry.npmjs.org
 ## Word
 
 1.img  ^g 替换 全部
+
+# Request
+
+## 睡眠
+
+1.win+i
+
+2.control

@@ -4,8 +4,6 @@
 
 ![image-20230213161723562](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230213161723562.png)
 
-
-
 ## 理解当下的技术革命
 
 ```
@@ -31,9 +29,7 @@
 
 ![image-20230213180104542](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230213180104542.png)
 
-
-
->工作的心里周期：![image-20230213180433240](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230213180433240.png)
+> 工作的心里周期：![image-20230213180433240](https://cdn.jsdelivr.net/gh/whfever/figure/2022/science/image-20230213180433240.png)
 
 > 换位思考：程序是写出来给人看的，附带能在机器上运行。 ---计算机程序的结构与解释
 
@@ -48,10 +44,7 @@
 
 ## 财富是我的目标，金钱不是
 
-
-
 ```
 所有机器都有一种操作命令清单。电水壶有打开和关闭。
 机器语言--汇编语言--高级语言，汇编器做助手，有了重复n次操作的命令
 ```
-

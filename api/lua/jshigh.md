@@ -4,7 +4,6 @@
 
 - 后来 Ajax 因为 jQuery 火了而变得更加流行，这才打开了通向新世界的大门，可靠、稳定的应用程序应运而生
 - 前端模型、数据绑定、路由管理、反应式视图，全都爆发出来了。
-
 1. 1995 年，JavaScript 问世。当时，它的主要用途是代替 Perl 等服务器端语言处理输入验证
 2. JavaScript 终于踏上了标准化的征程 。也就是 ECMAScript（发音为“ek-ma-script”）这个新的脚本语言标准
 3. 万维网联盟（W3C，World Wide Web Consortium）开始了制定 DOM 标准的进程
@@ -47,7 +46,7 @@ document.head.appendChild(script);
 ```xhtml
 <script type="text/javascript">
   function compare(a, b) {
-  if (a &lt; b) {
+  if (a < b) {
   console.log("A is less than B");
   } else if (a > b) {
   console.log("A is greater than B");
@@ -98,7 +97,7 @@ let a2 = new Article('Jake');
    5. break continue
    6. with 1. 上面代码中的每一行都用到了 location 对象。如果使用 with 语句，就可以少写一些代码：
       with(location) { let qs = （location.）search.substring(1); let hostName = hostname; let url = href; }
-1. 函数
+2. 函数
 
 ```js
 // var块作用域 let函数作用域
@@ -221,16 +220,16 @@ let num = Math.floor(Math.random() * 10 + 1);
 ```
 
 2. 集合引用类型
-1. object
-1. Array ： 栈方法 队列方法 排序 搜索 迭代 归并
+3. object
+4. Array ： 栈方法 队列方法 排序 搜索 迭代 归并
    1.  every()：对数组每一项都运行传入的函数，如果对每一项函数都返回 true，则这个方法返回 true。
        filter()：对数组每一项都运行传入的函数，函数返回 true 的项会组成数组之后返回。
        forEach()：对数组每一项都运行传入的函数，没有返回值。
        map()：对数组每一项都运行传入的函数，返回由每次函数调用的结果构成的数组。
        some()：对数组每一项都运行传入的函数，如果有一项函数返回 true，则这个方法返回 true。
       这些方法都不改变调用它们的数组
-1. Map WeakMap
-1. Set
+5. Map WeakMap
+6. Set
 
 ```javascript
 /**
@@ -376,6 +375,7 @@ console.log(title); // Software engineer
 ```
 
 原型模式
+
 ```js
 let Person = function() {}; 
 Person.prototype.name = "Nicholas"; 
@@ -412,8 +412,10 @@ console.log(Person.prototype.__proto__);
 // ... 
 // } 
 ```
+
 原型层级
-```js 
+
+```js
 function Person() {} 
 Person.prototype.name = "Nicholas"; 
 Person.prototype.age = 29; 
@@ -428,11 +430,12 @@ console.log(person1.name); // "Greg"，来自实例
 console.log(person2.name); // "Nicholas"，来自原型
 delete person1.name; 
 console.log(person1.name); // "Nicholas"，来自原型
-
 ```
+
 只要通过对象可以访问，in 操作符就返回 true，而 hasOwnProperty()只有属性存在于实例上
 时才返回 true。因此，只要 in 操作符返回 true 且 hasOwnProperty()返回 false，就说明该属性
 是一个原型属性。来看下面的例子
+
 ```js
 function Person() {} 
 Person.prototype.name = "Nicholas"; 
@@ -449,6 +452,7 @@ console.log(hasPrototypeProperty(person, "name")); // false
 ```
 
 属性枚举顺序
+
 ```js
 let k1 = Symbol('k1'), 
  k2 = Symbol('k2'); 
@@ -470,6 +474,7 @@ console.log(Object.getOwnPropertySymbols(o));
 ```
 
 对象迭代
+
 ```javascript
 const o = { 
  foo: 'bar', 
@@ -488,7 +493,6 @@ console.log(Object.entries((o)));
 来自包含引用值的属性。来看下面的例子：
 
 ```js
-
 function Person() {} 
 Person.prototype = { 
  constructor: Person, 
@@ -506,7 +510,6 @@ person1.friends.push("Van");
 console.log(person1.friends); // "Shelby,Court,Van" 
 console.log(person2.friends); // "Shelby,Court,Van" 
 console.log(person1.friends === person2.friends); // true
-
 ```
 
 TODO: 
@@ -535,7 +538,6 @@ SubType.prototype.getSubValue = function () {
 }; 
 let instance = new SubType(); 
 console.log(instance.getSuperValue()); // true
-
 ```
 
 实际上，原型链中还有一环。默认情况下，所有引用类型都继承自 Object，这也是通过原型链实
@@ -566,8 +568,8 @@ SubType.prototype.getSuperValue = function () {
 }; 
 let instance = new SubType(); 
 console.log(instance.getSuperValue()); // false 
-
 ```
+
 在使用原型实现继承时，原型实际上变成了另一个类型的实例。这意味着原先的实例属性摇身一变成为了原型属性。
 
 ```js
@@ -583,8 +585,10 @@ console.log(instance1.colors); // "red,blue,green,black"
 let instance2 = new SubType(); 
 console.log(instance2.colors); // "red,blue,green,black"
 ```
+
 **盗用构造函数**
 为了解决原型包含引用值导致的继承问题，一种叫作“盗用构造函数”（constructor stealing）的技术在开发社区流行起来（这种技术有时也称作“对象伪装”或“经典继承”）。
+
 ```js
 function SuperType() { 
  this.colors = ["red", "blue", "green"]; 
@@ -601,6 +605,7 @@ console.log(instance2.colors); // "red,blue,green"
 ```
 
 组合继承
+
 ```javascript
 function SuperType(name){ 
  this.name = name; 
@@ -630,8 +635,8 @@ instance2.sayName(); // "Greg";
 instance2.sayAge(); // 27 
 ```
 
-
 2006 年，Douglas Crockford 写了一篇文章：《JavaScript 中的原型式继承》（“Prototypal Inheritance in JavaScript”）。这篇文章介绍了一种不涉及严格意义上构造函数的继承方法。他的出发点是即使不自定义类型也可以通过原型实现对象之间的信息共享。文章最终给出了一个函数：
+
 ```js
 function object(o) { 
  function F() {} 
@@ -650,10 +655,10 @@ let yetAnotherPerson = object(person);
 yetAnotherPerson.name = "Linda"; 
 yetAnotherPerson.friends.push("Barbie"); 
 console.log(person.friends); // "Shelby,Court,Van,Rob,Barbie" 
-
 ```
 
 与原型式继承比较接近的一种继承方式是**寄生式继承**（parasitic inheritance），也是 Crockford 首倡的一种模式。寄生式继承背后的思路类似于寄生构造函数和工厂模式：创建一个实现继承的函数，以某种方式增强对象，然后返回这个对象。基本的寄生继承模式如下：
+
 ```js
 function createAnother(original){ 
  let clone = object(original); // 通过调用函数创建一个新对象
@@ -673,11 +678,12 @@ anotherPerson.sayHi(); // "hi"
 ```
 
 > 类：正因为如此，实现继承的代码也显得非常冗长和混乱。为解决这些问题，ECMAScript 6 新引入的 class 关键字具有正式定义类的能力。
->
+
 把类当成特殊函数ECMAScript 中没有正式的类这个类型。从各方面来看，ECMAScript 类就是一种特殊函数。声明一
 个类之后，通过 typeof 操作符检测类标识符，表明它是一个函数
 
 迭代器方法
+
 ```js
 也可以只返回迭代器实例：
 class Person { 
@@ -698,13 +704,14 @@ for (let [idx, nickname] of p) {
 ```
 
 ## 代理与反射
+
 ECMAScript 6 新增的代理和反射为开发者**提供了拦截并向基本操作嵌入额外行为的能力**。具体地说，可以给目标对象定义一个关联的代理对象，而这个代理对象可以作为抽象的目标对象来使用。在对目标对象的各种操作影响目标对象之前，可以在代理对象中对这些操作加以控制
+
 1. 代理是目标对象的*抽象*
 2. get 捕获器 反射API
 3. 代理模式 
 
-
->代理对象
+> 代理对象
 
 ```js
 const target = { 
@@ -740,7 +747,7 @@ console.log(target === proxy); // false
 ```
 
 > get 捕获器
->
+
 ```javascript
 const target = { 
  foo: 'bar' 
@@ -758,9 +765,10 @@ console.log(target['foo']); // bar
 console.log(proxy['foo']); // handler override 
 console.log(Object.create(target)['foo']); // bar 
 console.log(Object.create(proxy)['foo']); // handler override
-
 ```
+
 > get捕获器参数 添加额外动作
+
 ```javascript
 const target = { 
  foo: 'bar', 
@@ -783,9 +791,13 @@ console.log(target.baz); // qux
 ```
 
 > 代理模式
+
 1. 跟踪属性访问  隐藏属性  属性验证
 2. 函数与构造函数参数验证   数据绑定与可观察对象
-```js
+   
+   ```js
+   
+   ```
 
 const user = { 
  name: 'Jake' 
@@ -835,7 +847,6 @@ console.log('foo' in proxy); // false
 console.log('bar' in proxy); // false 
 console.log('baz' in proxy); // true 
 
-
 const target = { 
  onlyNumbersGoHere: 0 
 }; 
@@ -854,7 +865,6 @@ proxy.onlyNumbersGoHere = '2';
 console.log(proxy.onlyNumbersGoHere); // 1 
 
 ```
-
 > 数据绑定 与可观察对象
 >
 ```js
@@ -875,23 +885,26 @@ new proxy('John');
 new proxy('Jacob'); 
 new proxy('Jingleheimerschmidt'); 
 console.log(userList); // [User {}, User {}, User{}]
-
 ```
 
 ## 函数
+
 1. 函数表达式、函数声明提升及箭头函数 
 2. 函数参数，函数作为值 默认参数及扩展操作符
 3. 函数内部 arguments this
-4.  使用函数实现递归
+4. 使用函数实现递归
 5. 使用闭包实现私有变量
 
 > 箭头函数
+
 ```js
 let ints = [1, 2, 3]; 
 console.log(ints.map(function(i) { return i + 1; })); // [2, 3, 4] 
 console.log(ints.map((i) => { return i + 1 })); // [2, 3, 4] 
 ```
+
 > ECMAScript 函数不能像传统编程那样重载。在其他语言比如 Java 中，一个函数可以有两个定义，只要签名（接收参数的类型和数量）不同就行。如前所述，ECMAScript 函数没有签名，因为参数是由包含零个或多个值的数组表示的。没有函数签名，自然也就没有重载.如果在 ECMAScript 中定义了两个同名函数，则后定义的会覆盖先定义的。来看下面的例子：
+
 ```js
 function addSomeNumber(num) { 
  return num + 100; 
@@ -901,7 +914,9 @@ function addSomeNumber(num) {
 } 
 let result = addSomeNumber(100); // 300
 ```
->函数声明提升
+
+> 函数声明提升
+
 ```js
 ECMAScript 函数不能像传统编程那样重载。在其他语言比如 Java 中，一个函数可以有两个定义，
 只要签名（接收参数的类型和数量）不同就行。如前所述，ECMAScript 函数没有签名，因为参数是由
@@ -916,7 +931,8 @@ function addSomeNumber(num) {
 let result = addSomeNumber(100); // 300
 ```
 
->使用 arguments.callee 就可以让函数逻辑与函数名解耦：
+> 使用 arguments.callee 就可以让函数逻辑与函数名解耦：
+
 ```js
 function factorial(num) { 
  if (num <= 1) { 
@@ -928,6 +944,7 @@ function factorial(num) {
 ```
 
 > 前面提到过，ECMAScript 中的函数是对象，因此有属性和方法。每个函数都有两个属性：length和 prototype。其中，length 属性保存函数定义的命名参数的个数，如下例所示：
+
 ```js
 function sayName(name) { 
  console.log(name); 
@@ -944,6 +961,7 @@ console.log(sayHi.length); // 0
 ```
 
 > 函数属性与方法
+
 ```js
 function sum(num1, num2) { 
  return num1 + num2; 
@@ -954,6 +972,7 @@ function callSum1(num1, num2) {
 ```
 
 > 匿名函数经常被人误认为是闭包（closure）。闭包指的是那些引用了另一个函数作用域中变量的函
+
 ```js
 function createComparisonFunction(propertyName) { 
  return function(object1, object2) { 
@@ -971,6 +990,7 @@ function createComparisonFunction(propertyName) {
 ```
 
 模块模式
+
 ```js
 let application = function() { 
  // 私有变量和私有函数 
@@ -1007,14 +1027,15 @@ let singleton = function() {
  } 
  }; 
 }();
-
 ```
+
 ### 期约与异步函数
+
 1. 异步编程 异步返回值  失败处理
 2. 期约 异步函数的抽象  Promise   async、await
 
-
 > 异步编程
+
 ```js
 function double(value) { 
  setTimeout(() => setTimeout(console.log, 0, value * 2), 1000); 
@@ -1025,6 +1046,7 @@ function double(value, callback) {
 double(3, (x) => console.log(`I was given: ${x}`)); 
 // I was given: 6（大约 1000 毫秒之后）
 ```
+
 显然，随着代码越来越复杂，回调策略是不具有扩展性的。“回调地狱”这个称呼可谓名至实归。
 嵌套回调的代码维护起来就是噩梦。
 
@@ -1035,6 +1057,7 @@ Efficient Asynchronous Procedure Calls in Distributed Systems”，这个概念�
 表示尚未开始或者正在执行中。“兑现”表示已经成功完成，而“拒绝”则表示没有成功完成。
 
 通过执行函数控制期约状态
+
 ```js
 let p1 = new Promise((resolve, reject) => resolve()); 
 setTimeout(console.log, 0, p1); // Promise <resolved> 
@@ -1045,6 +1068,7 @@ setTimeout(console.log, 0, p2); // Promise <rejected>
 
 如果给期约添加了多个处理程序，当期约状态变化时，相关处理程序会按照添加它们的顺序依次执
 行。无论是 then()、catch()还是 finally()添加的处理程序都是如此。
+
 ```js
 let p1 = Promise.resolve(); 
 let p2 = Promise.reject(); 
@@ -1067,6 +1091,7 @@ p1.finally(() => setTimeout(console.log, 0, 8));
 ```
 
 期约有向图
+
 ```js
 // A 
 // / \ 
@@ -1093,17 +1118,18 @@ C.then(() => console.log('G'));
 ```
 
 期约进度通知
- ```js
- let p = new TrackablePromise((resolve, reject, notify) => { 
- function countdown(x) { 
- if (x > 0) { 
- notify(`${20 * x}% remaining`); 
- setTimeout(() => countdown(x - 1), 1000); 
- } else { 
- resolve(); 
- } 
- } 
- countdown(5); 
+
+```js
+let p = new TrackablePromise((resolve, reject, notify) => { 
+function countdown(x) { 
+if (x > 0) { 
+notify(`${20 * x}% remaining`); 
+setTimeout(() => countdown(x - 1), 1000); 
+} else { 
+resolve(); 
+} 
+} 
+countdown(5); 
 }); 
 p.notify((x) => setTimeout(console.log, 0, 'progress:', x)); 
 p.then(() => setTimeout(console.log, 0, 'completed')); 
@@ -1147,8 +1173,8 @@ foo();
 序中加入非阻塞的暂停。以前，这个需求基本上都通过 setTimeout()利用 JavaScript 运行时的行为来
 实现的。
 有了异步函数之后，就不一样了。一个简单的箭头函数就可以实现 sleep()：
-```javascript
 
+```javascript
 async function sleep(delay) { 
  return new Promise((resolve) => setTimeout(resolve, delay)); 
 } 
@@ -1160,7 +1186,9 @@ async function foo() {
 foo(); 
 // 1502 
 ```
+
 > 如果顺序不是必需保证的，那么可以先一次性初始化所有期约，然后再分别等待它们的结果。比如：
+
 ```js
 async function randomDelay(id) { 
  // 延迟 0~1000 毫秒
@@ -1194,6 +1222,7 @@ foo();
 ```
 
 > 用数组和 for 循环再包装一下就是
+
 ```js
 async function randomDelay(id) { 
  // 延迟 0~1000 毫秒
@@ -1218,11 +1247,12 @@ foo();
 // 0 finished 
 // 3 finished 
 // 877ms elapsed
-
 ```
 
 ## BOM
+
 BOM 是使用 JavaScript 开发 Web 应用程序的核心。BOM 提供了与网页无关的浏览器功能对象
+
 1. window
 2. location
 3. navigator
@@ -1236,8 +1266,11 @@ window.location 和 document.location 指向同一个对象。
 ```js
 window.open("http://www.wrox.com/", "topFrame"); 
 ```
+
 ### DOM
+
 文档对象模型（DOM，Document Object Model）是 HTML 和 XML 文档的编程接口。DOM 表示由多层节点构成的文档，通过它开发者可以添加、删除和修改页面的各个部分。脱胎于网景和微软早期的动态 HTML（DHTML，Dynamic HTML），DOM 现在是真正跨平台、语言无关的表示和操作网页的方式
+
 1. Document Element Attr
 2. Dom编程  MutationObserver
 3. DOM扩展 selector API  HTML5 DOM 扩展
@@ -1246,19 +1279,19 @@ window.open("http://www.wrox.com/", "topFrame");
 6. 表单脚本
 7. 
 
-
 DOM编程
+
 ```js
 let script = document.createElement("script"); 
 script.appendChild(document.createTextNode("function sayHi(){alert('hi');}")); 
 document.body.appendChild(script); 
-
 ```
 
 使用NodeList
 理解 NodeList 对象和相关的 NamedNodeMap、HTMLCollection，是理解 DOM 编程的关键。这
 3 个集合类型都是“实时的”，意味着文档结构的变化会实时地在它们身上反映出来，因此它们的值始终
 例如，下面的代码会导致无穷循环：
+
 ```js
 let divs = document.getElementsByTagName("div"); 
 for (let i = 0; i < divs.length; ++i){ 
@@ -1266,20 +1299,21 @@ for (let i = 0; i < divs.length; ++i){
  document.body.appendChild(div); 
 } 
 ```
+
 任何时候要迭代 NodeList，最好再初始化一个变量保存当时查询时的长度，然后用循环变量与这
 个变量进行比较，如下所示：
+
 ```js
 let divs = document.getElementsByTagName("div"); 
 for (let i = 0, len = divs.length; i < len; ++i) { 
  let div = document.createElement("div"); 
  document.body.appendChild(div); 
 } 
-
 ```
 
 MutationObserver 的实例要通过调用 MutationObserver 构造函数并传入一个回调函数来创建：
-```js
 
+```js
 let observer = new MutationObserver(() => console.log('<body> attributes changed')); 
 observer.observe(document.body, { attributes: true }); 
 document.body.className = 'foo'; 
@@ -1296,7 +1330,6 @@ document.body.setAttribute('foo', 'baz');
 document.body.setAttribute('foo', 'qux'); 
 // 每次变化都保留了上一次的值
 // [null, 'bar', 'baz'] 
-
 ```
 
 JavaScript 库中最流行的一种能力就是根据 CSS 选择符的模式匹配 DOM 元素。比如，jQuery 就完全
@@ -1313,25 +1346,28 @@ getElementsByClassName()是 HTML5 新增的最受欢迎的一个方法，暴露�
 和 DOM3 是按照模块化的思路来制定标准的，每个模块之间有一定关联，但分别针对某个 DOM 子集
 
 ### js api
+
 1.  Atomics 与 SharedArrayBuffer  线程安全
 2. 跨上下文消息
-3.  Encoding API 
-4.  File API 与 Blob API 
+3. Encoding API 
+4. File API 与 Blob API 
 5. 拖放、
-6.  Notifications API 、
-7.   Page Visibility API 、
-8.  Streams API 
-9.   计时 API 、
-10.  Web 组件
+6. Notifications API 、
+7. Page Visibility API 、
+8. Streams API 
+9. 计时 API 、
+10. Web 组件
 11. Web Cryptography API 
 
 XDM
+
 ```js
 let iframeWindow = document.getElementById("myframe").contentWindow; 
 iframeWindow.postMessage("A secret", "http://www.wrox.com"); 
 ```
 
 ### XHR 网络请求
+
 ```javascript
 let xhr = new XMLHttpRequest(); 
 xhr.onreadystatechange = function() { 
@@ -1346,23 +1382,27 @@ xhr.onreadystatechange = function() {
 xhr.open("get", "example.txt", true); 
 xhr.send(null); 
 ```
+
 Fetch API 能够执行 XMLHttpRequest 对象的所有任务，但更容易使用，接口也更现代化，能够在
 Web 工作线程等现代 Web 工具中使用。XMLHttpRequest 可以选择异步，而 Fetch API 则必须是异步。
 
 ### 客户端存储
+
 sessionStorage 对象只存储会话数据，这意味着数据只会存储到浏览器关闭。这跟浏览器关闭时
 会消失的会话 cookie 类似。
+
 1. cookie
 
 ## 附录
+
 1. 框架 
    1. React  Flux  React 是 Facebook 开发的框架，专注于模型视图控制器（MVC，Model-View-Controller）模型中
-的“视图”。专注的范围让它可以与其他框架或 React 扩展合作，实现 MVC 模式。React 使用单向数据
-流，是声明性和基于组件的，基于虚拟 DOM 高效渲染页面，提供了在 JavaScript 包含 HTML 标记的 JSX
-语法。Facebook 也维护了一个 React 的补充框架，叫作 Flux
-   2.  Angular  Angular 1.x 和 Angular 2。前者是最初的 AngularJS 项目，后者则是基于 ES6 语法和 TypeScript 完全重新设计的框架。 
-谷歌在 2010 年首次发布的 Angular 是基于模型视图视图模型（MVVM）架构的全功能 Web 应用
-程序框架。
+      的“视图”。专注的范围让它可以与其他框架或 React 扩展合作，实现 MVC 模式。React 使用单向数据
+      流，是声明性和基于组件的，基于虚拟 DOM 高效渲染页面，提供了在 JavaScript 包含 HTML 标记的 JSX
+      语法。Facebook 也维护了一个 React 的补充框架，叫作 Flux
+   2. Angular  Angular 1.x 和 Angular 2。前者是最初的 AngularJS 项目，后者则是基于 ES6 语法和 TypeScript 完全重新设计的框架。 
+      谷歌在 2010 年首次发布的 Angular 是基于模型视图视图模型（MVVM）架构的全功能 Web 应用
+      程序框架。
    3. Vue
 2. 库
 3. 动画特效：
