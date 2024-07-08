@@ -318,7 +318,7 @@ System.out.println(Wall);
 |                                                |         |
 |                                                |         |
 
-# Deb
+# Bus
 
 ## Deb
 
@@ -355,7 +355,7 @@ System.out.println(Wall);
 | [项目外包_方案定制_专业服务众包平台 (zbj.com)](https://task.zbj.com/)                       | 猪八戒  需求大厅                     |
 |                                                                             |                               |
 
-## Public
+## Car
 
 |                                                                   |                  |
 | ----------------------------------------------------------------- | ---------------- |
@@ -365,55 +365,7 @@ System.out.println(Wall);
 | [markdwon](https://doocs.github.io/md/)                           | markdown  css    |
 | [微信 Markdown 编辑器 (openwrite.cn)](https://md.openwrite.cn/)        | markdown to  css |
 
-# Apply
-
-## Tool
-
-| NAME                                                        | CONTENT                |
-| ----------------------------------------------------------- | ---------------------- |
-| [tampermonkey](https://www.tampermonkey.net/)               | tool                   |
-| google(s.)                                                  | 1  search              |
-| 自然码双拼，网易有道词典                                                | 1 高效   英语              |
-| ITab                                                        | 1  工具栏                 |
-| 爱奇艺播放器                                                      | 1  播放                  |
-| CrystalDiskInfo                                             | 1  检测系统                |
-| fb(s.)                                                      | 1 social               |
-| 博客园 （tpbd:s.）                                               | blog                   |
-| 聚合图床（trackp:tpd）                                            | 1. 存储                  |
-| simple read                                                 | 1 禅者模式<br /> 2 高效 保存笔记 |
-| quicklook                                                   | 高效  快速查看               |
-| zhixi                                                       | 1  导图                  |
-| 腾讯桌面整理                                                      | 1 美化                   |
-| [sms-active（whf  ss0606SS）](https://sms-activate.org/)      | 1. 短信                  |
-| [腾讯文档](https://docs.qq.com/)                                | 文档                     |
-| bandzip: https://www.bandisoft.com/honeycam/                | 截图                     |
-| picgo                                                       | 图片                     |
-| [坚果](https://www.jianguoyun.com/)                           | 存储                     |
-| [flomo](https://flomoapp.com/)                              | 记录                     |
-|                                                             |                        |
-| [优启通](https://www.upe.net/)                                 | 启动盘                    |
-| [Treesize](https://www.jam-software.com/treesize_free?ca=1) | 查看文件大小                 |
-| [utools](https://u.tools/?from=itab)                        | 效率工具   取色  识别          |
-| xmind                                                       | 思维导图                   |
-| 护眼模式                                                        | extend   edge          |
-| openark                                                     | 查看快捷键                  |
-| Markdown   ALl In  One                                      | markdwon   快捷  预览      |
-| Markdown Preview Enhanced                                   | 预览                     |
-| solarized_light.css                                         | Theme  美观              |
-| Material Icon Theme                                         | Icon  Theme  美观        |
-| potplayer                                                   | 播放                     |
-| huchuan                                                     | 文件管理  备份   操控电脑        |
-|                                                             |                        |
-| Termius    NextSSh    Finalshell                            | ssh                    |
-| gotab                                                       | 存储   收藏                |
-| typora      vscode      idea taio                           | 编辑                     |
-| clash   for  windows                                        | wall                   |
-| 钉钉   飞书    腾讯会议/文档                                          | 企业                     |
-| 企查查   kanzhun                                               | 企业                     |
-| [powerkeys](https://powerkeys.github.io/)                   | 快捷                     |
-| [ghxi](https://www.ghxi.com/)                               | 软件                     |
-| wireshark   fiddler                                         | 抓包                     |
-| [中关村](https://top.zol.com.cn/compositor/57/cell_phone.html) | 数码                     |
+# 
 
 ## Instruct
 

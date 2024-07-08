@@ -22,25 +22,4 @@
 - docker desktop
 - git
 
-## instrument
 
-- snipaste,everything, powerkeys, windowstop
-- youdaoclash, xunlei ,- diskgenkis, ventory
-- bookx 
-
-## disk
-
-- picture
-  - wall
-- doc
-  - bakup
-  - docum
-  - commit
-  - work
-- video
-- natural
-  - floor
-  - instr
-  - env
-- down
-- buffer

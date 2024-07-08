@@ -2,20 +2,45 @@
 
 > Idea Vscode Edge Tabby Marktext
 
-## TOOL
+## Service
 
 - bandzip bandview everything  snipaste  powerkeys
   
-  - q-dir clash  bookxnote   windwosTop
+  - q-dir clash  bookxnote   windwosTop  unigetUI
 
-- vscode marktext  xmind
+- vscode marktext  xmind  mindatom
   
   - dbever tabby xshell git-cmd  debian
-
-F3：boo，wangyi，xm ，qdir
-
+Win+1 ：idea
+Win+2 ：shell，tabby
+Win+3 ：Vscode
+Win+4 : Edge
+Win+5  ：Marktext/Wps
+F3：boo，eng，xm ，qdir，kimi
 F4：xshell，pycharm，dbever，idea
+F6： SystemProxy
+F7:pip
+F9：snicky
+F10：transparent
+Alt+ Q ~ : Alt  1 2 3 4
+shell: startup  C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
 
+## disk
+
+- picture
+  - wall
+- doc
+  - bakup
+  - docum
+  - commit
+  - work
+- video
+- natural
+  - floor
+  - instr
+  - env
+- down
+- buffer
 ## Install
 
 ```shell
@@ -77,10 +102,10 @@ npm config set registry https://registry.npmjs.org
 
 1.img  ^g 替换 全部
 
-# Request
 
-## 睡眠
 
-1.win+i
-
-2.control
+## backups
+### service
+1.  ventory  
+2.  tech： terminus  nextssh  typora finalshell utools  tengcentDesktop   quicklook
+3.  wireshark 

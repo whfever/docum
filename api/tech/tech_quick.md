@@ -1,45 +1,3 @@
-# windows
-
-> Idea Vscode Edge Tabby Marktext
-
-## TOOL
-
-- bandzip bandview everything  snipaste  powerkeys
-  
-  - q-dir clash  bookxnote   windwosTop  unigetUI
-
-- vscode marktext  xmind
-  
-  - dbever tabby xshell git-cmd  debian
-
-F3：boo，wangyi，xm ，qdir，kimi
-
-F4：xshell，pycharm，dbever，idea
-
-## Install
-
-```shell
-winget
-winget  install  feishu --location D:\natural\win
-oh-my-posh
-sudo apt install `<deb name>`
-sudo dpkg -i .deb
-```
-
-## Edge
-
-extend
-
-- Octotree  scihub zenhub  react vue
-- Tampermonkey  buautifyread   itab
-- vim globalspeed   eagle yiban chenjinshi
-
-## Steam
-
-shortkeys
-
-1. ALt enter alt F4 大小屏幕
-
 # Command
 
 ## windows
@@ -76,3 +34,23 @@ npm config set registry https://registry.npmjs.org
 ## Word
 
 1.img  ^g 替换 全部
+
+# Quick
+
+## 
+
+```shell
+npm config ls
+```
+
+## python
+
+```shell
+python -m site
+# /python/Lib/Site.py USER_SITE USER_BASE
+# test 
+python -c "import wordcloud"
+# env
+pip  show pip
+#
+```
