@@ -57,12 +57,75 @@ map g0 createTab url=""
 - 遍历li
   
   ```js
+  // 假设你的<ul>元素有一个类名"my-list"
+const ulElement = document.querySelector('.relation-list');
+
+// 获取所有<li>元素
+const li = ulElement.querySelectorAll('li');
+const li = Array.from(ulElement.querySelectorAll('li'));
   function me() {
   for (var i = 0; i< li.length; i++) {
     console.log(li.item(i));
     setTimeout(me,1000);
-    li[i].setAttribute("class","icon icon-follow-watched icon-follow-selected");
+     li[i].querySelector('.follow-select').setAttribute("class","icon icon-follow-watched icon-follow-selected");
    console.log(li.item(i));
   }
   }
+
+
+var ul1 = document.querySelector('.relation-list');
+// 获取第一个li元素
+var li1 = ul1.querySelector('li');
+
+while (li) {
+    <!-- document.querySelector('.relation-list'); -->
+    console.log(li.textContent); // 打印当前li的文本内容
+    li = li.nextElementSibling; // 移动到下一个同级元素
+}
+
+// 获取ul元素
+var d = document.querySelector('.relation-list');
+
+// 遍历ul的所有子元素
+
+  for (var i = 0; i < d.children.length; i++) {
+    var child = d.children[i];
+
+    // 检查当前子元素是否是li
+    if (child.tagName === 'LI') {
+        // 获取li元素下的所有div元素
+        var divs = child.getElementsByTagName('div');
+
+        // 为第一个div元素添加属性
+        if (divs.length > 0) {
+      
+           divs[0].setAttribute('class', 'icon icon-follow-watched icon-follow-selected'); // 这里可以根据需要修改属性名和值
+    console.log('这段代码将在1000毫秒后执行');
+
+           
+        }
+    }
+}
+
+
+
+  for (var i = 0; i < d.children.length; i++) {
+    var child = d.children[i];
+
+    // 检查当前子元素是否是li
+    if (child.tagName === 'LI') {
+        // 获取li元素下的所有div元素
+        var divs = child.getElementsByTagName('div');
+
+        // 为第一个div元素添加属性
+        if (divs.length > 0) {
+
+          setTimeout(() => {
+             console.log('这段代码将在' + ms + '毫秒后执行');
+            divs[0].setAttribute('class', 'icon icon-follow-watched icon-follow-selected'); // 这里可以根据需要修改属性名和值);
+}, 1000)；     
+        }
+    }
+}
+
   ```

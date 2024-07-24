@@ -10,3 +10,5 @@ echo [auth后面的那一串序列] | base64 -d -
 sudo cat /root/.docker/config.json
 
 ```
+
+8.5p1 <= OpenSSH < 9.8p1

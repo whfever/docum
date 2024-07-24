@@ -53,3 +53,7 @@ https://www.icourse163.org/
 https://www.edrawsoft.cn/   
 
 
+
+## personal
+
+https://kingname.info/about,xqk,python  项目经历

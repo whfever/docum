@@ -6,7 +6,7 @@
 
 ### 
 
-用navicat11，navicat12连接都不好使，提示plugin caching_sha2_password could not be loaded - ...
+plugin caching_sha2_password could not be loaded - ...
 
 ```bash
 ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';
