@@ -11,19 +11,20 @@
 - vscode marktext  xmind  mindatom
   
   - dbever tabby xshell git-cmd  debian
-Win+1 ：idea
-Win+2 ：shell，tabby
-Win+3 ：Vscode
-Win+4 : Edge
-Win+5  ：Marktext/Wps
-F3：boo，eng，xm ，qdir，kimi
-F4：xshell，pycharm，dbever，idea
-F6： SystemProxy
-F7:pip
-F9：snicky
-F10：transparent
-Alt+ Q ~ : Alt  1 2 3 4
-shell: startup  C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+    Win+1 ：idea
+    Win+2 ：shell，tabby
+    Win+3 ：Vscode
+    Win+4 : Edge
+    Win+5  ：Marktext/Wps
+    F3：boo，eng，xm ，qdir，kimi
+    F4：xshell，pycharm，dbever，idea
+    F6： SystemProxy
+    F7:pip
+    F9：snicky
+    F10：transparent
+    Alt+ Q ~ : Alt  1 2 3 4
+    shell: startup  C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+  - moderncsv 
 
 ## disk
 
@@ -41,7 +42,8 @@ shell: startup  C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start M
   - env
 - down
 - buffer
-## Install
+  
+  ## Install
 
 ```shell
 winget
@@ -102,10 +104,35 @@ npm config set registry https://registry.npmjs.org
 
 1.img  ^g 替换 全部
 
-
-
 ## backups
+
 ### service
-1.  ventory  
-2.  tech： terminus  nextssh  typora finalshell utools  tengcentDesktop   quicklook
-3.  wireshark 
+
+1. ventory  
+2. tech： terminus  nextssh  typora finalshell utools  tengcentDesktop   quicklook
+3. wireshark 
+4. 
+
+## EdgeTODO
+
+settings.json
+
+```json
+"todo-tree.highlights.defaultHighlight": {
+    "type": "tag",
+    "gutterIcon": true,
+    "foreground": "white"
+},
+"todo-tree.highlights.customHighlight": {
+  "TODO": {
+    "icon": "checklist",
+    "background": "orange",
+    "iconColour": "orange"
+  },
+  "FIXME": {
+    "icon": "bug",
+    "background": "red",
+    "iconColour": "red"
+  }
+},
+```

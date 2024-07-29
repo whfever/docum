@@ -13,7 +13,7 @@
             "comments": "true",
             "strings": "true",
             "other": "true"
-            
+        
         }
     }
 2. markdown.json

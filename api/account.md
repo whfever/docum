@@ -10,4 +10,5 @@
 8. [172](172llk.com) ever34 E56 183
 9. [西红柿](https://xihs.cloud/)  clash
 10. [Steam]()   backtrackz@163.com ss..  183  backtrackinger  Trackpgm ss..
-11. nvdia  navidia  whfever    ss0606..SS
+12. nvdia  navidia  whfever    ss0606..SS
+13. emeditor  DMAZM-WHY52-AX222-ZQJXN-79JXH  quark
