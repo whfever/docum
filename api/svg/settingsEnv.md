@@ -2,6 +2,10 @@
 
 > Idea Vscode Edge Tabby Marktext
 
+## path
+
+C:\ProgramData\Microsoft\Windows\Start Menu
+
 ## Service
 
 - bandzip bandview everything  snipaste  powerkeys
@@ -29,18 +33,26 @@
 ## disk
 
 - picture
+  
   - wall
+
 - doc
+  
   - bakup
   - docum
   - commit
   - work
+
 - video
+
 - natural
+  
   - floor
   - instr
   - env
+
 - down
+
 - buffer
   
   ## Install
@@ -71,9 +83,67 @@ shortkeys
 
 ## windows
 
-shutdown /r /fw   重启进入bios
+### wsl
 
-## Git
+```bash
+shutdown /r /fw   重启进入bios
+wsl -l --all -v
+wsl --export Ubuntu-20.04 d:\wsl-ubuntu20.04.tar
+wsl --unregister kali-linux
+wsl --import Ubuntu-20.04 d:\wsl-ubuntu20.04 d:\wsl-ubuntu20.04.tar --version 2
+ubuntu2004 config --default-user Username
+6.删除tar文件(可选)
+del d:\wsl-ubuntu20.04.tar
+```
+
+### apt  下载源
+
+```bash
+su vim /etc/apt/sources.list
+
+# 官方源
+# deb http://http.kali.org/kali kali-rolling main non-free contrib
+# deb-src http://http.kali.org/kali kali-rolling main non-free contrib
+#根据需要自己选一个，中科大的还可以
+#中科大
+deb https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
+deb-src https://mirrors.aliyun.com/debian/ bullseye main non-free contrib
+deb https://mirrors.aliyun.com/debian-security/ bullseye-security main
+deb-src https://mirrors.aliyun.com/debian-security/ bullseye-security main
+deb https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
+deb-src https://mirrors.aliyun.com/debian/ bullseye-updates main non-free contrib
+deb https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
+deb-src https://mirrors.aliyun.com/debian/ bullseye-backports main non-free contrib
+
+
+
+cat > /etc/apt/sources.list << EOF
+deb http://mirrors.tencentyun.com/debian/ buster main contrib non-free
+deb-src http://mirrors.tencentyun.com/debian/ buster main contrib non-free
+
+deb http://mirrors.tencentyun.com/debian/ buster-updates main contrib non-free
+deb-src http://mirrors.tencentyun.com/debian/ buster-updates main contrib non-free
+
+deb http://mirrors.tencentyun.com/debian/ buster-backports main contrib non-free
+deb-src http://mirrors.tencentyun.com/debian/ buster-backports main contrib non-free
+
+deb http://mirrors.tencentyun.com/debian-security/ buster/updates main contrib non-free
+deb-src http://mirrors.tencentyun.com/debian-security/ buster/updates main contrib non-free
+EOF
+
+cat > /etc/apt/sources.list << EOF
+deb http://mirrors.cloud.aliyuncs.com/debian/ buster main contrib non-free
+deb-src http://mirrors.cloud.aliyuncs.com/debian/ buster main contrib non-free
+
+deb http://mirrors.cloud.aliyuncs.com/debian/ buster-updates main contrib non-free
+deb-src http://mirrors.cloud.aliyuncs.com/debian/ buster-updates main contrib non-free
+
+deb http://mirrors.cloud.aliyuncs.com/debian/ buster-backports main contrib non-free
+deb-src http://mirrors.cloud.aliyuncs.com/debian/ buster-backports main contrib non-free
+
+deb http://mirrors.cloud.aliyuncs.com/debian-security/ buster/updates main contrib non-free
+deb-src http://mirrors.cloud.aliyuncs.com/debian-security/ buster/updates main contrib non-free
+EOF
 
 ```sh
 git config --global user.name zl

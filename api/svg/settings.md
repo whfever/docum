@@ -1,5 +1,8 @@
 # env setttings
-
+## myrequest
+1. 自动生成代码  代码快
+2. 快捷键  
+3. 阅读代码  结构
 ## MySvc
 - editor 
   - idea，vscode，tabby，dbever，emdeditor
@@ -63,7 +66,24 @@ emeditor：^(#{1,6})\s+(.*）
 
 1. vim管理
 
-### bl 
+2. 路径管理
+
+   
+
+   ```bash
+   1. buf
+   2. bar(floor instr  enter win ware)
+   3. com ：docum  bak
+   5.photo
+   6.video
+   7.down
+   8.docum
+   
+   ### 
+   ```
+
+   bl 
+
 1. tech  techpgm
 2. enter entertech
 3. entry  entrylang
@@ -72,3 +92,9 @@ emeditor：^(#{1,6})\s+(.*）
 
 
 1. txt
+## debian
+```bash
+sudo passwd root
+uname -a
+```
+

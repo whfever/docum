@@ -1,18 +1,19 @@
-TAG,U,RANK,INFO
-svc,https://www.52pojie.cn/thread-1909552-1-1.html,1
-svc,https://sspai.com/,1
-svc,https://www.ghxi.com/,1
+TAG,LOCAL,INFO,INFO
+svc,https://www.ghxi.com/,1,
 svc,https://lestore.lenovo.com/,1
 svc,https://www.ahhhhfs.com/software/greasy-fork/,1
+svc,https://www.52pojie.cn/thread-1909552-1-1.html,1
+svc,https://sspai.com/,1
+entryL,https://typing-word.ttentau.top/#/practice,,
 exp,https://coolshell.cn/
-exp,https://www.ruanyifeng.com/blog/,
-techPlat,https://www.infoq.cn/
-techExp,https://www.ituring.com.cn/
+entryLang,https://www.tjxz.cc/
+techCom,https://www.infoq.cn/
+techExp,https://www.ituring.com.cn/,
 ,
 exp,https://newzone.top/,
 enter,https://www.znds.com/jc/#gotop,
 entryLang,https://www.ted.com/,
-entryLang,https://www.tjxz.cc/
+techCom,https://ld246.com/top/github/user/follower,
 entryV,https://www.edx.org/,
 busSvc,https://www.aiasker.cn/dianshangdaohang,
 entryB,https://www.bookstack.cn/
@@ -29,8 +30,6 @@ busJob,https://eleduck.com/,,
 busJob,https://job.csdn.net/    ,,
 busJob,https://www.nowcoder.com/recommend/campus  ,,
 busJob,https://job.oschina.net/
-techGh,https://github.com/Joyeah/tampermonkey_js,过滤
-techSvc,https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist,uBlacklist 
 techCom,https://tech.uupt.com/
 techExp,https://pegasuswang.readthedocs.io/zh/latest/golang/go语言编程%2f
 techB,https://github.com/topics/books
@@ -39,15 +38,25 @@ techExp,https://me.yicode.tech/,,
 techB,https://github.com/CyC2018/CS-Notes,,
 techB,https://github.com/sorenduan/awesome-java-books,,
 techB,https://github.com/allentofight/easy-cs,,
-techGh,https://github.com/yanfeizhang/coder-kung-fu,linux,
 techGh,https://ng-tech.icu/books-gallery/#resource,,
-techGh,https://github.com/Exrick,"xmall,xbot"
-techGh,https://github.com/Genymobile/scrcpy,手机投屏
 svcB,https://www.giffox.com/
+svcB,https://www.giffox.com/,
 techCom,https://www.kanxue.com/  ,,
 svc,https://tophub.today/,,
+exp,https://www.ruanyifeng.com/blog/,
+techGh,https://github.com/Exrick,"xmall,xbot"
+
+techExp,https://limboy.me/posts/vercel-cf-fly/,cdn,
+techGh,https://github.com/yanfeizhang/coder-kung-fu,linux,
+techPy,https://github.com/astral-sh/rye,python,
+	enter, https://github.com/Archmage83/tvapk,tv
+techGh,https://github.com/fastify/fastify, web框架
+techGh,https://github.com/Genymobile/scrcpy,手机投屏
+techGh,https://github.com/Joyeah/tampermonkey_js,过滤
 techV,https://www.imooc.com/,,
 techExp,https://kingname.info/about ,,
 svc,https://search.chongbuluo.com/,,
-svcB,https://www.giffox.com/
 techB,https://www.ituring.com.cn/  
+techSvc,https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist,uBlacklist 
+tech,https://github.com/drawdb-io/drawdb
+,,

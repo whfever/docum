@@ -41,7 +41,7 @@ ENTRYPOINT [ "sh", "-c", "java $JAVA_OPTS -Djava.security.egd=file:/dev/./urando
 
 ```bash
 docker build -t your-image-name .
-docker run -p 8080:8080 your-image-name
+ run -p 8080:8080 your-image-name
 ```
 
 
@@ -55,4 +55,21 @@ docker run -p 6607:3306 --name mysql6607  -v /d/bakup/mysql/log:/var/log/mysql  
 
 docker cp mysql:/etc/mysql/my.cnf F:\docker\mysql8\conf
 
+```
+
+```bash
+
+apt update
+apt upgrade -y
+apt install curl vim wget gnupg dpkg apt-transport-https lsb-release ca-certificates
+
+
+curl -sS https://download.docker.com/linux/debian/gpg | gpg --dearmor > /usr/share/keyrings/docker-ce.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-ce.gpg] https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian $(lsb_release -sc) stable" > /etc/apt/sources.list.d/docker.list
+apt update
+apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+docker version
+docker compose version
+systemctl restart docker
+service   docker start
 ```
