@@ -1,88 +1,101 @@
-# env setttings
-## myrequest
-1. 自动生成代码  代码快
-2. 快捷键  
-3. 阅读代码  结构
-## MySvc
-- editor 
-  - idea，vscode，tabby，dbever，emdeditor
-  - unigetui，docker，
-- Tool  
-  - bookx，clash，e163，snipaste，kimi，picgo
-  - xmind，mindatom
-  - toastfish，
-  - diskgenius，eagle，scrcpy，thunder
-  - ventory，potplayer
-### vS/IDEA
-remotessh
-open  in externalapp
-## Task
+# Setttings
+
+## 1. MySvc
+
+### instr
+
+```bash
+winget  install  feishu --location D:\natural\win
+oh-my-posh
+sudo apt install `<deb name>`
+sudo dpkg -i .deb
+```
+
+down  photo video doc  
+
+doc： natural commit work  local  buffer
+
+1. startup
+
+> shell: startup  C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+
+2. local
+
+```bash
+1. linux
+2. win
+3. android
+4. docum
+5. work
+```
+
+
+
+3. natural
+
+```bash
+# enter
+1. blbl  leidian9   qq 
+2. steam 
+# work 通信 文档 图片  存储 系统  英语
+1. dingding netease(mail)   wps 
+2. tencentdocs  wechat wemeet
+3. notepad  bandzip bandview
+4. disgenius   
+5. ventory  dict
+# floor  编程
+1. maven tomcat git java  tortoise  python
+	rye
+2. intelijj  pycharm  tabby xshell  typora dbever  vscode
+	navicat
+3. pdman  postman
+4. docker kimi
+5. finalshell utools
+# instr  高效 摸鱼
+1. everything  snipaste  power  PotPlayer
+2. scrcpy  toastfish  emeditoreagle
+3. picgo bookx  clash
+# ware  下载
+1. maven win pyhon  node
+```
+
+
+
+## 2. profile
+
+
 
 ### Vscode
 
+```bash
+remotessh
+open  in externalapp
 - 修改shortkeys  *ctrl shift*  
 - 修改默认shell  *settings.json*  *shell:windwos*  -> git bash
 - autosave  delay
-- # Tool
+- gitlens
+- icon theme material
+- markmap  *alt shift v*
+- shell   *git shell ctrl `*
+- google translate *alt shift t*
+```
 
-### program
 
-- vscode
-  - docker
-  - remote ssh
-  - gitlens
-  - mysql shell
-  - icon theme material
-  - markmap  *alt shift v*
-  - shell   *git shell ctrl `*
-  - google translate *alt shift t*
-- idea
-- docker desktop
-- git
-### path
-1. winget
 
-C:\Users\Administrator\AppData\Local\Temp\WinGet
 
-# cut 
-ctrl  alt  d ，english
 
-emeditor：^(#{1,6})\s+(.*）
+## 3. Doucm
 
-## 软件管理
+```bash
+1. buf
+2. bar(floor instr  enter win ware)
+3. com ：docum  bak
 
-- 任务栏
 
-1. Vscode
-2. idea
-3. Edge
-4. Tabby
+### 
+```
 
-- start
-
-1. powerkeys  
-
-## 文件管理
-
-1. vim管理
-
-2. 路径管理
-
-   
-
-   ```bash
-   1. buf
-   2. bar(floor instr  enter win ware)
-   3. com ：docum  bak
-   5.photo
-   6.video
-   7.down
-   8.docum
-   
-   ### 
-   ```
-
-   bl 
+bl 
 
 1. tech  techpgm
 2. enter entertech
@@ -96,5 +109,17 @@ emeditor：^(#{1,6})\s+(.*）
 ```bash
 sudo passwd root
 uname -a
+```
+
+
+
+
+
+## 4. Time
+
+```bash
+1. enter
+2. bus
+3. sub: tech com  exp  
 ```
 

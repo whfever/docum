@@ -51,7 +51,7 @@ docker run -d --name mysql_container -e MYSQL_ROOT_PASSWORD=6606 -p 6606:3306 my
 
 docker run -p 3307:3306 --name mysql6607  -v D:\bakup\mysql\log:/var/log/mysql  -v /Users/hyc/DockerStudy/mysql/data:/var/lib/mysql  -v D:\bakup\mysql\conf:/etc/mysql  -e MYSQL_ROOT_PASSWORD=6607  -d mysql
 
-docker run -p 6607:3306 --name mysql6607  -v /d/bakup/mysql/log:/var/log/mysql  -v /d/bakup/mysql/data:/var/lib/mysql  -v /d/bakup/mysql/conf:/etc/mysql  -e MYSQL_ROOT_PASSWORD=6607  -d mysql
+
 
 docker cp mysql:/etc/mysql/my.cnf F:\docker\mysql8\conf
 
