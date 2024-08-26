@@ -37,6 +37,25 @@ npm set registry https://registry.npm.taobao.org/
 npm config set registry https://registry.npmjs.org
 ```
 
+## wsl
+
+```bash
+# install
+wsl -l -o
+# export
+wsl -t Ubuntu-22.04
+wsl -l --all -v
+wsl --export Ubuntu-20.04 d:\wsl-ubuntu20.04.tar
+wsl --unregister Ubuntu-20.04
+wsl --import Ubuntu-20.04 d:\wsl-ubuntu20.04 d:\wsl-ubuntu20.04.tar --version 2
+ubuntu2004 config --default-user Username
+del d:\wsl-ubuntu20.04.tar
+```
+
+
+
+
+
 ## Word
 
 1.img  ^g 替换 全部
@@ -60,3 +79,76 @@ python -c "import wordcloud"
 pip  show pip
 #
 ```
+
+## Anacoda
+
+https://developer.nvidia.com/cudnn-downloads cudnn
+
+https://pytorch.org/get-started/locally/  版本
+
+```bash
+#activate
+cat >> ~/.bashrc << EOF
+export PYTHONIOENCODING=UTF-8
+EOF
+conda init cmd.exe,bash
+conda config --set show_channel_urls yes
+conda clean -i    
+onda create -n python310 python=3.10
+conda activate python310
+conda remove --name python310 --all
+conda install -n python310 requests
+conda remove -n python310 requests
+conda deactivate
+ conda remove -n env_name --all 
+# package
+conda list
+pip list
+conda update package_name --all
+conda remove package_name
+pip uninstall package_name
+conda search keyword
+#txt
+pip freeze > requirements.txt
+conda list -e > requirements.txt
+conda install --yes --file requirements.txt 
+#yml
+conda env export > environment.yml
+conda env create -f environment.yml -p /user/username/anaconda3/envs/env_name
+
+#pytorch
+nvidia-smi 12.4
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+conda install --offline pytorch-2.1.1-py3.9_cuda11.8_cudnn8_0.tar.bz2
+import torch
+torch.cuda.is_available()
+```
+
+
+
+```yml
+channels:
+  - defaults
+show_channel_urls: true
+default_channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+custom_channels:
+  conda-forge: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  msys2: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  bioconda: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  menpo: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  pytorch: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  pytorch-lts: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  simpleitk: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  deepmodeling: https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/
+```
+
+
+
+
+
+## Mirror
+
+https://mirrors.tuna.tsinghua.edu.cn/help/pypi/
