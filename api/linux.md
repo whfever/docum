@@ -559,14 +559,14 @@ A Tmux crash course: tips and tweaks
 1. 如果你想让脚本在每次开机后都能后台运行，你可以将它添加到系统的启动项中。下面是一些通用的方法来实现这个目标：
    
         Windows系统：
-       
+           
         将你的脚本存储在一个特定的文件夹中，比如C:\Scripts。按下Win + R，输入"shell:startup"，然后按回车键。
         在打开的文件夹中创建一个快捷方式，指向你的脚本文件。这样，每次Windows启动时，该脚本将自动在后台运行。
         macOS系统：
-       
+           
         将你的脚本存储在一个特定的文件夹中，比如~/Documents/Scripts。打开系统设置，点击"用户与群组"，然后选择启动项。
         点击"+"按钮，选择你的脚本文件。这样，每次macOS启动时，该脚本将自动在后台运行。
-       
+           
         Linux系统：
         将你的脚本存储在一个特定的文件夹中，比如~/Scripts。打开终端，输入以下命令：
         bash  crontab -e   在打开的编辑器中添加一行，指定在系统启动时运行你的脚本：
@@ -658,4 +658,53 @@ sudo pacman -U url#不在 pacman 配置的源里面，例：pacman -U http://www
     在仓库中搜索含关键字的包sudo
 
 sudo pacman -Ss keyword
+```
+# Linux 
+## ssh
+```bash
+cd /usr/local/src
+wget -c http://www.openssl.org/source/openssl-3.3.1.tar.gz
+tar xzvf openssl-3.3.1.tar.gz
+ cd openssl-0.9.8d
+ apt install perl
+ apt  install gcc automake autoconf libtool make
+ ./Configure --prefix=/usr/local/openssl
+ make
+ make test
+ make install
+
+```
+
+## locale
+
+```bash
+sudo apt install locales
+sudo dpkg-reconfigure locales
+
+sudo apt-get install -y locales && sed -i '/^[^#[:space:]]/ s/^\([^#]\)/# \1/' /etc/locale.gen && sed -i '/^# en_US\.UTF-8 UTF-8/ s/^# //' /etc/locale.gen && sudo locale-gen en_US.UTF-8 && sudo update-locale LANG=en_US.UTF-8 && source /etc/default/locale
+
+```
+
+## man 
+```bash
+vi /etc/manpath.config
+man -M /usr/share/man/zh_CN
+```
+
+## net-tools
+
+```bash
+apt install net-tools
+curl ifconfig.me
+ip addr show eth0
+ip addr | grep 'inet ' | grep -v '127.0.0.1' | awk '{print $2}' | cut -f1 -d'/'
+
+
+```
+
+## nginx
+```bash
+apt install nginx
+whereis nginx
+
 ```

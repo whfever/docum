@@ -83,7 +83,8 @@ java.io.FileNotFoundException: class path resource xxxxxx cannot be opened becau
 </web-app>
 ```
 
-## org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /####/
+##  DispatcherServlet
+org.springframework.web.servlet.DispatcherServlet.noHandlerFound No mapping for GET /####/
 
 
 ```XML
@@ -105,7 +106,8 @@ java.io.FileNotFoundException: class path resource xxxxxx cannot be opened becau
 
 ```
 
-## Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/tx]
+##  XML schema
+Configuration problem: Unable to locate Spring NamespaceHandler for XML schema namespace [http://www.springframework.org/schema/tx]
 
 ```xml
    <dependency>
@@ -114,5 +116,4 @@ java.io.FileNotFoundException: class path resource xxxxxx cannot be opened becau
       <version>3.2.5.RELEASE</version>
     </dependency>
 ```
-
 

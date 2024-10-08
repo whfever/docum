@@ -29,8 +29,8 @@ git config --global -l
 ## node
 
 ```js
-npm config set prefix "D:\\natural\floor\\prefix"    （全局安装模块）
-npm config set cache "D:\\natural\\floor\\precache"        （缓存模块）
+npm config set prefix "D:\\arch\cop\ware\node\prefix"    （全局安装模块）
+npm config set cache "D:\\arch\cop\ware\node\precache"        （缓存模块）
 
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 npm config set registry https://registry.npmmirror.com
@@ -60,6 +60,13 @@ wsl --unregister Ubuntu-20.04
 wsl --import Ubuntu-20.04 d:\wsl-ubuntu20.04 d:\wsl-ubuntu20.04.tar --version 2
 ubuntu2004 config --default-user Username
 del d:\wsl-ubuntu20.04.tar
+
+wsl --set-version Ubuntu-20.04 2 #升级版本
+```
+### deepin
+```bash
+sudo apt update 
+sudo apt dist-upgrade
 ```
 
 
@@ -191,4 +198,30 @@ kill $(ps -ef | grep 'process_name' | grep -v grep | awk '{print $2}')
 
 # nc
 sudo apt-get -y install netcat-traditional 
+```
+
+## Java
+
+```bash
+JAVA21 JAVA8_HOME  JAVA_HOME
+%JAVA_HOME%\bin，%JAVA_HOME%\jre\bin #path
+```
+### maven
+```bash
+  <localRepository>D:\arch\ware\maven</localRepository>
+  <mirror>  
+    <id>alimaven</id>  
+    <name>aliyun maven</name>  
+    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+    <mirrorOf>central</mirrorOf>          
+</mirror>
+
+```
+
+## docker
+
+```bash
+ docker run -p 3306:3306  -v /mnt/d/arch/cop/ware/dockerdata/mysql/data:/var/lib/mysql -v /mnt/d/arch/cop/ware/dockerdata/mysql/conf:/etc/mysql -v /mnt/d/arch/cop/ware/dockerdata/mysql/log:/var/log/mysql --name JY_mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql
+
+  docker run -p 3306:3306 --name JY_mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql
 ```

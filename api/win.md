@@ -49,3 +49,13 @@ ap
 
 ```
 
+![image-20240920174431614](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240920174431614.png)
+
+## menu
+
+```
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\KF
+```
+
+1. DD
+2. TT  TY

@@ -72,3 +72,30 @@ cd
 
 cp -a contrib/redhat/sshd.init /etc/init.d/sshd
  cp -a /usr/local/bin/ssh-keygen /usr/bin/ssh-keygen
+
+ ## maven
+ ```xml
+  <!-- <mirrors>
+    <!-- mirror
+     | Specifies a repository mirror site to use instead of a given repository. The repository that
+     | this mirror serves has an ID that matches the mirrorOf element of this mirror. IDs are used
+     | for inheritance and direct lookup purposes, and must be unique across the set of mirrors.
+     |
+    <mirror>
+      <id>mirrorId</id>
+      <mirrorOf>repositoryId</mirrorOf>
+      <name>Human Readable Name for this Mirror.</name>
+      <url>http://my.repository.com/repo/path</url>
+    </mirror>
+     -->
+    <mirror>
+    <id>maven-default-http-blocker</id>
+    <mirrorOf>external:http:*</mirrorOf>
+    <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
+    <url>http://0.0.0.0/</url>
+    <blocked>true</blocked>
+  </mirror>
+  </mirrors> --> 
+
+  -DarchetypeCatalog=Default local
+  ```

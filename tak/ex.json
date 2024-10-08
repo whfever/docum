@@ -1,0 +1,85 @@
+{
+	"header": {
+		"all_data_tag": 1,
+		"msg_type": 1,
+		"safety": 1,
+		"set_nub": 1,
+		"status_nub": 3,
+		"analog_nub": 1,
+		"sysname": "OCS",
+		"time": 1528422545
+	},
+	"body": {
+		"status": [{
+			"cycle": 300,
+			"name": "OCS系统稳态数据检测线路发生单侧摆动或低频振荡",
+			"seq_id": "DJBSX82",
+			"type": 4,
+			"value": 1
+		}, {
+			"cycle": 300,
+			"name": "OCS系统一三区通信状态",
+			"seq_id": "XTJTX_OCS_SYNC14",
+			"type": 9,
+			"value": 1
+		}, {
+			"cycle": 300,
+			"name": "OCS系统鹿城变直采通道全部中断",
+			"seq_id": "ZCTD0268",
+			"type": 8,
+			"value": 1
+		}],
+		"analog": [{
+			"col_points": [{
+				"p_analog_value": -4.181010246276855,
+				"p_field_type": 2,
+				"p_name": "OCS系统500KV醒狮站#2主变有功不平衡",
+				"p_seq_id": "ZBBPH2051"
+			}],
+			"cycle": 300,
+			"name": "OCS系统500KV醒狮站#2主变有功不平衡",
+			"seq_id": "ZBBPH2051",
+			"type": 6,
+			"value": 1
+		}],
+		"sets": [{
+			"col_points": [{
+				"p_analog_or_status": 0,
+				"p_analog_value": 0.0,
+				"p_field_type": 1,
+				"p_name": "鹿城变_500kV#1M线电压幅值(ab)",
+				"p_seq_id": "CZBSX411_0",
+				"p_status_value": 1
+			}, {
+				"p_analog_or_status": 0,
+				"p_analog_value": 0.0,
+				"p_field_type": 1,
+				"p_name": "鹿城变_500kV#2M线电压幅值(ab)",
+				"p_seq_id": "CZBSX411_1",
+				"p_status_value": 1
+			}, {
+				"p_analog_or_status": 0,
+				"p_analog_value": 0.0,
+				"p_field_type": 1,
+				"p_name": "鹿城变_大鹿线有功值",
+				"p_seq_id": "CZBSX411_2",
+				"p_status_value": 1
+			}, {
+				"p_analog_or_status": 0,
+				"p_analog_value": 0.0,
+				"p_field_type": 1,
+				"p_name": "鹿城变_鹿和乙线有功值",
+				"p_seq_id": "CZBSX411_3",
+				"p_status_value": 1
+			}],
+			"cycle": 0,
+			"has_relationship": true,
+			"level": 0,
+			"name": "OCS系统500KV鹿城变(非直调)数据不刷新",
+			"seq_id": "CZBSX411",
+			"trans_cycle": 0,
+			"type": 2,
+			"value": 1
+		}]
+	}
+}
